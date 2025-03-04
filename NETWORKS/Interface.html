@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Client Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-section {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .response-section {
+            margin-top: 20px;
+        }
+
+        #serverResponse {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #eee;
+            min-height: 100px;
+            white-space: pre-wrap;
+        }
+
+        .status {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TCP Client</h1>
+        
+        <div class="input-section">
+            <label for="sentenceInput">Enter a lowercase sentence:</label>
+            <input type="text" id="sentenceInput" placeholder="Type your sentence here...">
+            <button onclick="sendSentence()">Send to Server</button>
+        </div>
+
+        <div class="response-section">
+            <h2>Server Response:</h2>
+            <div id="serverResponse">Waiting for response...</div>
+            <div class="status" id="connectionStatus">Connected to 127.0.0.1:12000</div>
+        </div>
+    </div>
+
+    <script>
+        // Note: This is just a UI template. Actual socket communication 
+        // would need to be handled server-side or with WebSocket
+        function sendSentence() {
+            const sentence = document.getElementById('sentenceInput').value;
+            const responseDiv = document.getElementById('serverResponse');
+            
+            // This is a placeholder response since we can't run Python sockets in browser
+            responseDiv.textContent = `Echo: ${sentence.toUpperCase()} (Note: Actual server response would appear here)`;
+            
+            // Clear input
+            document.getElementById('sentenceInput').value = '';
+        }
+    </script>
+</body>
+</html>

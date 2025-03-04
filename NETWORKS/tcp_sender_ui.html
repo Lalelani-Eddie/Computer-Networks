@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeder Control Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .config-section, .status-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .status-log {
+            background-color: #f9f9f9;
+            padding: 10px;
+            height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        .status-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Seeder Control Panel</h1>
+
+        <div class="config-section">
+            <h2>Configuration</h2>
+            <div class="form-group">
+                <label for="seeder-ip">Seeder IP:</label>
+                <input type="text" id="seeder-ip" value="127.0.0.1">
+            </div>
+            <div class="form-group">
+                <label for="seeder-port">Seeder Port:</label>
+                <input type="text" id="seeder-port" value="5000">
+            </div>
+            <div class="form-group">
+                <label for="tracker-ip">Tracker IP:</label>
+                <input type="text" id="tracker-ip" value="127.0.0.1">
+            </div>
+            <div class="form-group">
+                <label for="tracker-port">Tracker Port:</label>
+                <input type="text" id="tracker-port" value="12000">
+            </div>
+            <div class="form-group">
+                <label for="filename">File to Share:</label>
+                <input type="text" id="filename" value="example.txt">
+            </div>
+            <button id="start-btn">Start Seeder</button>
+        </div>
+
+        <div class="status-section">
+            <div class="status-header">
+                <h2>Status Log</h2>
+                <button id="clear-log">Clear Log</button>
+            </div>
+            <div class="status-log" id="log">
+                <!-- Log messages will be appended here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Basic JavaScript to simulate functionality
+        const startBtn = document.getElementById('start-btn');
+        const clearLogBtn = document.getElementById('clear-log');
+        const log = document.getElementById('log');
+
+        function addLogMessage(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            log.innerHTML += `[${timestamp}] ${message}<br>`;
+            log.scrollTop = log.scrollHeight;
+        }
+
+        startBtn.addEventListener('click', () => {
+            const seederIP = document.getElementById('seeder-ip').value;
+            const seederPort = document.getElementById('seeder-port').value;
+            const filename = document.getElementById('filename').value;
+
+            startBtn.disabled = true;
+            addLogMessage(`Registering '${filename}' with tracker...`);
+            setTimeout(() => {
+                addLogMessage(`Seeder started on ${seederIP}:${seederPort}`);
+                addLogMessage('Waiting for leechers...');
+            }, 1000);
+        });
+
+        clearLogBtn.addEventListener('click', () => {
+            log.innerHTML = '';
+        });
+
+        // Simulate leecher connections (for demo purposes)
+        setInterval(() => {
+            if (startBtn.disabled) {
+                if (Math.random() > 0.8) {
+                    addLogMessage(`Leecher connected from 192.168.1.${Math.floor(Math.random() * 255)}`);
+                    setTimeout(() => {
+                        addLogMessage(`Sent '${document.getElementById('filename').value}' to leecher`);
+                    }, 500);
+                }
+            }
+        }, 3000);
+    </script>
+</body>
+</html>
