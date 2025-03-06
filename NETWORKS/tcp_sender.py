@@ -8,13 +8,14 @@ TRACKER_IP = "127.0.0.1"  # Tracker's IP
 TRACKER_PORT = 12000  # Tracker's UDP port
 FILENAME = "Text.txt"  # File the seeder shares
 
+
 def register_with_tracker():
     """Send a REGISTER message to the tracker over UDP."""
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     message = f"REGISTER {FILENAME}".encode()
     udp_socket.sendto(message, (TRACKER_IP, TRACKER_PORT))
     udp_socket.close()
-    print(f"Registered '{FILENAME}' with the tracker.")
+    print(f"Registered '{FILENAME}' with the tracker.") # Register with the tracker
 
 def handle_client(client_socket):
     """Handles a leecher's file request."""
