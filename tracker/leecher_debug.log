@@ -1,0 +1,54 @@
+2025-03-06 11:50:41,098 - DEBUG - Sending seeders request to tracker
+2025-03-06 11:50:41,114 - DEBUG - Seeders response: ['SEEDERS', '196.47.199.219:7000']
+2025-03-06 11:50:41,114 - INFO - Attempting to download from seeder: 196.47.199.219:7000
+2025-03-06 11:50:41,114 - DEBUG - Attempting to connect to seeder: ('196.47.199.219', 7000)
+2025-03-06 11:50:41,114 - INFO - Connected to seeder ('196.47.199.219', 7000)
+2025-03-06 11:50:41,114 - DEBUG - Requesting chunk count
+2025-03-06 11:50:41,129 - INFO - Total chunks: 1
+2025-03-06 11:50:41,129 - DEBUG - Downloading chunk 0
+2025-03-06 11:50:41,129 - WARNING - Chunk 0 download retry 1: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-06 11:50:43,141 - WARNING - Chunk 0 download retry 2: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-06 11:50:45,141 - WARNING - Chunk 0 download retry 3: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-06 11:50:45,141 - ERROR - Failed to download chunk 0: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-06 11:50:45,141 - ERROR - Traceback (most recent call last):
+  File "C:\Users\27677\OneDrive - University of Cape Town\Documents\CSC3002F\network_app\torrent\leecher.py", line 93, in download_from_seeder
+    chunk = tcp_client.recv(CHUNK_SIZE)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+2025-03-06 11:50:45,141 - ERROR - Download error from 196.47.199.219:7000: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-06 11:50:45,141 - ERROR - Traceback (most recent call last):
+  File "C:\Users\27677\OneDrive - University of Cape Town\Documents\CSC3002F\network_app\torrent\leecher.py", line 93, in download_from_seeder
+    chunk = tcp_client.recv(CHUNK_SIZE)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+2025-03-06 11:50:45,141 - ERROR - Failed to download file from all seeders.
+2025-03-06 11:57:02,987 - DEBUG - Sending seeders request to tracker
+2025-03-06 11:57:03,004 - DEBUG - Seeders response: ['SEEDERS', '196.47.199.219:7000']
+2025-03-06 11:57:03,004 - INFO - Attempting to download from seeder: 196.47.199.219:7000
+2025-03-06 11:57:03,005 - DEBUG - Attempting to connect to seeder: ('196.47.199.219', 7000)
+2025-03-06 11:57:03,005 - INFO - Connected to seeder ('196.47.199.219', 7000)
+2025-03-06 11:57:03,006 - DEBUG - Requesting chunk count
+2025-03-06 11:57:03,008 - INFO - Total chunks: 1
+2025-03-06 11:57:03,008 - DEBUG - Downloading chunk 0
+2025-03-06 11:57:03,036 - DEBUG - Successfully downloaded chunk 0 (19 bytes)
+2025-03-06 11:57:03,037 - INFO - File sample.txt downloaded successfully.
+2025-03-06 13:45:53,654 - DEBUG - Sending seeders request to tracker
+2025-03-06 13:45:53,775 - DEBUG - Seeders response: ['SEEDERS', '196.47.199.219:7000']
+2025-03-06 13:45:53,775 - INFO - Attempting to download from seeder: 196.47.199.219:7000
+2025-03-06 13:45:53,788 - DEBUG - Attempting to connect to seeder: ('196.47.199.219', 7000)
+2025-03-06 13:45:53,812 - INFO - Connected to seeder ('196.47.199.219', 7000)
+2025-03-06 13:45:53,814 - DEBUG - Requesting chunk count
+2025-03-06 13:45:54,229 - INFO - Total chunks: 1
+2025-03-06 13:45:54,229 - DEBUG - Downloading chunk 0
+2025-03-06 13:45:54,259 - DEBUG - Successfully downloaded chunk 0 (19 bytes)
+2025-03-06 13:45:54,261 - INFO - File sample.txt downloaded successfully.
+2025-03-06 13:48:12,506 - DEBUG - Sending seeders request to tracker
+2025-03-06 13:48:12,525 - DEBUG - Seeders response: ['SEEDERS', '196.47.199.219:7000']
+2025-03-06 13:48:12,526 - INFO - Attempting to download from seeder: 196.47.199.219:7000
+2025-03-06 13:48:12,526 - DEBUG - Attempting to connect to seeder: ('196.47.199.219', 7000)
+2025-03-06 13:48:12,527 - INFO - Connected to seeder ('196.47.199.219', 7000)
+2025-03-06 13:48:12,527 - DEBUG - Requesting chunk count
+2025-03-06 13:48:12,529 - INFO - Total chunks: 1
+2025-03-06 13:48:12,531 - DEBUG - Downloading chunk 0
+2025-03-06 13:48:12,548 - DEBUG - Successfully downloaded chunk 0 (19 bytes)
+2025-03-06 13:48:12,549 - INFO - File sample.txt downloaded successfully.

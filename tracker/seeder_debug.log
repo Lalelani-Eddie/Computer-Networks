@@ -1,0 +1,48 @@
+2025-03-06 11:50:21,270 - INFO - Binding TCP socket to 196.47.199.219:7000
+2025-03-06 11:50:21,270 - INFO - Registered with tracker for file: sample.txt
+2025-03-06 11:50:21,270 - INFO - Seeder listening on 196.47.199.219:7000
+2025-03-06 11:50:41,114 - INFO - Accepted new connection from ('196.47.199.219', 56425)
+2025-03-06 11:50:41,114 - DEBUG - Starting connection handler for ('196.47.199.219', 56425)
+2025-03-06 11:50:41,114 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'sample.txt']
+2025-03-06 11:50:41,114 - INFO - Processing request from ('196.47.199.219', 56425): GET_CHUNK_COUNT sample.txt
+2025-03-06 11:50:41,129 - INFO - Sent total chunks: 1
+2025-03-06 11:50:41,129 - DEBUG - Closed connection to ('196.47.199.219', 56425)
+2025-03-06 11:56:32,760 - INFO - Binding TCP socket to 196.47.199.219:7000
+2025-03-06 11:56:32,761 - INFO - Registered with tracker for file: sample.txt
+2025-03-06 11:56:32,761 - INFO - Seeder listening on 196.47.199.219:7000
+2025-03-06 11:57:03,006 - INFO - Accepted new connection from ('196.47.199.219', 52714)
+2025-03-06 11:57:03,007 - DEBUG - Starting connection handler for ('196.47.199.219', 52714)
+2025-03-06 11:57:03,007 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'sample.txt']
+2025-03-06 11:57:03,008 - INFO - Processing request from ('196.47.199.219', 52714): GET_CHUNK_COUNT sample.txt
+2025-03-06 11:57:03,008 - INFO - Sent total chunks: 1
+2025-03-06 11:57:03,009 - DEBUG - Received request: ['GET_CHUNK', 'sample.txt', '0']
+2025-03-06 11:57:03,009 - INFO - Processing request from ('196.47.199.219', 52714): GET_CHUNK sample.txt
+2025-03-06 11:57:03,036 - INFO - Sent chunk 0 (19 bytes)
+2025-03-06 11:57:03,036 - DEBUG - Received request: ['DONE', 'sample.txt']
+2025-03-06 11:57:03,037 - INFO - Processing request from ('196.47.199.219', 52714): DONE sample.txt
+2025-03-06 11:57:03,037 - INFO - Client ('196.47.199.219', 52714) indicated completion
+2025-03-06 11:57:03,038 - DEBUG - Closed connection to ('196.47.199.219', 52714)
+2025-03-06 13:45:54,188 - INFO - Accepted new connection from ('196.47.199.219', 54992)
+2025-03-06 13:45:54,229 - DEBUG - Starting connection handler for ('196.47.199.219', 54992)
+2025-03-06 13:45:54,229 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'sample.txt']
+2025-03-06 13:45:54,229 - INFO - Processing request from ('196.47.199.219', 54992): GET_CHUNK_COUNT sample.txt
+2025-03-06 13:45:54,229 - INFO - Sent total chunks: 1
+2025-03-06 13:45:54,236 - DEBUG - Received request: ['GET_CHUNK', 'sample.txt', '0']
+2025-03-06 13:45:54,237 - INFO - Processing request from ('196.47.199.219', 54992): GET_CHUNK sample.txt
+2025-03-06 13:45:54,259 - INFO - Sent chunk 0 (19 bytes)
+2025-03-06 13:45:54,261 - DEBUG - Received request: ['DONE', 'sample.txt']
+2025-03-06 13:45:54,263 - INFO - Processing request from ('196.47.199.219', 54992): DONE sample.txt
+2025-03-06 13:45:54,264 - INFO - Client ('196.47.199.219', 54992) indicated completion
+2025-03-06 13:45:54,283 - DEBUG - Closed connection to ('196.47.199.219', 54992)
+2025-03-06 13:48:12,527 - INFO - Accepted new connection from ('196.47.199.219', 55034)
+2025-03-06 13:48:12,528 - DEBUG - Starting connection handler for ('196.47.199.219', 55034)
+2025-03-06 13:48:12,529 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'sample.txt']
+2025-03-06 13:48:12,529 - INFO - Processing request from ('196.47.199.219', 55034): GET_CHUNK_COUNT sample.txt
+2025-03-06 13:48:12,531 - INFO - Sent total chunks: 1
+2025-03-06 13:48:12,531 - DEBUG - Received request: ['GET_CHUNK', 'sample.txt', '0']
+2025-03-06 13:48:12,532 - INFO - Processing request from ('196.47.199.219', 55034): GET_CHUNK sample.txt
+2025-03-06 13:48:12,548 - INFO - Sent chunk 0 (19 bytes)
+2025-03-06 13:48:12,548 - DEBUG - Received request: ['DONE', 'sample.txt']
+2025-03-06 13:48:12,553 - INFO - Processing request from ('196.47.199.219', 55034): DONE sample.txt
+2025-03-06 13:48:12,555 - INFO - Client ('196.47.199.219', 55034) indicated completion
+2025-03-06 13:48:12,555 - DEBUG - Closed connection to ('196.47.199.219', 55034)
