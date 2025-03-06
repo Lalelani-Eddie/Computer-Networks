@@ -6,7 +6,7 @@ SEEDER_IP = "127.0.0.1"  # Change to the actual IP if needed
 SEEDER_PORT = 5000  # TCP port for file sharing
 TRACKER_IP = "127.0.0.1"  # Tracker's IP
 TRACKER_PORT = 12000  # Tracker's UDP port
-FILENAME = "example.txt"  # File the seeder shares
+FILENAME = "Text.txt"  # File the seeder shares
 
 def register_with_tracker():
     """Send a REGISTER message to the tracker over UDP."""
