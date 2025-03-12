@@ -71,8 +71,7 @@ def handle_client():
                         active_seeders[filename][i] = (ip, port, chunks, time.time())
                         print(f"Received heartbeat from {ip}:{port} for {filename}")
                         break
-
-
+                    
 def remove_inactive_seeders():
     while True:
         time.sleep(10)
@@ -90,7 +89,6 @@ def remove_inactive_seeders():
 
         print(f"[CLEANUP] Removed inactive seeders. Active seeders: {active_seeders}")
 
-
 def start():
     print(f"[STARTING] Tracker is starting at {SERVER}:{PORT}")
     
@@ -106,6 +104,5 @@ def start():
         print("\n[STOPPING] Tracker shutting down...")
         tracker.close()  # Close the UDP socket
         exit(0)  # Graceful exit
-
 
 start()
