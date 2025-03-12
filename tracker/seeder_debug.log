@@ -46,3 +46,214 @@
 2025-03-06 13:48:12,553 - INFO - Processing request from ('196.47.199.219', 55034): DONE sample.txt
 2025-03-06 13:48:12,555 - INFO - Client ('196.47.199.219', 55034) indicated completion
 2025-03-06 13:48:12,555 - DEBUG - Closed connection to ('196.47.199.219', 55034)
+2025-03-12 10:36:14,979 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 10:36:14,986 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 10:36:14,989 - INFO - Sent chunk count to tracker: 21
+2025-03-12 10:36:14,992 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 10:39:42,145 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 10:39:42,148 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 10:39:42,150 - INFO - Sent chunk count to tracker: 21
+2025-03-12 10:39:42,156 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 10:40:14,173 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 10:40:14,180 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 10:40:14,182 - INFO - Sent chunk count to tracker: 21
+2025-03-12 10:40:14,190 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 10:40:47,579 - INFO - Accepted new connection from ('196.47.247.98', 62967)
+2025-03-12 10:40:47,582 - DEBUG - Starting connection handler for ('196.47.247.98', 62967)
+2025-03-12 10:40:47,582 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 10:40:47,582 - INFO - Processing request from ('196.47.247.98', 62967): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 10:40:47,587 - INFO - Sent total chunks: 21
+2025-03-12 10:40:47,588 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 10:40:47,588 - INFO - Processing request from ('196.47.247.98', 62967): GET_CHUNK large_text_file.txt
+2025-03-12 10:40:47,645 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 10:40:47,649 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 10:40:47,652 - INFO - Processing request from ('196.47.247.98', 62967): GET_CHUNK large_text_file.txt
+2025-03-12 10:40:47,656 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 10:40:47,660 - DEBUG - Client ('196.47.247.98', 62967) closed connection
+2025-03-12 10:40:47,663 - DEBUG - Closed connection to ('196.47.247.98', 62967)
+2025-03-12 10:42:03,325 - INFO - Accepted new connection from ('196.47.247.98', 63027)
+2025-03-12 10:42:03,332 - DEBUG - Starting connection handler for ('196.47.247.98', 63027)
+2025-03-12 10:42:03,332 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 10:42:03,334 - INFO - Processing request from ('196.47.247.98', 63027): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 10:42:03,334 - INFO - Sent total chunks: 21
+2025-03-12 10:42:03,334 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 10:42:03,334 - INFO - Processing request from ('196.47.247.98', 63027): GET_CHUNK large_text_file.txt
+2025-03-12 10:42:03,339 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 10:42:03,348 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 10:42:03,348 - INFO - Processing request from ('196.47.247.98', 63027): GET_CHUNK large_text_file.txt
+2025-03-12 10:42:03,366 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 10:42:03,371 - DEBUG - Client ('196.47.247.98', 63027) closed connection
+2025-03-12 10:42:03,389 - DEBUG - Closed connection to ('196.47.247.98', 63027)
+2025-03-12 10:44:50,577 - INFO - Seeder stopped.
+2025-03-12 10:45:53,297 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 10:45:53,301 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 10:45:53,303 - INFO - Sent chunk count to tracker: 21
+2025-03-12 10:45:53,305 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 10:46:30,790 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 10:46:30,793 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 10:46:30,795 - INFO - Sent chunk count to tracker: 21
+2025-03-12 10:46:30,799 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 10:54:26,703 - INFO - Seeder stopped.
+2025-03-12 10:54:29,086 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 10:54:29,088 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 10:54:29,092 - INFO - Sent chunk count to tracker: 21
+2025-03-12 10:54:29,096 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:04:17,675 - INFO - Seeder stopped.
+2025-03-12 11:04:21,176 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:04:21,180 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:04:21,191 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:04:21,196 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:04:43,541 - INFO - Seeder stopped.
+2025-03-12 11:04:46,891 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:04:46,894 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:04:46,897 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:04:46,900 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:04:52,541 - INFO - Accepted new connection from ('196.47.247.98', 64062)
+2025-03-12 11:04:52,554 - DEBUG - Starting connection handler for ('196.47.247.98', 64062)
+2025-03-12 11:04:52,555 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 11:04:52,556 - INFO - Processing request from ('196.47.247.98', 64062): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 11:04:52,556 - INFO - Sent total chunks: 21
+2025-03-12 11:04:52,558 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 11:04:52,558 - INFO - Processing request from ('196.47.247.98', 64062): GET_CHUNK large_text_file.txt
+2025-03-12 11:04:52,571 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 11:04:52,575 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 11:04:52,575 - INFO - Processing request from ('196.47.247.98', 64062): GET_CHUNK large_text_file.txt
+2025-03-12 11:04:52,588 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 11:04:52,594 - DEBUG - Client ('196.47.247.98', 64062) closed connection
+2025-03-12 11:04:52,595 - DEBUG - Closed connection to ('196.47.247.98', 64062)
+2025-03-12 11:07:43,350 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:07:43,363 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:07:43,364 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:07:43,379 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:08:57,180 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:08:57,183 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:08:57,185 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:08:57,186 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:09:13,773 - INFO - Seeder stopped.
+2025-03-12 11:09:18,342 - INFO - Accepted new connection from ('196.47.247.98', 64202)
+2025-03-12 11:09:18,353 - DEBUG - Starting connection handler for ('196.47.247.98', 64202)
+2025-03-12 11:09:18,355 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 11:09:18,355 - INFO - Processing request from ('196.47.247.98', 64202): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 11:09:18,357 - INFO - Sent total chunks: 21
+2025-03-12 11:09:18,359 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 11:09:18,360 - INFO - Processing request from ('196.47.247.98', 64202): GET_CHUNK large_text_file.txt
+2025-03-12 11:09:18,371 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 11:09:18,373 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 11:09:18,373 - INFO - Processing request from ('196.47.247.98', 64202): GET_CHUNK large_text_file.txt
+2025-03-12 11:09:18,377 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 11:09:18,395 - DEBUG - Client ('196.47.247.98', 64202) closed connection
+2025-03-12 11:09:18,395 - DEBUG - Closed connection to ('196.47.247.98', 64202)
+2025-03-12 11:09:25,992 - INFO - Accepted new connection from ('196.47.247.98', 64203)
+2025-03-12 11:09:25,993 - DEBUG - Starting connection handler for ('196.47.247.98', 64203)
+2025-03-12 11:09:25,993 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 11:09:25,993 - INFO - Processing request from ('196.47.247.98', 64203): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 11:09:25,994 - INFO - Sent total chunks: 21
+2025-03-12 11:09:25,994 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 11:09:25,997 - INFO - Processing request from ('196.47.247.98', 64203): GET_CHUNK large_text_file.txt
+2025-03-12 11:09:26,002 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 11:09:26,005 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 11:09:26,005 - INFO - Processing request from ('196.47.247.98', 64203): GET_CHUNK large_text_file.txt
+2025-03-12 11:09:26,008 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 11:09:26,016 - DEBUG - Client ('196.47.247.98', 64203) closed connection
+2025-03-12 11:09:26,020 - DEBUG - Closed connection to ('196.47.247.98', 64203)
+2025-03-12 11:09:29,027 - INFO - Seeder stopped.
+2025-03-12 11:09:31,683 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:09:31,685 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:09:31,686 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:09:31,688 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:09:34,873 - INFO - Seeder stopped.
+2025-03-12 11:09:36,505 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:09:36,506 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:09:36,507 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:09:36,509 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:16:12,843 - INFO - Seeder stopped.
+2025-03-12 11:16:16,661 - INFO - Seeder stopped.
+2025-03-12 11:16:23,796 - INFO - Seeder stopped.
+2025-03-12 11:19:50,120 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:19:50,121 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:19:50,124 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:19:50,128 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:19:52,778 - INFO - Accepted new connection from ('196.47.247.98', 64551)
+2025-03-12 11:19:52,779 - DEBUG - Starting connection handler for ('196.47.247.98', 64551)
+2025-03-12 11:19:52,779 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 11:19:52,779 - INFO - Processing request from ('196.47.247.98', 64551): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 11:19:52,779 - INFO - Sent total chunks: 21
+2025-03-12 11:19:52,781 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 11:19:52,781 - INFO - Processing request from ('196.47.247.98', 64551): GET_CHUNK large_text_file.txt
+2025-03-12 11:19:52,789 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 11:19:52,791 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 11:19:52,794 - INFO - Processing request from ('196.47.247.98', 64551): GET_CHUNK large_text_file.txt
+2025-03-12 11:19:53,109 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 11:19:53,115 - DEBUG - Client ('196.47.247.98', 64551) closed connection
+2025-03-12 11:19:53,118 - DEBUG - Closed connection to ('196.47.247.98', 64551)
+2025-03-12 11:19:58,266 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:19:58,268 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:19:58,270 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:19:58,271 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:20:00,866 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:20:00,867 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:20:00,868 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:20:00,870 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:22:18,199 - INFO - Seeder stopped.
+2025-03-12 11:22:19,174 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:22:19,176 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:22:19,179 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:22:19,180 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:22:22,289 - INFO - Seeder stopped.
+2025-03-12 11:22:24,239 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:22:24,241 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:22:24,242 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:22:24,246 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:22:26,797 - INFO - Seeder stopped.
+2025-03-12 11:22:28,018 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:22:28,021 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:22:28,024 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:22:28,025 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:22:30,560 - INFO - Accepted new connection from ('196.47.247.98', 64599)
+2025-03-12 11:22:30,561 - DEBUG - Starting connection handler for ('196.47.247.98', 64599)
+2025-03-12 11:22:30,561 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 11:22:30,561 - INFO - Processing request from ('196.47.247.98', 64599): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 11:22:30,562 - INFO - Sent total chunks: 21
+2025-03-12 11:22:30,562 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 11:22:30,562 - INFO - Processing request from ('196.47.247.98', 64599): GET_CHUNK large_text_file.txt
+2025-03-12 11:22:30,571 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 11:22:30,573 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 11:22:30,574 - INFO - Processing request from ('196.47.247.98', 64599): GET_CHUNK large_text_file.txt
+2025-03-12 11:22:30,577 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 11:22:30,580 - DEBUG - Client ('196.47.247.98', 64599) closed connection
+2025-03-12 11:22:30,581 - DEBUG - Closed connection to ('196.47.247.98', 64599)
+2025-03-12 11:25:56,839 - INFO - Seeder stopped.
+2025-03-12 11:26:09,030 - INFO - Seeder stopped.
+2025-03-12 11:26:10,284 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:26:10,287 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:26:10,289 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:26:10,291 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:26:26,521 - INFO - Seeder stopped.
+2025-03-12 11:26:28,458 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:26:28,460 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:26:28,460 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:26:28,462 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:38:01,611 - INFO - Seeder stopped.
+2025-03-12 11:38:03,115 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:38:03,118 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:38:03,120 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:38:03,122 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:38:08,423 - INFO - Accepted new connection from ('196.47.247.98', 64983)
+2025-03-12 11:38:08,435 - DEBUG - Starting connection handler for ('196.47.247.98', 64983)
+2025-03-12 11:38:08,437 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 11:38:08,437 - INFO - Processing request from ('196.47.247.98', 64983): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 11:38:08,438 - INFO - Sent total chunks: 21
+2025-03-12 11:38:08,438 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 11:38:08,439 - INFO - Processing request from ('196.47.247.98', 64983): GET_CHUNK large_text_file.txt
+2025-03-12 11:38:08,450 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 11:38:08,451 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 11:38:08,451 - INFO - Processing request from ('196.47.247.98', 64983): GET_CHUNK large_text_file.txt
+2025-03-12 11:38:08,456 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 11:38:08,461 - DEBUG - Client ('196.47.247.98', 64983) closed connection
+2025-03-12 11:38:08,462 - DEBUG - Closed connection to ('196.47.247.98', 64983)
+2025-03-12 11:38:30,360 - INFO - Seeder stopped.
+2025-03-12 11:38:31,547 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 11:38:31,549 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 11:38:31,550 - INFO - Sent chunk count to tracker: 21
+2025-03-12 11:38:31,552 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 11:38:33,871 - INFO - Seeder stopped.

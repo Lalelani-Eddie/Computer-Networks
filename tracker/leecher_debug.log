@@ -52,3 +52,108 @@ ConnectionAbortedError: [WinError 10053] An established connection was aborted b
 2025-03-06 13:48:12,531 - DEBUG - Downloading chunk 0
 2025-03-06 13:48:12,548 - DEBUG - Successfully downloaded chunk 0 (19 bytes)
 2025-03-06 13:48:12,549 - INFO - File sample.txt downloaded successfully.
+2025-03-12 10:36:08,551 - DEBUG - Sending seeders request to tracker
+2025-03-12 10:36:08,580 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 10:36:08,582 - ERROR - No seeders available.
+2025-03-12 10:36:08,582 - ERROR - No seeders found.
+2025-03-12 10:40:47,531 - DEBUG - Sending seeders request to tracker
+2025-03-12 10:40:47,574 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:21']
+2025-03-12 10:40:47,576 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 21 chunks)
+2025-03-12 10:40:47,577 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 10:40:47,578 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 10:40:47,587 - INFO - Total chunks: 21
+2025-03-12 10:40:47,647 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 10:40:47,659 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 10:40:47,663 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 10:42:03,286 - DEBUG - Sending seeders request to tracker
+2025-03-12 10:42:03,321 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:21']
+2025-03-12 10:42:03,323 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 21 chunks)
+2025-03-12 10:42:03,325 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 10:42:03,325 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 10:42:03,334 - INFO - Total chunks: 21
+2025-03-12 10:42:03,342 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 10:42:03,366 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 10:42:03,373 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 10:45:39,624 - DEBUG - Sending seeders request to tracker
+2025-03-12 10:45:39,657 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-12 10:45:39,686 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 33, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-12 10:45:39,686 - ERROR - No seeders found.
+2025-03-12 10:46:26,123 - DEBUG - Sending seeders request to tracker
+2025-03-12 10:46:26,123 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 10:46:26,123 - ERROR - No seeders available.
+2025-03-12 10:46:26,123 - ERROR - No seeders found.
+2025-03-12 11:04:52,502 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:04:52,528 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:04:52,536 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:04:52,537 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:04:52,541 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:04:52,556 - INFO - Total chunks: 21
+2025-03-12 11:04:52,574 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:04:52,592 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:04:52,601 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 11:09:18,307 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:09:18,312 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:09:18,316 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:09:18,316 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:09:18,317 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:09:18,357 - INFO - Total chunks: 21
+2025-03-12 11:09:18,373 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:09:18,392 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:09:18,398 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 11:09:25,988 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:09:25,990 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:09:25,990 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:09:25,990 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:09:25,992 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:09:25,994 - INFO - Total chunks: 21
+2025-03-12 11:09:26,005 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:09:26,012 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:09:26,018 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 11:19:52,769 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:19:52,773 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:19:52,773 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:19:52,773 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:19:52,776 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:19:52,779 - INFO - Total chunks: 21
+2025-03-12 11:19:52,790 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:19:53,110 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:19:53,119 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 11:22:14,951 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:22:14,960 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 11:22:14,961 - ERROR - No seeders available.
+2025-03-12 11:22:14,961 - ERROR - No seeders found.
+2025-03-12 11:22:30,556 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:22:30,558 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:22:30,559 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:22:30,559 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:22:30,560 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:22:30,562 - INFO - Total chunks: 21
+2025-03-12 11:22:30,573 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:22:30,580 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:22:30,585 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 11:26:32,669 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:27:02,686 - ERROR - Timeout while requesting seeders
+2025-03-12 11:27:02,691 - ERROR - No seeders found.
+2025-03-12 11:38:08,389 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:38:08,394 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:38:08,394 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:38:08,395 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:38:08,396 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:38:08,438 - INFO - Total chunks: 21
+2025-03-12 11:38:08,451 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:38:08,459 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:38:08,465 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 11:38:38,312 - DEBUG - Sending seeders request to tracker
+2025-03-12 11:38:38,315 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 11:38:38,315 - INFO - Attempting to download chunks from seeder: 196.47.247.98:7000 (has 0 chunks)
+2025-03-12 11:38:38,316 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 11:38:38,317 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 11:38:38,320 - INFO - Total chunks: 21
+2025-03-12 11:38:38,330 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
+2025-03-12 11:38:38,337 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
+2025-03-12 11:38:38,342 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
