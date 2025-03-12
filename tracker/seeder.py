@@ -22,7 +22,7 @@ FORMAT = 'utf-8'
 CHUNK_SIZE = 512 * 1024  # 512 KB in bytes
 
 # Constant for number of chunks to send to leechers
-CHUNKS_TO_BE_SENT = 2  # Change this value to control how many chunks to send
+CHUNKS_TO_BE_SENT = 7  # Change this value to control how many chunks to send
 
 class SeederServer:
     def __init__(self, filename):

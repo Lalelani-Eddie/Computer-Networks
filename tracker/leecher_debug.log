@@ -157,3 +157,24 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2025-03-12 11:38:38,330 - DEBUG - Successfully downloaded chunk 0 (524288 bytes)
 2025-03-12 11:38:38,337 - DEBUG - Successfully downloaded chunk 1 (524288 bytes)
 2025-03-12 11:38:38,342 - INFO - Downloaded 2 chunks of large_text_file.txt successfully.
+2025-03-12 13:22:24,556 - DEBUG - Sending seeders request to tracker
+2025-03-12 13:22:24,598 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:0']
+2025-03-12 13:22:24,600 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7000)
+2025-03-12 13:22:24,603 - INFO - Connected to seeder ('196.47.194.183', 7000)
+2025-03-12 13:22:24,609 - INFO - Total chunks reported by seeder: 21
+2025-03-12 13:22:24,613 - INFO - Requesting chunk 0
+2025-03-12 13:22:24,965 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 13:22:24,965 - INFO - Requesting chunk 1
+2025-03-12 13:22:24,989 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 13:22:24,989 - INFO - Requesting chunk 2
+2025-03-12 13:22:25,007 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 13:22:25,008 - INFO - Requesting chunk 3
+2025-03-12 13:22:25,133 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 13:22:25,134 - INFO - Requesting chunk 4
+2025-03-12 13:22:25,204 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 13:22:25,204 - INFO - Requesting chunk 5
+2025-03-12 13:22:25,277 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 13:22:25,277 - INFO - Requesting chunk 6
+2025-03-12 13:22:25,386 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 13:22:25,387 - INFO - File download completed
+2025-03-12 13:22:25,388 - DEBUG - Closed TCP connection
