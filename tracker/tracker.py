@@ -1,6 +1,15 @@
 import socket
 import threading
 import os
+import time  # Import time to track heartbeat
+
+# HEADER is the fixed size of the message header
+# PORT is the port number that the tracker listens on
+# SERVER is the IP address of the tracker
+# ADDR is a tuple containing the SERVER and PORT
+# FORMAT is the encoding format used for the messages
+# CHUNK_SIZE is the size of the chunks that the file is divided into
+# tracker is the UDP socket used to communicate with the seeders
 
 HEADER = 64
 PORT = 6020
@@ -13,7 +22,8 @@ CHUNK_SIZE = 512 * 1024  # 512 KB (you can adjust this value)
 tracker = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 tracker.bind(ADDR)
 
-active_seeders = {}  # {filename: [(ip, port, chunk_count), ...]}
+active_seeders = {}  # {filename: [(ip, port, chunk_count, last_heartbeat), ...]} (Optional: Add last_heartbeat)
+
 
 def handle_client():
     while True:
@@ -66,15 +76,38 @@ def handle_client():
             print(f"Sent seeder list for {filename} to {addr}")
 
         elif message[0] == "ALIVE":
-            # Keep seeder alive (Optional: Implement a heartbeat mechanism)
-            pass
+            filename = message[1]
+    
+            if filename in active_seeders:
+                for i, (ip, port, chunks, last_heartbeat) in enumerate(active_seeders[filename]):
+                    if (ip, port) == (addr[0], SEEDER_PORT):
+                        active_seeders[filename][i] = (ip, port, chunks, time.time())  # Update heartbeat
+                        print(f"Received heartbeat from {ip}:{port} for {filename}")
+                        break
+
+def remove_inactive_seeders():
+    while True:
+        time.sleep(10)  # Check every 10 seconds
+        current_time = time.time()
+        
+        for filename in list(active_seeders.keys()):  # Iterate through all seeders
+            active_seeders[filename] = [
+                (ip, port, chunks, last_heartbeat)
+                for (ip, port, chunks, last_heartbeat) in active_seeders[filename]
+                if current_time - last_heartbeat < 60  # Remove inactive seeders
+            ]
+            
+            if not active_seeders[filename]:  # If no seeders remain, delete the entry
+                del active_seeders[filename]
+        
+        print(f"[CLEANUP] Removed inactive seeders. Active seeders: {active_seeders}")
 
 def start():
     print(f"[STARTING] Tracker is starting at {SERVER}:{PORT}")
     threading.Thread(target=handle_client, daemon=True).start()
+    threading.Thread(target=remove_inactive_seeders, daemon=True).start()  # Start cleanup thread
     print(f"[LISTENING] Tracker is listening on {SERVER}:{PORT}")
 
-    # The server runs indefinitely, handling client messages
     while True:
         pass
 
