@@ -4,6 +4,7 @@ import time
 import traceback
 import os
 import threading
+import math
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG,
@@ -19,7 +20,6 @@ FORMAT = 'utf-8'
 CHUNK_SIZE = 512 * 1024  # 512 KB
 MAX_RETRIES = 3
 RETRY_DELAY = 2  # seconds
-CHUNKS_PER_SEEDER = 7  # Number of chunks to download from each seeder
 CONNECTION_TIMEOUT = 90  # Increased to 90 seconds
 
 class FileLeecher:
@@ -305,32 +305,94 @@ class FileLeecher:
             logging.error(f"Error verifying download: {e}")
             return False
 
+    def get_chunk_distribution(self, seeders, total_chunks):
+        """Calculate how many chunks each seeder should provide"""
+        num_seeders = len(seeders)
+        
+        # Base chunks per seeder (integer division)
+        base_chunks_per_seeder = total_chunks // num_seeders
+        
+        # Calculate remainder
+        remainder = total_chunks % num_seeders
+        
+        # Distribute chunks to seeders
+        chunk_distribution = []
+        chunk_index = 0
+        
+        for i in range(num_seeders):
+            # Give one extra chunk to the first 'remainder' seeders
+            if i < remainder:
+                num_chunks = base_chunks_per_seeder + 1
+            else:
+                num_chunks = base_chunks_per_seeder
+                
+            # Calculate start and end chunks
+            start_chunk = chunk_index
+            end_chunk = chunk_index + num_chunks - 1
+            chunk_index += num_chunks
+            
+            chunk_distribution.append({
+                'seeder': seeders[i],
+                'start_chunk': start_chunk,
+                'end_chunk': end_chunk,
+                'num_chunks': num_chunks
+            })
+            
+        return chunk_distribution
+
     def download_file(self):
+        # Get seeders from tracker
         seeders = self.get_seeders()
+        
+        # Verify we have at least 3 seeders (keeping current setup requirement)
         if not seeders or len(seeders) < 3:
             logging.error(f"Need at least 3 seeders, but only found {len(seeders)}. Exiting.")
             return False
         
-        # Select the first 3 seeders
-        selected_seeders = seeders[:3]
+        # Connect to first seeder to get total chunk count
+        try:
+            tcp_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            tcp_client.settimeout(CONNECTION_TIMEOUT)
+            
+            ip, port = seeders[0]['ip'], int(seeders[0]['port'])
+            tcp_client.connect((ip, port))
+            
+            # Request total chunk count
+            tcp_client.sendall(f"GET_CHUNK_COUNT {self.filename}".encode(FORMAT))
+            total_chunks_data = tcp_client.recv(1024)
+            total_chunks = int(total_chunks_data.decode(FORMAT))
+            self.total_chunks = total_chunks
+            
+            logging.info(f"Total chunks for file: {total_chunks}")
+            tcp_client.close()
+            
+        except Exception as e:
+            logging.error(f"Failed to get total chunk count: {e}")
+            return False
         
         # Create and initialize output file
         with open(f"leeched_{self.filename}", "wb") as f:
             # We don't know the final size yet, so we'll create an empty file
             pass
         
+        # Calculate chunk distribution
+        chunk_distribution = self.get_chunk_distribution(seeders, total_chunks)
+        
+        logging.info(f"Chunk distribution: {[(d['seeder']['addr'], d['start_chunk'], d['end_chunk']) for d in chunk_distribution]}")
+        
         # Create threads for each seeder
         threads = []
-        for i, seeder in enumerate(selected_seeders):
-            start_chunk = i * CHUNKS_PER_SEEDER
-            end_chunk = start_chunk + CHUNKS_PER_SEEDER - 1
+        for distribution in chunk_distribution:
+            seeder = distribution['seeder']
+            start_chunk = distribution['start_chunk']
+            end_chunk = distribution['end_chunk']
             
             thread = threading.Thread(
                 target=self.download_chunks_from_seeder,
                 args=(seeder, start_chunk, end_chunk)
             )
             threads.append(thread)
-            logging.info(f"Created thread for seeder {i+1} for chunks {start_chunk}-{end_chunk}")
+            logging.info(f"Created thread for seeder {seeder['addr']} for chunks {start_chunk}-{end_chunk}")
             
         # Start all threads
         for thread in threads:

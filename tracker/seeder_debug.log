@@ -985,3 +985,1403 @@
 2025-03-13 13:12:28,321 - INFO - Seeder stopped.
 2025-03-13 13:12:32,273 - INFO - Seeder stopped.
 2025-03-13 13:12:36,216 - INFO - Seeder stopped.
+2025-03-13 13:39:32,628 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 13:39:32,630 - INFO - File large_text_file.txt has 21 chunks (last chunk: 85844 bytes)
+2025-03-13 13:39:32,631 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 13:39:32,632 - INFO - Sent chunk count to tracker: 21
+2025-03-13 13:39:32,633 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:39:32,633 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 13:39:32,634 - INFO - Seeder started successfully on port 7000
+2025-03-13 13:39:46,224 - INFO - Binding TCP socket to 196.47.194.183:7001
+2025-03-13 13:39:46,224 - INFO - File large_text_file.txt has 21 chunks (last chunk: 85844 bytes)
+2025-03-13 13:39:46,225 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 13:39:46,225 - INFO - Sent chunk count to tracker: 21
+2025-03-13 13:39:46,226 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:39:46,227 - INFO - Seeder listening on 196.47.194.183:7001
+2025-03-13 13:39:46,228 - INFO - Seeder started successfully on port 7001
+2025-03-13 13:40:02,639 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:40:10,046 - INFO - Binding TCP socket to 196.47.194.183:7002
+2025-03-13 13:40:10,048 - INFO - File large_text_file.txt has 21 chunks (last chunk: 85844 bytes)
+2025-03-13 13:40:10,048 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 13:40:10,049 - INFO - Sent chunk count to tracker: 21
+2025-03-13 13:40:10,051 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:40:10,052 - INFO - Seeder listening on 196.47.194.183:7002
+2025-03-13 13:40:10,055 - INFO - Seeder started successfully on port 7002
+2025-03-13 13:40:16,240 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:40:20,248 - INFO - Accepted new connection from ('196.47.194.183', 58590)
+2025-03-13 13:40:20,248 - INFO - Accepted new connection from ('196.47.194.183', 58591)
+2025-03-13 13:40:20,249 - DEBUG - Starting connection handler for ('196.47.194.183', 58590)
+2025-03-13 13:40:20,250 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 13:40:20,250 - DEBUG - Starting connection handler for ('196.47.194.183', 58591)
+2025-03-13 13:40:20,250 - DEBUG - Starting connection handler for ('196.47.194.183', 58592)
+2025-03-13 13:40:20,250 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 13:40:20,250 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 13:40:20,250 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 13:40:20,250 - INFO - Sent total chunks: 21
+2025-03-13 13:40:20,250 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 13:40:20,252 - INFO - Sent total chunks: 21
+2025-03-13 13:40:20,252 - INFO - Sent total chunks: 21
+T_CHUNK_RANGE', 'large_text_file.txt', '0', '6']
+2025-03-13 13:40:20,252 - INFO - Processing request from ('196.47.194.183', 58590): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 13:40:20,252 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '7', '13']
+2025-03-13 13:40:20,252 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '14', '20']
+2025-03-13 13:40:20,252 - INFO - Accepted chunk range 0-6 for ('196.47.194.183', 58590)
+2025-03-13 13:40:20,252 - INFO - Processing request from ('196.47.194.183', 58591): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 13:40:20,252 - INFO - Processing request from ('196.47.194.183', 58592): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 13:40:20,253 - INFO - Accepted chunk range 14-20 for ('196.47.194.183', 58592)
+2025-03-13 13:40:20,253 - INFO - Accepted chunk range 7-13 for ('196.47.194.183', 58591)
+2025-03-13 13:40:20,253 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-13 13:40:20,253 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,253 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '7']
+2025-03-13 13:40:20,253 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '14']
+2025-03-13 13:40:20,254 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,254 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,256 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-13 13:40:20,257 - INFO - Sent chunk 7 (524288 bytes)
+2025-03-13 13:40:20,260 - INFO - Sent chunk 14 (524288 bytes)
+2025-03-13 13:40:20,282 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-13 13:40:20,286 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,290 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-13 13:40:20,441 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '15']
+2025-03-13 13:40:20,443 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,462 - INFO - Sent chunk 15 (524288 bytes)
+2025-03-13 13:40:20,500 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '8']
+2025-03-13 13:40:20,502 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,522 - INFO - Sent chunk 8 (524288 bytes)
+2025-03-13 13:40:20,555 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-13 13:40:20,557 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,571 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-13 13:40:20,612 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '16']
+2025-03-13 13:40:20,613 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,629 - INFO - Sent chunk 16 (524288 bytes)
+2025-03-13 13:40:20,671 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '9']
+2025-03-13 13:40:20,673 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,687 - INFO - Sent chunk 9 (524288 bytes)
+2025-03-13 13:40:20,733 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-13 13:40:20,734 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,747 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-13 13:40:20,770 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '17']
+2025-03-13 13:40:20,771 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,780 - INFO - Sent chunk 17 (524288 bytes)
+2025-03-13 13:40:20,796 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '10']
+2025-03-13 13:40:20,797 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,804 - INFO - Sent chunk 10 (524288 bytes)
+2025-03-13 13:40:20,827 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-13 13:40:20,828 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,833 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-13 13:40:20,851 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '18']
+2025-03-13 13:40:20,852 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,859 - INFO - Sent chunk 18 (524288 bytes)
+2025-03-13 13:40:20,878 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '11']
+2025-03-13 13:40:20,879 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,886 - INFO - Sent chunk 11 (524288 bytes)
+2025-03-13 13:40:20,904 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-13 13:40:20,905 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,915 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-13 13:40:20,937 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '19']
+2025-03-13 13:40:20,937 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,948 - INFO - Sent chunk 19 (524288 bytes)
+2025-03-13 13:40:20,980 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '12']
+2025-03-13 13:40:20,981 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:20,988 - INFO - Sent chunk 12 (524288 bytes)
+2025-03-13 13:40:21,013 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-13 13:40:21,014 - INFO - Processing request from ('196.47.194.183', 58590): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:21,020 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-13 13:40:21,046 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '20']
+2025-03-13 13:40:21,047 - INFO - Processing request from ('196.47.194.183', 58592): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:21,070 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '13']
+2025-03-13 13:40:21,071 - INFO - Processing request from ('196.47.194.183', 58591): GET_CHUNK large_text_file.txt
+2025-03-13 13:40:21,083 - INFO - Sent chunk 13 (524288 bytes)
+2025-03-13 13:40:21,114 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 13:40:21,115 - INFO - Processing request from ('196.47.194.183', 58590): DONE large_text_file.txt
+2025-03-13 13:40:21,122 - INFO - Client ('196.47.194.183', 58590) indicated completion
+2025-03-13 13:40:21,128 - DEBUG - Closed connection to ('196.47.194.183', 58590)
+2025-03-13 13:40:21,145 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 13:40:21,146 - INFO - Processing request from ('196.47.194.183', 58591): DONE large_text_file.txt
+2025-03-13 13:40:21,151 - INFO - Client ('196.47.194.183', 58591) indicated completion
+2025-03-13 13:40:21,152 - INFO - Sent chunk 20 (85844 bytes) [LAST CHUNK]
+2025-03-13 13:40:21,154 - DEBUG - Closed connection to ('196.47.194.183', 58591)
+2025-03-13 13:40:32,651 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:40:40,066 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:40:46,254 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:02,658 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:10,098 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:16,261 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:32,664 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:40,116 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:46,270 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:41:51,123 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 13:41:51,126 - INFO - Processing request from ('196.47.194.183', 58592): DONE large_text_file.txt
+2025-03-13 13:41:51,133 - INFO - Client ('196.47.194.183', 58592) indicated completion
+2025-03-13 13:41:51,141 - DEBUG - Closed connection to ('196.47.194.183', 58592)
+2025-03-13 13:42:02,675 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:42:10,129 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:42:16,286 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:42:32,685 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:42:40,141 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:42:46,300 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:43:02,688 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:43:10,155 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:43:16,317 - DEBUG - Sent heartbeat to tracker
+2025-03-13 13:43:32,699 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:41:39,749 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 15:41:39,990 - INFO - File large_text_file.txt has 21 chunks (last chunk: 85844 bytes)
+2025-03-13 15:41:39,993 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 15:41:39,999 - INFO - Sent chunk count to tracker: 21
+2025-03-13 15:41:40,007 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:41:40,012 - INFO - Seeder started successfully on port 7000
+2025-03-13 15:41:40,008 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 15:42:10,024 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:42:40,041 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:43:10,046 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:43:40,058 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:43:46,594 - INFO - Seeder stopped.
+2025-03-13 15:43:49,804 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 15:43:49,805 - INFO - File large_text_file.txt has 21 chunks (last chunk: 85844 bytes)
+2025-03-13 15:43:49,806 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 15:43:49,807 - INFO - Sent chunk count to tracker: 21
+2025-03-13 15:43:49,809 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:43:49,810 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 15:43:49,812 - INFO - Seeder started successfully on port 7000
+2025-03-13 15:44:19,821 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:44:49,838 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:45:19,848 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:45:49,853 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:46:19,867 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:46:49,887 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:47:19,899 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:47:49,912 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:48:19,926 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:48:49,936 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:49:19,945 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:49:49,956 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:50:19,975 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:50:49,980 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:51:19,984 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:51:49,991 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:52:20,008 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:52:50,022 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:53:20,035 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:53:50,049 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:54:20,062 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:54:50,069 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:55:20,080 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:55:50,096 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:56:20,107 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:56:50,118 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:57:20,126 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:57:50,136 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:58:20,149 - DEBUG - Sent heartbeat to tracker
+2025-03-13 15:58:50,158 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:07:36,670 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:08:06,678 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:08:36,681 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:09:06,696 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:09:36,700 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:10:06,733 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:10:36,745 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:11:06,759 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:11:36,764 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:12:06,775 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:12:36,779 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:13:06,795 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:13:36,803 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:14:06,815 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:14:36,830 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:15:06,842 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:15:36,849 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:16:06,861 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:16:36,880 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:17:06,887 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:17:36,898 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:18:06,915 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:18:36,924 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:19:06,931 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:19:36,948 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:20:06,957 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:20:36,968 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:21:06,981 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:21:36,994 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:22:06,997 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:22:37,010 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:23:07,024 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:23:37,030 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:24:07,039 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:24:37,050 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:25:07,061 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:25:37,074 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:26:07,095 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:26:37,102 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:27:07,117 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:27:37,133 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:28:07,143 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:28:37,152 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:29:07,163 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:29:37,183 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:30:07,197 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:30:37,208 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:31:07,227 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:31:37,245 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:32:07,267 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:32:37,276 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:33:07,285 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:33:37,304 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:34:07,313 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:34:37,325 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:35:07,334 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:35:37,351 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:36:07,368 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:36:37,380 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:37:07,395 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:37:37,403 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:38:07,423 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:38:37,442 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:39:07,457 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:39:37,464 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:40:07,468 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:40:37,479 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:41:07,493 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:41:37,499 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:42:07,508 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:42:37,518 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:43:07,523 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:43:37,530 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:44:07,541 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:44:37,555 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:45:07,566 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:45:37,573 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:46:07,580 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:46:37,585 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:47:07,601 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:47:37,608 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:48:07,623 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:48:37,631 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:49:07,646 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:49:37,657 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:50:07,663 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:50:37,674 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:51:07,694 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:51:37,708 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:52:07,724 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:52:37,740 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:53:07,756 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:53:37,762 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:54:07,771 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:54:37,784 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:55:07,803 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:55:37,814 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:56:07,828 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:56:37,831 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:57:07,855 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:57:37,858 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:58:07,872 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:58:37,877 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:59:07,898 - DEBUG - Sent heartbeat to tracker
+2025-03-13 16:59:37,909 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:00:07,923 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:00:37,930 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:01:07,937 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:01:37,958 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:02:07,974 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:02:37,985 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:03:07,999 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:03:38,015 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:04:08,033 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:04:38,050 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:05:08,068 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:05:38,088 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:06:08,098 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:06:38,102 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:07:08,107 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:07:38,121 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:08:08,130 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:08:38,136 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:09:08,143 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:09:38,150 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:10:08,160 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:10:38,167 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:11:08,183 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:11:38,193 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:12:08,197 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:12:38,205 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:13:08,216 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:13:38,229 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:14:08,247 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:14:38,261 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:15:08,271 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:15:38,281 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:16:08,290 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:16:38,297 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:17:08,308 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:17:38,317 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:18:08,336 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:18:38,340 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:19:08,357 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:19:38,376 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:20:08,384 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:20:38,393 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:21:08,400 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:21:38,410 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:22:08,428 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:27:33,839 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 17:27:33,840 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 17:27:33,841 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 17:27:33,841 - INFO - Sent chunk count to tracker: 21
+2025-03-13 17:27:33,843 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:27:33,843 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 17:27:33,843 - INFO - Seeder started successfully on port 7000
+2025-03-13 17:27:48,696 - INFO - Binding TCP socket to 196.47.194.183:7001
+2025-03-13 17:27:48,697 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 17:27:48,697 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 17:27:48,698 - INFO - Sent chunk count to tracker: 21
+2025-03-13 17:27:48,699 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:27:48,700 - INFO - Seeder listening on 196.47.194.183:7001
+2025-03-13 17:27:48,701 - INFO - Seeder started successfully on port 7001
+2025-03-13 17:28:00,810 - INFO - Binding TCP socket to 196.47.194.183:7002
+2025-03-13 17:28:00,811 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 17:28:00,811 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 17:28:00,812 - INFO - Sent chunk count to tracker: 21
+2025-03-13 17:28:00,813 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:28:00,814 - INFO - Seeder listening on 196.47.194.183:7002
+2025-03-13 17:28:00,814 - INFO - Seeder started successfully on port 7002
+2025-03-13 17:28:03,846 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:28:10,466 - INFO - Accepted new connection from ('196.47.194.183', 50845)
+2025-03-13 17:28:10,468 - INFO - Accepted new connection from ('196.47.194.183', 50846)
+2025-03-13 17:28:10,469 - INFO - Accepted new connection from ('196.47.194.183', 50847)
+2025-03-13 17:28:10,468 - DEBUG - Starting connection handler for ('196.47.194.183', 50845)
+2025-03-13 17:28:10,470 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 17:28:10,470 - DEBUG - Starting connection handler for ('196.47.194.183', 50846)
+2025-03-13 17:28:10,470 - DEBUG - Starting connection handler for ('196.47.194.183', 50847)
+2025-03-13 17:28:10,470 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 17:28:10,470 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 17:28:10,470 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 17:28:10,471 - INFO - Sent total chunks: 21
+2025-03-13 17:28:10,473 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 17:28:10,474 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 17:28:10,474 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '0', '6']
+2025-03-13 17:28:10,474 - INFO - Sent total chunks: 21
+2025-03-13 17:28:10,474 - INFO - Sent total chunks: 21
+2025-03-13 17:28:10,474 - INFO - Processing request from ('196.47.194.183', 50845): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 17:28:10,475 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '7', '13']
+2025-03-13 17:28:10,475 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '14', '20']
+2025-03-13 17:28:10,475 - INFO - Processing request from ('196.47.194.183', 50846): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 17:28:10,475 - INFO - Accepted chunk range 0-6 for ('196.47.194.183', 50845)
+2025-03-13 17:28:10,475 - INFO - Processing request from ('196.47.194.183', 50847): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 17:28:10,476 - INFO - Accepted chunk range 7-13 for ('196.47.194.183', 50846)
+2025-03-13 17:28:10,476 - INFO - Accepted chunk range 14-20 for ('196.47.194.183', 50847)
+2025-03-13 17:28:10,476 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-13 17:28:10,477 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,477 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '7']
+2025-03-13 17:28:10,477 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '14']
+2025-03-13 17:28:10,478 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,480 - INFO - Sent chunk 7 (524288 bytes)
+2025-03-13 17:28:10,480 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-13 17:28:10,481 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,485 - INFO - Sent chunk 14 (524288 bytes)
+2025-03-13 17:28:10,515 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-13 17:28:10,516 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,525 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-13 17:28:10,570 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '8']
+2025-03-13 17:28:10,570 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,574 - INFO - Sent chunk 8 (524288 bytes)
+2025-03-13 17:28:10,595 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '15']
+2025-03-13 17:28:10,596 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,598 - INFO - Sent chunk 15 (524288 bytes)
+2025-03-13 17:28:10,625 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-13 17:28:10,625 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,628 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-13 17:28:10,647 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '9']
+2025-03-13 17:28:10,647 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,650 - INFO - Sent chunk 9 (524288 bytes)
+2025-03-13 17:28:10,668 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '16']
+2025-03-13 17:28:10,669 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,685 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-13 17:28:10,686 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,689 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-13 17:28:10,706 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '10']
+2025-03-13 17:28:10,707 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,710 - INFO - Sent chunk 10 (524288 bytes)
+2025-03-13 17:28:10,729 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-13 17:28:10,730 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,732 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-13 17:28:10,748 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '11']
+2025-03-13 17:28:10,748 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,754 - INFO - Sent chunk 11 (524288 bytes)
+2025-03-13 17:28:10,773 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-13 17:28:10,773 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,777 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-13 17:28:10,795 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '12']
+2025-03-13 17:28:10,796 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,815 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-13 17:28:10,817 - INFO - Processing request from ('196.47.194.183', 50845): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:10,820 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-13 17:28:10,842 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 17:28:10,843 - INFO - Processing request from ('196.47.194.183', 50845): DONE large_text_file.txt
+2025-03-13 17:28:10,843 - INFO - Client ('196.47.194.183', 50845) indicated completion
+2025-03-13 17:28:10,843 - DEBUG - Closed connection to ('196.47.194.183', 50845)
+2025-03-13 17:28:10,991 - INFO - Sent chunk 16 (524288 bytes)
+2025-03-13 17:28:11,040 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '17']
+2025-03-13 17:28:11,041 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:11,043 - INFO - Sent chunk 17 (524288 bytes)
+2025-03-13 17:28:11,073 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '18']
+2025-03-13 17:28:11,073 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:11,075 - INFO - Sent chunk 18 (524288 bytes)
+2025-03-13 17:28:11,102 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '19']
+2025-03-13 17:28:11,102 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:11,106 - INFO - Sent chunk 19 (524288 bytes)
+2025-03-13 17:28:11,114 - INFO - Sent chunk 12 (524288 bytes)
+2025-03-13 17:28:11,138 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '20']
+2025-03-13 17:28:11,139 - INFO - Processing request from ('196.47.194.183', 50847): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:11,155 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '13']
+2025-03-13 17:28:11,155 - INFO - Processing request from ('196.47.194.183', 50846): GET_CHUNK large_text_file.txt
+2025-03-13 17:28:11,158 - INFO - Sent chunk 13 (524288 bytes)
+2025-03-13 17:28:11,181 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 17:28:11,182 - INFO - Processing request from ('196.47.194.183', 50846): DONE large_text_file.txt
+2025-03-13 17:28:11,185 - INFO - Client ('196.47.194.183', 50846) indicated completion
+2025-03-13 17:28:11,185 - DEBUG - Closed connection to ('196.47.194.183', 50846)
+2025-03-13 17:28:11,240 - INFO - Sent chunk 20 (172 bytes) [LAST CHUNK]
+2025-03-13 17:28:18,705 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:28:30,822 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:28:33,864 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:28:48,716 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:29:00,834 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:29:03,866 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:29:18,726 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:29:30,852 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:29:33,873 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:29:41,170 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 17:29:41,170 - INFO - Processing request from ('196.47.194.183', 50847): DONE large_text_file.txt
+2025-03-13 17:29:41,171 - INFO - Client ('196.47.194.183', 50847) indicated completion
+2025-03-13 17:29:41,172 - DEBUG - Closed connection to ('196.47.194.183', 50847)
+2025-03-13 17:29:48,734 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:00,868 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:03,890 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:18,762 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:30,871 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:33,905 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:48,778 - DEBUG - Sent heartbeat to tracker
+2025-03-13 17:30:52,134 - INFO - Seeder stopped.
+2025-03-13 17:30:54,809 - INFO - Seeder stopped.
+2025-03-13 17:30:57,135 - INFO - Seeder stopped.
+2025-03-13 21:32:25,561 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 21:32:25,629 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:32:25,631 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:32:25,632 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:32:25,641 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:32:25,644 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 21:32:25,648 - INFO - Seeder started successfully on port 7000
+2025-03-13 21:32:53,028 - INFO - Binding TCP socket to 196.47.194.183:7001
+2025-03-13 21:32:53,029 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:32:53,030 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:32:53,030 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:32:53,032 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:32:53,033 - INFO - Seeder listening on 196.47.194.183:7001
+2025-03-13 21:32:53,033 - INFO - Seeder started successfully on port 7001
+2025-03-13 21:32:55,658 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:33:23,043 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:33:25,664 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:33:38,637 - INFO - Binding TCP socket to 196.47.194.183:7002
+2025-03-13 21:33:38,638 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:33:38,639 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:33:38,640 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:33:38,642 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:33:38,642 - INFO - Seeder listening on 196.47.194.183:7002
+2025-03-13 21:33:38,644 - INFO - Seeder started successfully on port 7002
+2025-03-13 21:33:48,705 - INFO - Accepted new connection from ('196.47.194.183', 59791)
+2025-03-13 21:33:48,708 - DEBUG - Starting connection handler for ('196.47.194.183', 59791)
+2025-03-13 21:33:48,727 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:33:48,728 - INFO - Processing request from ('196.47.194.183', 59791): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:33:48,729 - INFO - Sent total chunks: 21
+2025-03-13 21:33:48,730 - DEBUG - Client ('196.47.194.183', 59791) closed connection
+2025-03-13 21:33:48,730 - DEBUG - Closed connection to ('196.47.194.183', 59791)
+2025-03-13 21:33:48,734 - INFO - Accepted new connection from ('196.47.194.183', 59792)
+2025-03-13 21:33:48,735 - INFO - Accepted new connection from ('196.47.194.183', 59793)
+2025-03-13 21:33:48,735 - INFO - Accepted new connection from ('196.47.194.183', 59794)
+2025-03-13 21:33:48,736 - DEBUG - Starting connection handler for ('196.47.194.183', 59792)
+2025-03-13 21:33:48,737 - DEBUG - Starting connection handler for ('196.47.194.183', 59794)
+2025-03-13 21:33:48,737 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:33:48,740 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:33:48,740 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:33:48,740 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:33:48,740 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:33:48,741 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:33:48,741 - INFO - Sent total chunks: 21
+2025-03-13 21:33:48,741 - INFO - Sent total chunks: 21
+2025-03-13 21:33:48,741 - INFO - Sent total chunks: 21
+2025-03-13 21:33:48,742 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '0', '6']
+2025-03-13 21:33:48,742 - INFO - Processing request from ('196.47.194.183', 59792): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:33:48,742 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '7', '13']
+2025-03-13 21:33:48,742 - INFO - Processing request from ('196.47.194.183', 59794): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:33:48,742 - INFO - Accepted chunk range 0-6 for ('196.47.194.183', 59792)
+2025-03-13 21:33:48,742 - INFO - Processing request from ('196.47.194.183', 59793): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:33:48,743 - INFO - Accepted chunk range 14-20 for ('196.47.194.183', 59794)
+2025-03-13 21:33:48,743 - INFO - Accepted chunk range 7-13 for ('196.47.194.183', 59793)
+2025-03-13 21:33:48,744 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-13 21:33:48,745 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,745 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '14']
+2025-03-13 21:33:48,745 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '7']
+2025-03-13 21:33:48,745 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,745 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,865 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-13 21:33:48,865 - INFO - Sent chunk 14 (524288 bytes)
+2025-03-13 21:33:48,866 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-13 21:33:48,866 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,872 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-13 21:33:48,951 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '15']
+2025-03-13 21:33:48,951 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,956 - INFO - Sent chunk 15 (524288 bytes)
+2025-03-13 21:33:48,968 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-13 21:33:48,969 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,990 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '16']
+2025-03-13 21:33:48,990 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:48,996 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-13 21:33:48,997 - INFO - Sent chunk 16 (524288 bytes)
+2025-03-13 21:33:49,031 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-13 21:33:49,032 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,035 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-13 21:33:49,052 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '17']
+2025-03-13 21:33:49,053 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,059 - INFO - Sent chunk 17 (524288 bytes)
+2025-03-13 21:33:49,073 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-13 21:33:49,074 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,092 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '18']
+2025-03-13 21:33:49,092 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,124 - INFO - Sent chunk 18 (524288 bytes)
+2025-03-13 21:33:49,154 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '19']
+2025-03-13 21:33:49,154 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,158 - INFO - Sent chunk 19 (524288 bytes)
+2025-03-13 21:33:49,166 - INFO - Sent chunk 7 (524288 bytes)
+2025-03-13 21:33:49,185 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '20']
+2025-03-13 21:33:49,185 - INFO - Processing request from ('196.47.194.183', 59794): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,200 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '8']
+2025-03-13 21:33:49,200 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,218 - INFO - Sent chunk 8 (524288 bytes)
+2025-03-13 21:33:49,249 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '9']
+2025-03-13 21:33:49,249 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,253 - INFO - Sent chunk 9 (524288 bytes)
+2025-03-13 21:33:49,279 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '10']
+2025-03-13 21:33:49,279 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,293 - INFO - Sent chunk 10 (524288 bytes)
+2025-03-13 21:33:49,294 - INFO - Sent chunk 20 (172 bytes) [LAST CHUNK]
+2025-03-13 21:33:49,320 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '11']
+2025-03-13 21:33:49,322 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,350 - INFO - Sent chunk 11 (524288 bytes)
+2025-03-13 21:33:49,378 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '12']
+2025-03-13 21:33:49,378 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,381 - INFO - Sent chunk 12 (524288 bytes)
+2025-03-13 21:33:49,385 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-13 21:33:49,412 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '13']
+2025-03-13 21:33:49,412 - INFO - Processing request from ('196.47.194.183', 59793): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,416 - INFO - Sent chunk 13 (524288 bytes)
+2025-03-13 21:33:49,435 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-13 21:33:49,436 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,443 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-13 21:33:49,458 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:33:49,458 - INFO - Processing request from ('196.47.194.183', 59793): DONE large_text_file.txt
+2025-03-13 21:33:49,459 - INFO - Client ('196.47.194.183', 59793) indicated completion
+2025-03-13 21:33:49,460 - DEBUG - Closed connection to ('196.47.194.183', 59793)
+2025-03-13 21:33:49,476 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-13 21:33:49,476 - INFO - Processing request from ('196.47.194.183', 59792): GET_CHUNK large_text_file.txt
+2025-03-13 21:33:49,542 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-13 21:33:49,585 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:33:49,586 - INFO - Processing request from ('196.47.194.183', 59792): DONE large_text_file.txt
+2025-03-13 21:33:49,586 - INFO - Client ('196.47.194.183', 59792) indicated completion
+2025-03-13 21:33:49,587 - DEBUG - Closed connection to ('196.47.194.183', 59792)
+2025-03-13 21:33:53,048 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:33:55,669 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:34:08,653 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:34:23,059 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:34:25,672 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:34:38,671 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:34:53,078 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:34:55,680 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:35:08,682 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:35:19,210 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:35:19,211 - INFO - Processing request from ('196.47.194.183', 59794): DONE large_text_file.txt
+2025-03-13 21:35:19,211 - INFO - Client ('196.47.194.183', 59794) indicated completion
+2025-03-13 21:35:19,212 - DEBUG - Closed connection to ('196.47.194.183', 59794)
+2025-03-13 21:35:23,094 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:35:25,682 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:35:38,689 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:35:53,101 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:35:55,697 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:36:08,697 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:36:23,117 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:36:25,713 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:36:38,699 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:36:53,132 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:36:55,727 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:37:08,711 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:37:23,143 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:37:25,733 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:37:38,723 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:37:53,152 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:37:55,740 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:38:08,731 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:38:23,164 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:38:25,753 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:38:38,739 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:38:53,176 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:38:55,762 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:39:08,752 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:39:23,182 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:39:25,764 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:39:38,768 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:39:53,191 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:39:55,779 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:40:08,771 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:40:23,203 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:40:25,796 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:40:38,778 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:40:55,800 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:44:28,857 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 21:44:28,859 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:44:28,861 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:44:28,862 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:44:28,864 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:44:28,864 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 21:44:28,867 - INFO - Seeder started successfully on port 7000
+2025-03-13 21:44:37,732 - INFO - Binding TCP socket to 196.47.194.183:7001
+2025-03-13 21:44:37,733 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:44:37,734 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:44:37,736 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:44:37,737 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:44:37,737 - INFO - Seeder listening on 196.47.194.183:7001
+2025-03-13 21:44:37,739 - INFO - Seeder started successfully on port 7001
+2025-03-13 21:44:44,395 - INFO - Binding TCP socket to 196.47.194.183:7002
+2025-03-13 21:44:44,396 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:44:44,397 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:44:44,397 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:44:44,399 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:44:44,400 - INFO - Seeder listening on 196.47.194.183:7002
+2025-03-13 21:44:44,400 - INFO - Seeder started successfully on port 7002
+2025-03-13 21:44:57,931 - INFO - Binding TCP socket to 196.47.194.183:7003
+2025-03-13 21:44:57,932 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 21:44:57,933 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 21:44:57,933 - INFO - Sent chunk count to tracker: 21
+2025-03-13 21:44:57,934 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:44:57,935 - INFO - Seeder listening on 196.47.194.183:7003
+2025-03-13 21:44:57,937 - INFO - Seeder started successfully on port 7003
+2025-03-13 21:44:58,876 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:07,747 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:08,950 - INFO - Accepted new connection from ('196.47.194.183', 63624)
+2025-03-13 21:45:08,951 - DEBUG - Starting connection handler for ('196.47.194.183', 63624)
+2025-03-13 21:45:08,972 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:45:08,973 - INFO - Processing request from ('196.47.194.183', 63624): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:45:08,974 - INFO - Sent total chunks: 21
+2025-03-13 21:45:08,974 - DEBUG - Client ('196.47.194.183', 63624) closed connection
+2025-03-13 21:45:08,975 - DEBUG - Closed connection to ('196.47.194.183', 63624)
+2025-03-13 21:45:08,985 - INFO - Accepted new connection from ('196.47.194.183', 63625)
+2025-03-13 21:45:08,985 - INFO - Accepted new connection from ('196.47.194.183', 63626)
+2025-03-13 21:45:08,985 - DEBUG - Starting connection handler for ('196.47.194.183', 63625)
+2025-03-13 21:45:08,986 - DEBUG - Starting connection handler for ('196.47.194.183', 63626)
+2025-03-13 21:45:08,986 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:45:08,986 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:45:08,987 - INFO - Accepted new connection from ('196.47.194.183', 63627)
+2025-03-13 21:45:08,987 - INFO - Accepted new connection from ('196.47.194.183', 63628)
+HUNK_COUNT large_text_file.txt
+2025-03-13 21:45:08,987 - INFO - Processing request from ('196.47.194.183', 63625): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:45:08,988 - INFO - Sent total chunks: 21
+2025-03-13 21:45:08,988 - INFO - Sent total chunks: 21
+2025-03-13 21:45:08,989 - DEBUG - Starting connection handler for ('196.47.194.183', 63627)
+2025-03-13 21:45:08,989 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '0', '5']
+2025-03-13 21:45:08,989 - DEBUG - Starting connection handler for ('196.47.194.183', 63628)
+2025-03-13 21:45:08,989 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '6', '10']
+2025-03-13 21:45:08,989 - INFO - Processing request from ('196.47.194.183', 63625): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:45:08,989 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:45:08,989 - INFO - Processing request from ('196.47.194.183', 63626): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:45:08,990 - INFO - Processing request from ('196.47.194.183', 63628): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:45:08,990 - INFO - Accepted chunk range 6-10 for ('196.47.194.183', 63626)
+2025-03-13 21:45:08,990 - INFO - Sent total chunks: 21
+2025-03-13 21:45:08,991 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '16', '20']
+2025-03-13 21:45:08,991 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-13 21:45:08,991 - INFO - Processing request from ('196.47.194.183', 63628): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:45:08,992 - INFO - Processing request from ('196.47.194.183', 63626): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:08,992 - INFO - Accepted chunk range 16-20 for ('196.47.194.183', 63628)
+2025-03-13 21:45:08,994 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '16']
+2025-03-13 21:45:08,994 - INFO - Processing request from ('196.47.194.183', 63628): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,005 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 21:45:09,006 - INFO - Processing request from ('196.47.194.183', 63627): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 21:45:09,006 - INFO - Sent total chunks: 21
+2025-03-13 21:45:09,006 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '11', '15']
+2025-03-13 21:45:09,007 - INFO - Processing request from ('196.47.194.183', 63627): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 21:45:09,007 - INFO - Accepted chunk range 11-15 for ('196.47.194.183', 63627)
+2025-03-13 21:45:09,008 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '11']
+2025-03-13 21:45:09,008 - INFO - Processing request from ('196.47.194.183', 63627): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,056 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-13 21:45:09,061 - INFO - Sent chunk 16 (524288 bytes)
+2025-03-13 21:45:09,061 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-13 21:45:09,064 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '7']
+2025-03-13 21:45:09,064 - INFO - Processing request from ('196.47.194.183', 63626): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,070 - INFO - Sent chunk 7 (524288 bytes)
+2025-03-13 21:45:09,087 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-13 21:45:09,087 - INFO - Processing request from ('196.47.194.183', 63625): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,090 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-13 21:45:09,159 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '17']
+2025-03-13 21:45:09,160 - INFO - Processing request from ('196.47.194.183', 63628): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,184 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '8']
+2025-03-13 21:45:09,184 - INFO - Processing request from ('196.47.194.183', 63626): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,200 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-13 21:45:09,201 - INFO - Processing request from ('196.47.194.183', 63625): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,255 - INFO - Sent chunk 8 (524288 bytes)
+2025-03-13 21:45:09,256 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-13 21:45:09,269 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '9']
+2025-03-13 21:45:09,269 - INFO - Processing request from ('196.47.194.183', 63626): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,287 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-13 21:45:09,288 - INFO - Processing request from ('196.47.194.183', 63625): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,331 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-13 21:45:09,356 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-13 21:45:09,356 - INFO - Processing request from ('196.47.194.183', 63625): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,398 - INFO - Sent chunk 11 (524288 bytes)
+2025-03-13 21:45:09,401 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-13 21:45:09,406 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '12']
+2025-03-13 21:45:09,407 - INFO - Processing request from ('196.47.194.183', 63627): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,425 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-13 21:45:09,425 - INFO - Processing request from ('196.47.194.183', 63625): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,746 - INFO - Sent chunk 12 (524288 bytes)
+2025-03-13 21:45:09,746 - INFO - Sent chunk 9 (524288 bytes)
+2025-03-13 21:45:09,748 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '18']
+2025-03-13 21:45:09,748 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '13']
+2025-03-13 21:45:09,749 - INFO - Sent chunk 5 (524288 bytes)
+.47.194.183', 63627): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,750 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '10']
+2025-03-13 21:45:09,750 - INFO - Processing request from ('196.47.194.183', 63628): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,751 - INFO - Processing request from ('196.47.194.183', 63626): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,777 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:45:09,778 - INFO - Processing request from ('196.47.194.183', 63625): DONE large_text_file.txt
+2025-03-13 21:45:09,778 - INFO - Client ('196.47.194.183', 63625) indicated completion
+2025-03-13 21:45:09,779 - DEBUG - Closed connection to ('196.47.194.183', 63625)
+2025-03-13 21:45:09,904 - INFO - Sent chunk 13 (524288 bytes)
+2025-03-13 21:45:09,908 - INFO - Sent chunk 10 (524288 bytes)
+2025-03-13 21:45:09,920 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '14']
+2025-03-13 21:45:09,921 - INFO - Processing request from ('196.47.194.183', 63627): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,938 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '19']
+2025-03-13 21:45:09,938 - INFO - Processing request from ('196.47.194.183', 63628): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:09,956 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:45:09,956 - INFO - Processing request from ('196.47.194.183', 63626): DONE large_text_file.txt
+2025-03-13 21:45:09,956 - INFO - Client ('196.47.194.183', 63626) indicated completion
+2025-03-13 21:45:09,957 - DEBUG - Closed connection to ('196.47.194.183', 63626)
+2025-03-13 21:45:09,968 - INFO - Sent chunk 14 (524288 bytes)
+2025-03-13 21:45:09,970 - INFO - Sent chunk 19 (524288 bytes)
+2025-03-13 21:45:10,002 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '15']
+2025-03-13 21:45:10,003 - INFO - Processing request from ('196.47.194.183', 63627): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:10,019 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '20']
+2025-03-13 21:45:10,019 - INFO - Processing request from ('196.47.194.183', 63628): GET_CHUNK large_text_file.txt
+2025-03-13 21:45:10,059 - INFO - Sent chunk 15 (524288 bytes)
+2025-03-13 21:45:10,100 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:45:10,103 - INFO - Processing request from ('196.47.194.183', 63627): DONE large_text_file.txt
+2025-03-13 21:45:10,104 - INFO - Client ('196.47.194.183', 63627) indicated completion
+2025-03-13 21:45:10,106 - DEBUG - Closed connection to ('196.47.194.183', 63627)
+2025-03-13 21:45:10,165 - INFO - Sent chunk 20 (172 bytes) [LAST CHUNK]
+2025-03-13 21:45:14,405 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:27,944 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:28,887 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:37,756 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:44,413 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:57,949 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:45:58,894 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:07,764 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:14,424 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:27,973 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:28,911 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:37,768 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:40,078 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 21:46:40,078 - INFO - Processing request from ('196.47.194.183', 63628): DONE large_text_file.txt
+2025-03-13 21:46:40,079 - INFO - Client ('196.47.194.183', 63628) indicated completion
+2025-03-13 21:46:40,079 - DEBUG - Closed connection to ('196.47.194.183', 63628)
+2025-03-13 21:46:44,439 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:57,988 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:46:58,927 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:07,777 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:14,451 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:27,996 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:28,945 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:37,780 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:44,456 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:58,015 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:47:58,956 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:07,784 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:14,472 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:28,022 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:28,964 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:37,791 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:44,483 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:58,025 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:48:58,971 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:07,803 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:14,489 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:28,041 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:28,987 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:37,816 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:44,504 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:58,058 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:49:58,993 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:07,830 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:14,522 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:28,072 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:28,997 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:37,844 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:44,538 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:58,075 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:50:59,013 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:07,855 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:14,546 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:28,092 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:29,024 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:37,861 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:44,561 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:58,103 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:51:59,031 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:07,872 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:14,573 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:28,110 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:29,038 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:37,877 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:44,581 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:58,115 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:52:59,043 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:07,898 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:14,597 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:28,124 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:29,046 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:37,913 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:44,611 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:58,134 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:53:59,052 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:07,925 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:14,630 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:28,148 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:29,058 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:37,943 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:44,645 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:58,161 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:54:59,064 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:07,956 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:14,656 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:28,173 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:29,081 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:37,959 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:44,663 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:58,187 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:55:59,092 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:07,966 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:14,675 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:28,208 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:29,102 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:37,975 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:44,688 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:58,221 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:56:59,114 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:07,986 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:14,692 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:28,232 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:29,115 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:37,997 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:44,700 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:58,242 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:57:59,121 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:08,004 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:14,712 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:28,256 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:29,122 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:38,020 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:44,727 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:58,270 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:58:59,135 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:08,029 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:14,742 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:28,276 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:29,142 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:38,036 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:44,755 - DEBUG - Sent heartbeat to tracker
+2025-03-13 21:59:59,147 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:05:20,968 - INFO - Binding TCP socket to 196.47.194.183:7000
+2025-03-13 22:05:20,968 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 22:05:20,969 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 22:05:20,970 - INFO - Sent chunk count to tracker: 21
+2025-03-13 22:05:20,972 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:05:20,972 - INFO - Seeder listening on 196.47.194.183:7000
+2025-03-13 22:05:20,973 - INFO - Seeder started successfully on port 7000
+2025-03-13 22:05:36,018 - INFO - Binding TCP socket to 196.47.194.183:7001
+2025-03-13 22:05:36,019 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 22:05:36,020 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 22:05:36,020 - INFO - Sent chunk count to tracker: 21
+2025-03-13 22:05:36,022 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:05:36,023 - INFO - Seeder listening on 196.47.194.183:7001
+2025-03-13 22:05:36,023 - INFO - Seeder started successfully on port 7001
+2025-03-13 22:05:50,984 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:05:53,636 - INFO - Binding TCP socket to 196.47.194.183:7002
+2025-03-13 22:05:53,637 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 22:05:53,638 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 22:05:53,638 - INFO - Sent chunk count to tracker: 21
+2025-03-13 22:05:53,640 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:05:53,640 - INFO - Seeder listening on 196.47.194.183:7002
+2025-03-13 22:05:53,642 - INFO - Seeder started successfully on port 7002
+2025-03-13 22:06:06,030 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:10,315 - INFO - Binding TCP socket to 196.47.194.183:7003
+2025-03-13 22:06:10,316 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 22:06:10,317 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 22:06:10,318 - INFO - Sent chunk count to tracker: 21
+2025-03-13 22:06:10,319 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:10,319 - INFO - Seeder listening on 196.47.194.183:7003
+2025-03-13 22:06:10,322 - INFO - Seeder started successfully on port 7003
+2025-03-13 22:06:20,082 - INFO - Binding TCP socket to 196.47.194.183:7004
+2025-03-13 22:06:20,082 - INFO - File large_text_file.txt has 21 chunks (last chunk: 172 bytes)
+2025-03-13 22:06:20,083 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 22:06:20,083 - INFO - Sent chunk count to tracker: 21
+2025-03-13 22:06:20,086 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:20,086 - INFO - Seeder listening on 196.47.194.183:7004
+2025-03-13 22:06:20,088 - INFO - Seeder started successfully on port 7004
+2025-03-13 22:06:20,991 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:23,649 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:28,184 - INFO - Accepted new connection from ('196.47.194.183', 50233)
+2025-03-13 22:06:28,185 - DEBUG - Starting connection handler for ('196.47.194.183', 50233)
+2025-03-13 22:06:28,185 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 22:06:28,186 - INFO - Processing request from ('196.47.194.183', 50233): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 22:06:28,186 - INFO - Sent total chunks: 21
+2025-03-13 22:06:28,186 - DEBUG - Client ('196.47.194.183', 50233) closed connection
+2025-03-13 22:06:28,187 - DEBUG - Closed connection to ('196.47.194.183', 50233)
+2025-03-13 22:06:28,233 - INFO - Accepted new connection from ('196.47.194.183', 50234)
+2025-03-13 22:06:28,233 - INFO - Accepted new connection from ('196.47.194.183', 50235)
+2025-03-13 22:06:28,235 - INFO - Accepted new connection from ('196.47.194.183', 50236)
+2025-03-13 22:06:28,236 - DEBUG - Starting connection handler for ('196.47.194.183', 50234)
+2025-03-13 22:06:28,236 - DEBUG - Starting connection handler for ('196.47.194.183', 50235)
+2025-03-13 22:06:28,237 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 22:06:28,238 - DEBUG - Starting connection handler for ('196.47.194.183', 50236)
+2025-03-13 22:06:28,238 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 22:06:28,239 - INFO - Accepted new connection from ('196.47.194.183', 50237)
+2025-03-13 22:06:28,239 - INFO - Processing request from ('196.47.194.183', 50234): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 22:06:28,240 - INFO - Accepted new connection from ('196.47.194.183', 50238)
+2025-03-13 22:06:28,240 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 22:06:28,240 - INFO - Processing request from ('196.47.194.183', 50235): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 22:06:28,241 - INFO - Processing request from ('196.47.194.183', 50236): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 22:06:28,241 - INFO - Sent total chunks: 21
+2025-03-13 22:06:28,241 - DEBUG - Starting connection handler for ('196.47.194.183', 50237)
+2025-03-13 22:06:28,241 - INFO - Sent total chunks: 21
+2025-03-13 22:06:28,242 - INFO - Sent total chunks: 21
+2025-03-13 22:06:28,242 - DEBUG - Starting connection handler for ('196.47.194.183', 50238)
+, '0', '4']
+2025-03-13 22:06:28,242 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 22:06:28,242 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '5', '8']
+2025-03-13 22:06:28,242 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '9', '12']
+2025-03-13 22:06:28,242 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-13 22:06:28,242 - INFO - Processing request from ('196.47.194.183', 50234): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 22:06:28,243 - INFO - Processing request from ('196.47.194.183', 50235): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 22:06:28,243 - INFO - Processing request from ('196.47.194.183', 50237): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 22:06:28,243 - INFO - Processing request from ('196.47.194.183', 50238): GET_CHUNK_COUNT large_text_file.txt
+2025-03-13 22:06:28,243 - INFO - Processing request from ('196.47.194.183', 50236): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 22:06:28,243 - INFO - Accepted chunk range 5-8 for ('196.47.194.183', 50235)
+2025-03-13 22:06:28,243 - INFO - Accepted chunk range 0-4 for ('196.47.194.183', 50234)
+2025-03-13 22:06:28,243 - INFO - Sent total chunks: 21
+2025-03-13 22:06:28,243 - INFO - Accepted chunk range 9-12 for ('196.47.194.183', 50236)
+2025-03-13 22:06:28,243 - INFO - Sent total chunks: 21
+2025-03-13 22:06:28,246 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '13', '16']
+2025-03-13 22:06:28,246 - DEBUG - Received request: ['SET_CHUNK_RANGE', 'large_text_file.txt', '17', '20']
+2025-03-13 22:06:28,248 - INFO - Processing request from ('196.47.194.183', 50237): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 22:06:28,248 - INFO - Processing request from ('196.47.194.183', 50238): SET_CHUNK_RANGE large_text_file.txt
+2025-03-13 22:06:28,249 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-13 22:06:28,250 - INFO - Accepted chunk range 13-16 for ('196.47.194.183', 50237)
+2025-03-13 22:06:28,250 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-13 22:06:28,251 - INFO - Processing request from ('196.47.194.183', 50235): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,251 - INFO - Accepted chunk range 17-20 for ('196.47.194.183', 50238)
+2025-03-13 22:06:28,251 - INFO - Processing request from ('196.47.194.183', 50234): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,251 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '9']
+2025-03-13 22:06:28,252 - INFO - Processing request from ('196.47.194.183', 50236): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,254 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-13 22:06:28,255 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-13 22:06:28,255 - INFO - Sent chunk 9 (524288 bytes)
+2025-03-13 22:06:28,256 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '17']
+2025-03-13 22:06:28,256 - INFO - Processing request from ('196.47.194.183', 50238): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,259 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '13']
+2025-03-13 22:06:28,259 - INFO - Sent chunk 17 (524288 bytes)
+47.194.183', 50237): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,265 - INFO - Sent chunk 13 (524288 bytes)
+2025-03-13 22:06:28,291 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-13 22:06:28,292 - INFO - Processing request from ('196.47.194.183', 50235): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,297 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-13 22:06:28,341 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-13 22:06:28,344 - INFO - Processing request from ('196.47.194.183', 50234): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,350 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-13 22:06:28,365 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '10']
+2025-03-13 22:06:28,365 - INFO - Processing request from ('196.47.194.183', 50236): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,368 - INFO - Sent chunk 10 (524288 bytes)
+2025-03-13 22:06:28,385 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '14']
+2025-03-13 22:06:28,385 - INFO - Processing request from ('196.47.194.183', 50237): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,388 - INFO - Sent chunk 14 (524288 bytes)
+2025-03-13 22:06:28,403 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '18']
+2025-03-13 22:06:28,404 - INFO - Processing request from ('196.47.194.183', 50238): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,407 - INFO - Sent chunk 18 (524288 bytes)
+2025-03-13 22:06:28,422 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '7']
+2025-03-13 22:06:28,422 - INFO - Processing request from ('196.47.194.183', 50235): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,424 - INFO - Sent chunk 7 (524288 bytes)
+2025-03-13 22:06:28,442 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-13 22:06:28,443 - INFO - Processing request from ('196.47.194.183', 50234): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,447 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-13 22:06:28,460 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '11']
+2025-03-13 22:06:28,461 - INFO - Processing request from ('196.47.194.183', 50236): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,466 - INFO - Sent chunk 11 (524288 bytes)
+2025-03-13 22:06:28,480 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '15']
+2025-03-13 22:06:28,481 - INFO - Processing request from ('196.47.194.183', 50237): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,483 - INFO - Sent chunk 15 (524288 bytes)
+2025-03-13 22:06:28,502 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '19']
+2025-03-13 22:06:28,502 - INFO - Processing request from ('196.47.194.183', 50238): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,520 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '8']
+2025-03-13 22:06:28,520 - INFO - Processing request from ('196.47.194.183', 50235): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,523 - INFO - Sent chunk 8 (524288 bytes)
+2025-03-13 22:06:28,539 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-13 22:06:28,539 - INFO - Processing request from ('196.47.194.183', 50234): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,542 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-13 22:06:28,559 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '12']
+2025-03-13 22:06:28,560 - INFO - Processing request from ('196.47.194.183', 50236): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,564 - INFO - Sent chunk 12 (524288 bytes)
+2025-03-13 22:06:28,577 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '16']
+2025-03-13 22:06:28,580 - INFO - Processing request from ('196.47.194.183', 50237): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,598 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 22:06:28,599 - INFO - Processing request from ('196.47.194.183', 50235): DONE large_text_file.txt
+2025-03-13 22:06:28,599 - INFO - Client ('196.47.194.183', 50235) indicated completion
+2025-03-13 22:06:28,600 - DEBUG - Closed connection to ('196.47.194.183', 50235)
+2025-03-13 22:06:28,617 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-13 22:06:28,617 - INFO - Processing request from ('196.47.194.183', 50234): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,621 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-13 22:06:28,636 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 22:06:28,637 - INFO - Processing request from ('196.47.194.183', 50236): DONE large_text_file.txt
+2025-03-13 22:06:28,637 - INFO - Client ('196.47.194.183', 50236) indicated completion
+2025-03-13 22:06:28,638 - DEBUG - Closed connection to ('196.47.194.183', 50236)
+2025-03-13 22:06:28,654 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 22:06:28,655 - INFO - Processing request from ('196.47.194.183', 50234): DONE large_text_file.txt
+2025-03-13 22:06:28,655 - INFO - Client ('196.47.194.183', 50234) indicated completion
+2025-03-13 22:06:28,655 - DEBUG - Closed connection to ('196.47.194.183', 50234)
+2025-03-13 22:06:28,815 - INFO - Sent chunk 19 (524288 bytes)
+2025-03-13 22:06:28,840 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '20']
+2025-03-13 22:06:28,840 - INFO - Processing request from ('196.47.194.183', 50238): GET_CHUNK large_text_file.txt
+2025-03-13 22:06:28,894 - INFO - Sent chunk 16 (524288 bytes)
+2025-03-13 22:06:28,921 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 22:06:28,922 - INFO - Processing request from ('196.47.194.183', 50237): DONE large_text_file.txt
+2025-03-13 22:06:28,922 - INFO - Client ('196.47.194.183', 50237) indicated completion
+2025-03-13 22:06:28,922 - DEBUG - Closed connection to ('196.47.194.183', 50237)
+2025-03-13 22:06:28,956 - INFO - Sent chunk 20 (172 bytes) [LAST CHUNK]
+2025-03-13 22:06:36,035 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:40,331 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:50,096 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:51,004 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:06:53,664 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:06,048 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:10,348 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:20,103 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:21,014 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:23,680 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:36,053 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:40,352 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:50,108 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:51,018 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:53,688 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:07:58,885 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-13 22:07:58,885 - INFO - Processing request from ('196.47.194.183', 50238): DONE large_text_file.txt
+2025-03-13 22:07:58,886 - INFO - Client ('196.47.194.183', 50238) indicated completion
+2025-03-13 22:07:58,886 - DEBUG - Closed connection to ('196.47.194.183', 50238)
+2025-03-13 22:08:06,062 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:10,356 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:20,121 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:21,031 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:23,700 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:36,075 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:40,370 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:50,140 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:51,037 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:08:53,707 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:06,085 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:10,378 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:20,144 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:21,039 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:23,720 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:36,094 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:40,393 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:50,162 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:51,050 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:09:53,734 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:06,103 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:10,403 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:20,172 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:21,051 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:23,749 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:36,108 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:40,406 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:50,190 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:51,057 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:10:53,757 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:06,124 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:10,414 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:20,195 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:21,059 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:23,773 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:36,128 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:40,430 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:50,203 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:51,068 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:11:53,780 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:06,144 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:10,435 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:20,217 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:21,080 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:23,789 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:36,153 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:40,442 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:50,229 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:51,094 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:12:53,806 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:06,164 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:10,449 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:20,243 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:21,109 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:23,818 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:36,174 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:40,457 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:50,253 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:51,115 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:13:53,842 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:06,185 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:10,473 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:20,259 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:21,122 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:23,859 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:36,203 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:40,483 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:50,271 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:51,126 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:14:53,877 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:06,215 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:10,489 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:20,287 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:21,137 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:23,889 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:37,770 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:42,058 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:51,855 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:52,704 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:15:55,455 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:07,773 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:12,062 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:21,858 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:22,719 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:25,463 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:37,780 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:42,074 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:51,869 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:52,729 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:16:55,469 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:07,789 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:12,089 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:21,882 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:22,744 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:25,471 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:37,806 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:42,106 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:51,895 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:52,757 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:17:55,473 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:07,819 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:12,129 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:21,909 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:22,772 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:25,485 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:37,830 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:42,143 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:51,925 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:52,788 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:18:55,495 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:07,846 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:12,146 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:21,932 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:22,795 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:25,513 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:37,853 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:42,155 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:51,938 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:52,808 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:19:55,523 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:07,854 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:12,173 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:21,955 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:22,817 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:25,533 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:37,871 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:42,191 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:51,962 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:52,828 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:20:55,544 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:07,887 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:12,206 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:21,973 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:22,839 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:25,553 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:37,896 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:42,214 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:51,987 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:52,850 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:21:55,564 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:07,914 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:12,221 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:21,996 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:22,861 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:25,579 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:37,930 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:42,230 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:52,013 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:52,878 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:22:55,596 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:07,941 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:12,235 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:22,016 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:22,881 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:25,601 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:37,955 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:42,253 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:52,032 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:52,896 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:23:55,615 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:07,967 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:12,257 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:22,036 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:22,902 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:25,621 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:37,986 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:42,262 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:52,042 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:52,915 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:24:55,635 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:08,000 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:12,280 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:22,049 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:22,920 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:25,648 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:38,008 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:42,289 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:52,063 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:52,933 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:25:55,651 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:08,016 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:12,294 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:22,067 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:22,937 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:25,658 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:38,028 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:42,298 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:52,075 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:52,945 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:26:55,666 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:08,036 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:12,305 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:22,090 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:22,949 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:25,670 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:38,042 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:42,322 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:52,108 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:52,964 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:27:55,680 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:08,055 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:12,329 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:22,122 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:22,974 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:25,691 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:38,070 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:42,338 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:52,127 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:52,984 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:28:55,698 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:08,087 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:12,349 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:22,141 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:22,993 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:25,709 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:38,102 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:42,365 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:52,151 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:53,004 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:29:55,714 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:08,107 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:12,378 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:22,169 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:23,018 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:25,720 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:38,112 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:42,386 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:52,171 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:53,028 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:30:55,739 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:08,124 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:12,391 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:22,180 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:23,030 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:25,744 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:38,132 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:42,397 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:52,194 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:53,044 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:31:55,752 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:08,149 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:12,410 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:22,209 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:23,056 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:25,759 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:38,161 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:42,422 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:52,215 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:53,064 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:32:55,978 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:08,181 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:12,464 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:22,279 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:23,142 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:26,070 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:38,247 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:42,540 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:52,521 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:53,166 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:33:56,183 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:08,264 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:12,672 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:22,659 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:23,174 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:26,274 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:38,303 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:42,696 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:52,680 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:53,185 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:34:56,282 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:08,390 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:12,704 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:22,693 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:23,202 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:26,360 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:38,397 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:42,714 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:52,697 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:53,215 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:35:56,416 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:08,405 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:12,847 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:22,749 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:23,231 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:26,569 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:38,770 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:42,864 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:52,764 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:53,237 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:36:56,581 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:08,787 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:12,876 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:22,782 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:23,251 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:26,588 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:38,798 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:42,898 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:52,788 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:53,259 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:37:56,596 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:38:08,811 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:38:12,902 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:38:22,801 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:38:23,273 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:38:26,611 - DEBUG - Sent heartbeat to tracker
+2025-03-13 22:38:38,817 - DEBUG - Sent heartbeat to tracker

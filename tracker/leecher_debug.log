@@ -458,3 +458,379 @@ socket.timeout: timed out
 2025-03-13 13:05:27,616 - DEBUG - Closed TCP connection
 2025-03-13 13:05:27,624 - INFO - All download threads completed
 2025-03-13 13:05:27,625 - INFO - Download complete. File size: 10571604 bytes
+2025-03-13 13:40:20,242 - DEBUG - Sending seeders request to tracker
+2025-03-13 13:40:20,243 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21', '196.47.194.183:7001:0', '196.47.194.183:7002:0']
+2025-03-13 13:40:20,245 - INFO - Created thread for seeder 1 for chunks 0-6
+2025-03-13 13:40:20,245 - INFO - Created thread for seeder 2 for chunks 7-13
+2025-03-13 13:40:20,246 - INFO - Created thread for seeder 3 for chunks 14-20
+2025-03-13 13:40:20,246 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7000)
+2025-03-13 13:40:20,247 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7001)
+2025-03-13 13:40:20,247 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7002)
+2025-03-13 13:40:20,248 - INFO - Connected to seeder ('196.47.194.183', 7000)
+2025-03-13 13:40:20,248 - INFO - Connected to seeder ('196.47.194.183', 7001)
+2025-03-13 13:40:20,249 - INFO - Connected to seeder ('196.47.194.183', 7002)
+2025-03-13 13:40:20,250 - INFO - Total chunks reported by seeder: 21
+2025-03-13 13:40:20,252 - INFO - Total chunks reported by seeder: 21
+2025-03-13 13:40:20,252 - INFO - Total chunks reported by seeder: 21
+2025-03-13 13:40:20,252 - INFO - Seeder accepted chunk range from 0 to 6
+2025-03-13 13:40:20,252 - INFO - Requesting chunk 0
+2025-03-13 13:40:20,252 - INFO - Seeder accepted chunk range from 7 to 13
+2025-03-13 13:40:20,253 - INFO - Seeder accepted chunk range from 14 to 20
+2025-03-13 13:40:20,253 - INFO - Requesting chunk 7
+2025-03-13 13:40:20,253 - INFO - Requesting chunk 14
+2025-03-13 13:40:20,277 - INFO - Chunk 0 written: 524288 bytes
+2025-03-13 13:40:20,278 - INFO - Requesting chunk 1
+2025-03-13 13:40:20,434 - INFO - Chunk 14 written: 524288 bytes
+2025-03-13 13:40:20,436 - INFO - Requesting chunk 15
+2025-03-13 13:40:20,492 - INFO - Chunk 7 written: 524288 bytes
+2025-03-13 13:40:20,494 - INFO - Requesting chunk 8
+2025-03-13 13:40:20,549 - INFO - Chunk 1 written: 524288 bytes
+2025-03-13 13:40:20,550 - INFO - Requesting chunk 2
+2025-03-13 13:40:20,604 - INFO - Chunk 15 written: 524288 bytes
+2025-03-13 13:40:20,606 - INFO - Requesting chunk 16
+2025-03-13 13:40:20,662 - INFO - Chunk 8 written: 524288 bytes
+2025-03-13 13:40:20,663 - INFO - Requesting chunk 9
+2025-03-13 13:40:20,722 - INFO - Chunk 2 written: 524288 bytes
+2025-03-13 13:40:20,725 - INFO - Requesting chunk 3
+2025-03-13 13:40:20,768 - INFO - Chunk 16 written: 524288 bytes
+2025-03-13 13:40:20,768 - INFO - Requesting chunk 17
+2025-03-13 13:40:20,792 - INFO - Chunk 9 written: 524288 bytes
+2025-03-13 13:40:20,794 - INFO - Requesting chunk 10
+2025-03-13 13:40:20,824 - INFO - Chunk 3 written: 524288 bytes
+2025-03-13 13:40:20,826 - INFO - Requesting chunk 4
+2025-03-13 13:40:20,849 - INFO - Chunk 17 written: 524288 bytes
+2025-03-13 13:40:20,850 - INFO - Requesting chunk 18
+2025-03-13 13:40:20,874 - INFO - Chunk 10 written: 524288 bytes
+2025-03-13 13:40:20,876 - INFO - Requesting chunk 11
+2025-03-13 13:40:20,900 - INFO - Chunk 4 written: 524288 bytes
+2025-03-13 13:40:20,902 - INFO - Requesting chunk 5
+2025-03-13 13:40:20,934 - INFO - Chunk 18 written: 524288 bytes
+2025-03-13 13:40:20,934 - INFO - Requesting chunk 19
+2025-03-13 13:40:20,972 - INFO - Chunk 11 written: 524288 bytes
+2025-03-13 13:40:20,973 - INFO - Requesting chunk 12
+2025-03-13 13:40:21,007 - INFO - Chunk 5 written: 524288 bytes
+2025-03-13 13:40:21,010 - INFO - Requesting chunk 6
+2025-03-13 13:40:21,039 - INFO - Chunk 19 written: 524288 bytes
+2025-03-13 13:40:21,040 - INFO - Requesting chunk 20
+2025-03-13 13:40:21,068 - INFO - Chunk 12 written: 524288 bytes
+2025-03-13 13:40:21,069 - INFO - Requesting chunk 13
+2025-03-13 13:40:21,113 - INFO - Chunk 6 written: 524288 bytes
+2025-03-13 13:40:21,114 - INFO - Chunks 0-6 download completed
+2025-03-13 13:40:21,118 - DEBUG - Closed TCP connection
+2025-03-13 13:40:21,144 - INFO - Chunk 13 written: 524288 bytes
+2025-03-13 13:40:21,145 - INFO - Chunks 7-13 download completed
+2025-03-13 13:40:21,147 - DEBUG - Closed TCP connection
+2025-03-13 13:41:51,055 - WARNING - Timeout while downloading chunk 20, but received 85844 bytes
+2025-03-13 13:41:51,121 - INFO - Chunk 20 written: 85844 bytes
+2025-03-13 13:41:51,123 - INFO - Chunks 14-20 download completed
+2025-03-13 13:41:51,126 - DEBUG - Closed TCP connection
+2025-03-13 13:41:51,127 - INFO - All download threads completed
+2025-03-13 13:41:51,131 - INFO - Download complete. File size: 10571604 bytes
+2025-03-13 15:42:47,144 - DEBUG - Sending seeders request to tracker
+2025-03-13 15:42:47,160 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21']
+2025-03-13 15:42:47,161 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-13 15:44:02,102 - DEBUG - Sending seeders request to tracker
+2025-03-13 15:44:02,103 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21']
+2025-03-13 15:44:02,103 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-13 17:28:10,438 - DEBUG - Sending seeders request to tracker
+2025-03-13 17:28:10,460 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21', '196.47.194.183:7001:0', '196.47.194.183:7002:0']
+2025-03-13 17:28:10,462 - INFO - Created thread for seeder 1 for chunks 0-6
+2025-03-13 17:28:10,463 - INFO - Created thread for seeder 2 for chunks 7-13
+2025-03-13 17:28:10,464 - INFO - Created thread for seeder 3 for chunks 14-20
+2025-03-13 17:28:10,465 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7000)
+2025-03-13 17:28:10,465 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7001)
+2025-03-13 17:28:10,466 - INFO - Connected to seeder ('196.47.194.183', 7000)
+2025-03-13 17:28:10,467 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7002)
+2025-03-13 17:28:10,468 - INFO - Connected to seeder ('196.47.194.183', 7001)
+2025-03-13 17:28:10,468 - INFO - Connected to seeder ('196.47.194.183', 7002)
+2025-03-13 17:28:10,471 - INFO - Total chunks reported by seeder: 21
+2025-03-13 17:28:10,474 - INFO - Total chunks reported by seeder: 21
+2025-03-13 17:28:10,474 - INFO - Total chunks reported by seeder: 21
+2025-03-13 17:28:10,475 - INFO - Seeder accepted chunk range from 0 to 6
+2025-03-13 17:28:10,475 - INFO - Requesting chunk 0
+2025-03-13 17:28:10,476 - INFO - Seeder accepted chunk range from 7 to 13
+2025-03-13 17:28:10,476 - INFO - Seeder accepted chunk range from 14 to 20
+2025-03-13 17:28:10,476 - INFO - Requesting chunk 7
+2025-03-13 17:28:10,477 - INFO - Requesting chunk 14
+2025-03-13 17:28:10,495 - INFO - Chunk 0 written: 524288 bytes
+2025-03-13 17:28:10,496 - INFO - Requesting chunk 1
+2025-03-13 17:28:10,568 - INFO - Chunk 7 written: 524288 bytes
+2025-03-13 17:28:10,569 - INFO - Requesting chunk 8
+2025-03-13 17:28:10,594 - INFO - Chunk 14 written: 524288 bytes
+2025-03-13 17:28:10,595 - INFO - Requesting chunk 15
+2025-03-13 17:28:10,624 - INFO - Chunk 1 written: 524288 bytes
+2025-03-13 17:28:10,625 - INFO - Requesting chunk 2
+2025-03-13 17:28:10,645 - INFO - Chunk 8 written: 524288 bytes
+2025-03-13 17:28:10,646 - INFO - Requesting chunk 9
+2025-03-13 17:28:10,665 - INFO - Chunk 15 written: 524288 bytes
+2025-03-13 17:28:10,668 - INFO - Requesting chunk 16
+2025-03-13 17:28:10,684 - INFO - Chunk 2 written: 524288 bytes
+2025-03-13 17:28:10,685 - INFO - Requesting chunk 3
+2025-03-13 17:28:10,705 - INFO - Chunk 9 written: 524288 bytes
+2025-03-13 17:28:10,706 - INFO - Requesting chunk 10
+2025-03-13 17:28:10,728 - INFO - Chunk 3 written: 524288 bytes
+2025-03-13 17:28:10,729 - INFO - Requesting chunk 4
+2025-03-13 17:28:10,747 - INFO - Chunk 10 written: 524288 bytes
+2025-03-13 17:28:10,748 - INFO - Requesting chunk 11
+2025-03-13 17:28:10,772 - INFO - Chunk 4 written: 524288 bytes
+2025-03-13 17:28:10,773 - INFO - Requesting chunk 5
+2025-03-13 17:28:10,794 - INFO - Chunk 11 written: 524288 bytes
+2025-03-13 17:28:10,795 - INFO - Requesting chunk 12
+2025-03-13 17:28:10,814 - INFO - Chunk 5 written: 524288 bytes
+2025-03-13 17:28:10,815 - INFO - Requesting chunk 6
+2025-03-13 17:28:10,842 - INFO - Chunk 6 written: 524288 bytes
+2025-03-13 17:28:10,842 - INFO - Chunks 0-6 download completed
+2025-03-13 17:28:10,843 - DEBUG - Closed TCP connection
+2025-03-13 17:28:11,038 - INFO - Chunk 16 written: 524288 bytes
+2025-03-13 17:28:11,039 - INFO - Requesting chunk 17
+2025-03-13 17:28:11,072 - INFO - Chunk 17 written: 524288 bytes
+2025-03-13 17:28:11,072 - INFO - Requesting chunk 18
+2025-03-13 17:28:11,098 - INFO - Chunk 18 written: 524288 bytes
+2025-03-13 17:28:11,101 - INFO - Requesting chunk 19
+2025-03-13 17:28:11,137 - INFO - Chunk 19 written: 524288 bytes
+2025-03-13 17:28:11,138 - INFO - Requesting chunk 20
+2025-03-13 17:28:11,154 - INFO - Chunk 12 written: 524288 bytes
+2025-03-13 17:28:11,155 - INFO - Requesting chunk 13
+2025-03-13 17:28:11,181 - INFO - Chunk 13 written: 524288 bytes
+2025-03-13 17:28:11,181 - INFO - Chunks 7-13 download completed
+2025-03-13 17:28:11,182 - DEBUG - Closed TCP connection
+2025-03-13 17:29:41,140 - WARNING - Timeout while downloading chunk 20, but received 172 bytes
+2025-03-13 17:29:41,169 - INFO - Chunk 20 written: 172 bytes
+2025-03-13 17:29:41,170 - INFO - Chunks 14-20 download completed
+2025-03-13 17:29:41,170 - DEBUG - Closed TCP connection
+2025-03-13 17:29:41,171 - INFO - All download threads completed
+2025-03-13 17:29:41,171 - INFO - Download complete. File size: 10485932 bytes
+2025-03-13 21:33:48,649 - DEBUG - Sending seeders request to tracker
+2025-03-13 21:33:48,702 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21', '196.47.194.183:7001:0', '196.47.194.183:7002:0']
+2025-03-13 21:33:48,729 - INFO - Total chunks for file: 21
+2025-03-13 21:33:48,730 - INFO - Chunk distribution: [('196.47.194.183:7000', 0, 6), ('196.47.194.183:7001', 7, 13), ('196.47.194.183:7002', 14, 20)]
+2025-03-13 21:33:48,731 - INFO - Created thread for seeder 196.47.194.183:7000 for chunks 0-6
+2025-03-13 21:33:48,731 - INFO - Created thread for seeder 196.47.194.183:7001 for chunks 7-13
+2025-03-13 21:33:48,731 - INFO - Created thread for seeder 196.47.194.183:7002 for chunks 14-20
+2025-03-13 21:33:48,733 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7000)
+2025-03-13 21:33:48,733 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7001)
+2025-03-13 21:33:48,734 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7002)
+2025-03-13 21:33:48,735 - INFO - Connected to seeder ('196.47.194.183', 7000)
+2025-03-13 21:33:48,735 - INFO - Connected to seeder ('196.47.194.183', 7001)
+2025-03-13 21:33:48,735 - INFO - Connected to seeder ('196.47.194.183', 7002)
+2025-03-13 21:33:48,741 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:33:48,741 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:33:48,741 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:33:48,742 - INFO - Seeder accepted chunk range from 0 to 6
+2025-03-13 21:33:48,743 - INFO - Seeder accepted chunk range from 14 to 20
+2025-03-13 21:33:48,743 - INFO - Requesting chunk 0
+2025-03-13 21:33:48,743 - INFO - Seeder accepted chunk range from 7 to 13
+2025-03-13 21:33:48,744 - INFO - Requesting chunk 14
+2025-03-13 21:33:48,744 - INFO - Requesting chunk 7
+2025-03-13 21:33:48,851 - INFO - Chunk 0 written: 524288 bytes
+2025-03-13 21:33:48,851 - INFO - Requesting chunk 1
+2025-03-13 21:33:48,950 - INFO - Chunk 14 written: 524288 bytes
+2025-03-13 21:33:48,950 - INFO - Requesting chunk 15
+2025-03-13 21:33:48,967 - INFO - Chunk 1 written: 524288 bytes
+2025-03-13 21:33:48,968 - INFO - Requesting chunk 2
+2025-03-13 21:33:48,987 - INFO - Chunk 15 written: 524288 bytes
+2025-03-13 21:33:48,989 - INFO - Requesting chunk 16
+2025-03-13 21:33:49,030 - INFO - Chunk 2 written: 524288 bytes
+2025-03-13 21:33:49,031 - INFO - Requesting chunk 3
+2025-03-13 21:33:49,052 - INFO - Chunk 16 written: 524288 bytes
+2025-03-13 21:33:49,052 - INFO - Requesting chunk 17
+2025-03-13 21:33:49,070 - INFO - Chunk 3 written: 524288 bytes
+2025-03-13 21:33:49,072 - INFO - Requesting chunk 4
+2025-03-13 21:33:49,091 - INFO - Chunk 17 written: 524288 bytes
+2025-03-13 21:33:49,092 - INFO - Requesting chunk 18
+2025-03-13 21:33:49,153 - INFO - Chunk 18 written: 524288 bytes
+2025-03-13 21:33:49,153 - INFO - Requesting chunk 19
+2025-03-13 21:33:49,184 - INFO - Chunk 19 written: 524288 bytes
+2025-03-13 21:33:49,184 - INFO - Requesting chunk 20
+2025-03-13 21:33:49,199 - INFO - Chunk 7 written: 524288 bytes
+2025-03-13 21:33:49,200 - INFO - Requesting chunk 8
+2025-03-13 21:33:49,248 - INFO - Chunk 8 written: 524288 bytes
+2025-03-13 21:33:49,248 - INFO - Requesting chunk 9
+2025-03-13 21:33:49,278 - INFO - Chunk 9 written: 524288 bytes
+2025-03-13 21:33:49,279 - INFO - Requesting chunk 10
+2025-03-13 21:33:49,319 - INFO - Chunk 10 written: 524288 bytes
+2025-03-13 21:33:49,319 - INFO - Requesting chunk 11
+2025-03-13 21:33:49,377 - INFO - Chunk 11 written: 524288 bytes
+2025-03-13 21:33:49,377 - INFO - Requesting chunk 12
+2025-03-13 21:33:49,411 - INFO - Chunk 12 written: 524288 bytes
+2025-03-13 21:33:49,411 - INFO - Requesting chunk 13
+2025-03-13 21:33:49,434 - INFO - Chunk 4 written: 524288 bytes
+2025-03-13 21:33:49,435 - INFO - Requesting chunk 5
+2025-03-13 21:33:49,457 - INFO - Chunk 13 written: 524288 bytes
+2025-03-13 21:33:49,458 - INFO - Chunks 7-13 download completed
+2025-03-13 21:33:49,458 - DEBUG - Closed TCP connection
+2025-03-13 21:33:49,475 - INFO - Chunk 5 written: 524288 bytes
+2025-03-13 21:33:49,475 - INFO - Requesting chunk 6
+2025-03-13 21:33:49,585 - INFO - Chunk 6 written: 524288 bytes
+2025-03-13 21:33:49,585 - INFO - Chunks 0-6 download completed
+2025-03-13 21:33:49,586 - DEBUG - Closed TCP connection
+2025-03-13 21:35:19,191 - WARNING - Timeout while downloading chunk 20, but received 172 bytes
+2025-03-13 21:35:19,210 - INFO - Chunk 20 written: 172 bytes
+2025-03-13 21:35:19,210 - INFO - Chunks 14-20 download completed
+2025-03-13 21:35:19,212 - DEBUG - Closed TCP connection
+2025-03-13 21:35:19,212 - INFO - All download threads completed
+2025-03-13 21:35:19,213 - INFO - Download complete. File size: 10485932 bytes
+2025-03-13 21:45:08,921 - DEBUG - Sending seeders request to tracker
+2025-03-13 21:45:08,949 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21', '196.47.194.183:7001:0', '196.47.194.183:7002:0', '196.47.194.183:7003:0']
+2025-03-13 21:45:08,974 - INFO - Total chunks for file: 21
+2025-03-13 21:45:08,975 - INFO - Chunk distribution: [('196.47.194.183:7000', 0, 5), ('196.47.194.183:7001', 6, 10), ('196.47.194.183:7002', 11, 15), ('196.47.194.183:7003', 16, 20)]
+2025-03-13 21:45:08,976 - INFO - Created thread for seeder 196.47.194.183:7000 for chunks 0-5
+2025-03-13 21:45:08,980 - INFO - Created thread for seeder 196.47.194.183:7001 for chunks 6-10
+2025-03-13 21:45:08,980 - INFO - Created thread for seeder 196.47.194.183:7002 for chunks 11-15
+2025-03-13 21:45:08,981 - INFO - Created thread for seeder 196.47.194.183:7003 for chunks 16-20
+2025-03-13 21:45:08,982 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7000)
+2025-03-13 21:45:08,984 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7001)
+2025-03-13 21:45:08,984 - INFO - Connected to seeder ('196.47.194.183', 7000)
+2025-03-13 21:45:08,985 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7002)
+2025-03-13 21:45:08,985 - INFO - Connected to seeder ('196.47.194.183', 7001)
+2025-03-13 21:45:08,985 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7003)
+2025-03-13 21:45:08,986 - INFO - Connected to seeder ('196.47.194.183', 7003)
+2025-03-13 21:45:08,988 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:45:08,988 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:45:08,990 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-13 21:45:08,990 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-13 21:45:08,990 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:45:08,990 - INFO - Requesting chunk 0
+2025-03-13 21:45:08,990 - INFO - Requesting chunk 6
+2025-03-13 21:45:08,992 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-13 21:45:08,992 - INFO - Requesting chunk 16
+2025-03-13 21:45:09,004 - INFO - Connected to seeder ('196.47.194.183', 7002)
+2025-03-13 21:45:09,006 - INFO - Total chunks reported by seeder: 21
+2025-03-13 21:45:09,007 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-13 21:45:09,007 - INFO - Requesting chunk 11
+2025-03-13 21:45:09,060 - INFO - Chunk 6 written: 524288 bytes
+2025-03-13 21:45:09,062 - INFO - Requesting chunk 7
+2025-03-13 21:45:09,086 - INFO - Chunk 0 written: 524288 bytes
+2025-03-13 21:45:09,086 - INFO - Requesting chunk 1
+2025-03-13 21:45:09,157 - INFO - Chunk 16 written: 524288 bytes
+2025-03-13 21:45:09,158 - INFO - Requesting chunk 17
+2025-03-13 21:45:09,183 - INFO - Chunk 7 written: 524288 bytes
+2025-03-13 21:45:09,183 - INFO - Requesting chunk 8
+2025-03-13 21:45:09,199 - INFO - Chunk 1 written: 524288 bytes
+2025-03-13 21:45:09,200 - INFO - Requesting chunk 2
+2025-03-13 21:45:09,268 - INFO - Chunk 8 written: 524288 bytes
+2025-03-13 21:45:09,268 - INFO - Requesting chunk 9
+2025-03-13 21:45:09,286 - INFO - Chunk 2 written: 524288 bytes
+2025-03-13 21:45:09,286 - INFO - Requesting chunk 3
+2025-03-13 21:45:09,355 - INFO - Chunk 3 written: 524288 bytes
+2025-03-13 21:45:09,356 - INFO - Requesting chunk 4
+2025-03-13 21:45:09,404 - INFO - Chunk 11 written: 524288 bytes
+2025-03-13 21:45:09,405 - INFO - Requesting chunk 12
+2025-03-13 21:45:09,424 - INFO - Chunk 4 written: 524288 bytes
+2025-03-13 21:45:09,424 - INFO - Requesting chunk 5
+2025-03-13 21:45:09,568 - INFO - Chunk 17 written: 524288 bytes
+2025-03-13 21:45:09,568 - INFO - Requesting chunk 18
+2025-03-13 21:45:09,613 - INFO - Chunk 9 written: 524288 bytes
+2025-03-13 21:45:09,613 - INFO - Requesting chunk 10
+2025-03-13 21:45:09,693 - INFO - Chunk 12 written: 524288 bytes
+2025-03-13 21:45:09,695 - INFO - Requesting chunk 13
+2025-03-13 21:45:09,776 - INFO - Chunk 5 written: 524288 bytes
+2025-03-13 21:45:09,777 - INFO - Chunks 0-5 download completed
+2025-03-13 21:45:09,778 - DEBUG - Closed TCP connection
+2025-03-13 21:45:09,919 - INFO - Chunk 13 written: 524288 bytes
+2025-03-13 21:45:09,920 - INFO - Requesting chunk 14
+2025-03-13 21:45:09,937 - INFO - Chunk 18 written: 524288 bytes
+2025-03-13 21:45:09,938 - INFO - Requesting chunk 19
+2025-03-13 21:45:09,955 - INFO - Chunk 10 written: 524288 bytes
+2025-03-13 21:45:09,956 - INFO - Chunks 6-10 download completed
+2025-03-13 21:45:09,956 - DEBUG - Closed TCP connection
+2025-03-13 21:45:10,001 - INFO - Chunk 14 written: 524288 bytes
+2025-03-13 21:45:10,002 - INFO - Requesting chunk 15
+2025-03-13 21:45:10,018 - INFO - Chunk 19 written: 524288 bytes
+2025-03-13 21:45:10,019 - INFO - Requesting chunk 20
+2025-03-13 21:45:10,099 - INFO - Chunk 15 written: 524288 bytes
+2025-03-13 21:45:10,100 - INFO - Chunks 11-15 download completed
+2025-03-13 21:45:10,101 - DEBUG - Closed TCP connection
+2025-03-13 21:46:40,058 - WARNING - Timeout while downloading chunk 20, but received 172 bytes
+2025-03-13 21:46:40,077 - INFO - Chunk 20 written: 172 bytes
+2025-03-13 21:46:40,078 - INFO - Chunks 16-20 download completed
+2025-03-13 21:46:40,079 - DEBUG - Closed TCP connection
+2025-03-13 21:46:40,079 - INFO - All download threads completed
+2025-03-13 21:46:40,080 - INFO - Download complete. File size: 10485932 bytes
+2025-03-13 22:06:28,181 - DEBUG - Sending seeders request to tracker
+2025-03-13 22:06:28,183 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21', '196.47.194.183:7001:0', '196.47.194.183:7002:0', '196.47.194.183:7003:0', '196.47.194.183:7004:0']
+2025-03-13 22:06:28,186 - INFO - Total chunks for file: 21
+2025-03-13 22:06:28,188 - INFO - Chunk distribution: [('196.47.194.183:7000', 0, 4), ('196.47.194.183:7001', 5, 8), ('196.47.194.183:7002', 9, 12), ('196.47.194.183:7003', 13, 16), ('196.47.194.183:7004', 17, 20)]
+2025-03-13 22:06:28,189 - INFO - Created thread for seeder 196.47.194.183:7000 for chunks 0-4
+2025-03-13 22:06:28,189 - INFO - Created thread for seeder 196.47.194.183:7001 for chunks 5-8
+2025-03-13 22:06:28,189 - INFO - Created thread for seeder 196.47.194.183:7002 for chunks 9-12
+2025-03-13 22:06:28,190 - INFO - Created thread for seeder 196.47.194.183:7003 for chunks 13-16
+2025-03-13 22:06:28,190 - INFO - Created thread for seeder 196.47.194.183:7004 for chunks 17-20
+2025-03-13 22:06:28,231 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7000)
+2025-03-13 22:06:28,232 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7001)
+2025-03-13 22:06:28,233 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7002)
+2025-03-13 22:06:28,233 - INFO - Connected to seeder ('196.47.194.183', 7001)
+2025-03-13 22:06:28,233 - INFO - Connected to seeder ('196.47.194.183', 7000)
+2025-03-13 22:06:28,235 - INFO - Connected to seeder ('196.47.194.183', 7002)
+2025-03-13 22:06:28,237 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7003)
+2025-03-13 22:06:28,238 - DEBUG - Attempting to connect to seeder: ('196.47.194.183', 7004)
+2025-03-13 22:06:28,239 - INFO - Connected to seeder ('196.47.194.183', 7003)
+2025-03-13 22:06:28,240 - INFO - Connected to seeder ('196.47.194.183', 7004)
+2025-03-13 22:06:28,241 - INFO - Total chunks reported by seeder: 21
+2025-03-13 22:06:28,241 - INFO - Total chunks reported by seeder: 21
+2025-03-13 22:06:28,242 - INFO - Total chunks reported by seeder: 21
+2025-03-13 22:06:28,243 - INFO - Seeder accepted chunk range from 5 to 8
+2025-03-13 22:06:28,243 - INFO - Seeder accepted chunk range from 0 to 4
+2025-03-13 22:06:28,243 - INFO - Total chunks reported by seeder: 21
+2025-03-13 22:06:28,244 - INFO - Total chunks reported by seeder: 21
+2025-03-13 22:06:28,244 - INFO - Seeder accepted chunk range from 9 to 12
+2025-03-13 22:06:28,244 - INFO - Requesting chunk 5
+2025-03-13 22:06:28,244 - INFO - Requesting chunk 0
+2025-03-13 22:06:28,247 - INFO - Requesting chunk 9
+2025-03-13 22:06:28,250 - INFO - Seeder accepted chunk range from 13 to 16
+2025-03-13 22:06:28,251 - INFO - Seeder accepted chunk range from 17 to 20
+2025-03-13 22:06:28,252 - INFO - Requesting chunk 13
+2025-03-13 22:06:28,252 - INFO - Requesting chunk 17
+2025-03-13 22:06:28,288 - INFO - Chunk 5 written: 524288 bytes
+2025-03-13 22:06:28,290 - INFO - Requesting chunk 6
+2025-03-13 22:06:28,337 - INFO - Chunk 0 written: 524288 bytes
+2025-03-13 22:06:28,340 - INFO - Requesting chunk 1
+2025-03-13 22:06:28,364 - INFO - Chunk 9 written: 524288 bytes
+2025-03-13 22:06:28,364 - INFO - Requesting chunk 10
+2025-03-13 22:06:28,384 - INFO - Chunk 13 written: 524288 bytes
+2025-03-13 22:06:28,385 - INFO - Requesting chunk 14
+2025-03-13 22:06:28,402 - INFO - Chunk 17 written: 524288 bytes
+2025-03-13 22:06:28,403 - INFO - Requesting chunk 18
+2025-03-13 22:06:28,420 - INFO - Chunk 6 written: 524288 bytes
+2025-03-13 22:06:28,421 - INFO - Requesting chunk 7
+2025-03-13 22:06:28,441 - INFO - Chunk 1 written: 524288 bytes
+2025-03-13 22:06:28,442 - INFO - Requesting chunk 2
+2025-03-13 22:06:28,459 - INFO - Chunk 10 written: 524288 bytes
+2025-03-13 22:06:28,460 - INFO - Requesting chunk 11
+2025-03-13 22:06:28,479 - INFO - Chunk 14 written: 524288 bytes
+2025-03-13 22:06:28,480 - INFO - Requesting chunk 15
+2025-03-13 22:06:28,501 - INFO - Chunk 18 written: 524288 bytes
+2025-03-13 22:06:28,502 - INFO - Requesting chunk 19
+2025-03-13 22:06:28,519 - INFO - Chunk 7 written: 524288 bytes
+2025-03-13 22:06:28,519 - INFO - Requesting chunk 8
+2025-03-13 22:06:28,538 - INFO - Chunk 2 written: 524288 bytes
+2025-03-13 22:06:28,538 - INFO - Requesting chunk 3
+2025-03-13 22:06:28,558 - INFO - Chunk 11 written: 524288 bytes
+2025-03-13 22:06:28,559 - INFO - Requesting chunk 12
+2025-03-13 22:06:28,576 - INFO - Chunk 15 written: 524288 bytes
+2025-03-13 22:06:28,577 - INFO - Requesting chunk 16
+2025-03-13 22:06:28,597 - INFO - Chunk 8 written: 524288 bytes
+2025-03-13 22:06:28,598 - INFO - Chunks 5-8 download completed
+2025-03-13 22:06:28,599 - DEBUG - Closed TCP connection
+2025-03-13 22:06:28,616 - INFO - Chunk 3 written: 524288 bytes
+2025-03-13 22:06:28,617 - INFO - Requesting chunk 4
+2025-03-13 22:06:28,636 - INFO - Chunk 12 written: 524288 bytes
+2025-03-13 22:06:28,636 - INFO - Chunks 9-12 download completed
+2025-03-13 22:06:28,637 - DEBUG - Closed TCP connection
+2025-03-13 22:06:28,654 - INFO - Chunk 4 written: 524288 bytes
+2025-03-13 22:06:28,654 - INFO - Chunks 0-4 download completed
+2025-03-13 22:06:28,655 - DEBUG - Closed TCP connection
+2025-03-13 22:06:28,838 - INFO - Chunk 19 written: 524288 bytes
+2025-03-13 22:06:28,838 - INFO - Requesting chunk 20
+2025-03-13 22:06:28,920 - INFO - Chunk 16 written: 524288 bytes
+2025-03-13 22:06:28,921 - INFO - Chunks 13-16 download completed
+2025-03-13 22:06:28,922 - DEBUG - Closed TCP connection
+2025-03-13 22:07:58,849 - WARNING - Timeout while downloading chunk 20, but received 172 bytes
+2025-03-13 22:07:58,884 - INFO - Chunk 20 written: 172 bytes
+2025-03-13 22:07:58,885 - INFO - Chunks 17-20 download completed
+2025-03-13 22:07:58,885 - DEBUG - Closed TCP connection
+2025-03-13 22:07:58,886 - INFO - All download threads completed
+2025-03-13 22:07:58,886 - INFO - Download complete. File size: 10485932 bytes
+2025-03-13 22:22:38,314 - DEBUG - Sending seeders request to tracker
+2025-03-13 22:22:38,339 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21']
+2025-03-13 22:22:38,339 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
