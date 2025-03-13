@@ -178,3 +178,858 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2025-03-12 13:22:25,386 - INFO - Chunk 6 written: 524288 bytes
 2025-03-12 13:22:25,387 - INFO - File download completed
 2025-03-12 13:22:25,388 - DEBUG - Closed TCP connection
+2025-03-12 16:05:32,032 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:05:32,037 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:05:32,038 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:05:32,039 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:05:32,044 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:05:32,046 - INFO - Requesting chunk 0
+2025-03-12 16:05:32,071 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:05:32,072 - INFO - Requesting chunk 1
+2025-03-12 16:05:32,092 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:05:32,094 - INFO - Requesting chunk 2
+2025-03-12 16:05:32,118 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:05:32,121 - INFO - Requesting chunk 3
+2025-03-12 16:05:32,143 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:05:32,144 - INFO - Requesting chunk 4
+2025-03-12 16:05:32,175 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:05:32,179 - INFO - Requesting chunk 5
+2025-03-12 16:05:32,200 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:05:32,209 - INFO - Requesting chunk 6
+2025-03-12 16:05:32,244 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:05:32,249 - INFO - File download completed
+2025-03-12 16:05:32,251 - DEBUG - Closed TCP connection
+2025-03-12 16:06:15,933 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:06:15,936 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:06:15,937 - ERROR - No seeders available.
+2025-03-12 16:06:15,937 - ERROR - No seeders found. Exiting.
+2025-03-12 16:06:26,770 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:06:26,773 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:06:26,774 - ERROR - No seeders available.
+2025-03-12 16:06:26,775 - ERROR - No seeders found. Exiting.
+2025-03-12 16:06:46,017 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:06:46,020 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:06:46,021 - ERROR - No seeders available.
+2025-03-12 16:06:46,021 - ERROR - No seeders found. Exiting.
+2025-03-12 16:07:08,466 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:08,469 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:08,470 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:08,491 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:08,494 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:08,496 - INFO - Requesting chunk 0
+2025-03-12 16:07:08,509 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:08,509 - INFO - Requesting chunk 1
+2025-03-12 16:07:08,522 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:08,525 - INFO - Requesting chunk 2
+2025-03-12 16:07:08,537 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:08,538 - INFO - Requesting chunk 3
+2025-03-12 16:07:08,546 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:08,550 - INFO - Requesting chunk 4
+2025-03-12 16:07:08,559 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:08,560 - INFO - Requesting chunk 5
+2025-03-12 16:07:08,573 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:08,574 - INFO - Requesting chunk 6
+2025-03-12 16:07:08,587 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:08,588 - INFO - File download completed
+2025-03-12 16:07:08,589 - DEBUG - Closed TCP connection
+2025-03-12 16:07:19,335 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:19,344 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:19,371 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:19,374 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:19,388 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:19,391 - INFO - Requesting chunk 0
+2025-03-12 16:07:19,424 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:19,425 - INFO - Requesting chunk 1
+2025-03-12 16:07:19,437 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:19,441 - INFO - Requesting chunk 2
+2025-03-12 16:07:19,454 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:19,454 - INFO - Requesting chunk 3
+2025-03-12 16:07:19,512 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:19,515 - INFO - Requesting chunk 4
+2025-03-12 16:07:19,523 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:19,524 - INFO - Requesting chunk 5
+2025-03-12 16:07:19,534 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:19,537 - INFO - Requesting chunk 6
+2025-03-12 16:07:19,544 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:19,550 - INFO - File download completed
+2025-03-12 16:07:19,552 - DEBUG - Closed TCP connection
+2025-03-12 16:07:21,649 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:21,652 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:21,653 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:21,655 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:21,658 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:21,661 - INFO - Requesting chunk 0
+2025-03-12 16:07:21,685 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:21,686 - INFO - Requesting chunk 1
+2025-03-12 16:07:21,764 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:21,765 - INFO - Requesting chunk 2
+2025-03-12 16:07:21,788 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:21,788 - INFO - Requesting chunk 3
+2025-03-12 16:07:22,095 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:22,100 - INFO - Requesting chunk 4
+2025-03-12 16:07:22,427 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:22,428 - INFO - Requesting chunk 5
+2025-03-12 16:07:22,451 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:22,452 - INFO - Requesting chunk 6
+2025-03-12 16:07:22,471 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:22,472 - INFO - File download completed
+2025-03-12 16:07:22,472 - DEBUG - Closed TCP connection
+2025-03-12 16:07:24,919 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:24,922 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:24,923 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:24,924 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:24,930 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:25,257 - INFO - Requesting chunk 0
+2025-03-12 16:07:25,570 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:25,623 - INFO - Requesting chunk 1
+2025-03-12 16:07:25,664 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:25,671 - INFO - Requesting chunk 2
+2025-03-12 16:07:25,690 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:25,691 - INFO - Requesting chunk 3
+2025-03-12 16:07:25,704 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:25,706 - INFO - Requesting chunk 4
+2025-03-12 16:07:25,713 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:25,718 - INFO - Requesting chunk 5
+2025-03-12 16:07:25,725 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:25,726 - INFO - Requesting chunk 6
+2025-03-12 16:07:25,739 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:25,740 - INFO - File download completed
+2025-03-12 16:07:25,741 - DEBUG - Closed TCP connection
+2025-03-12 16:07:26,945 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:26,947 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:26,948 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:26,950 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:26,954 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:26,957 - INFO - Requesting chunk 0
+2025-03-12 16:07:26,982 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:26,983 - INFO - Requesting chunk 1
+2025-03-12 16:07:27,006 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:27,006 - INFO - Requesting chunk 2
+2025-03-12 16:07:27,026 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:27,027 - INFO - Requesting chunk 3
+2025-03-12 16:07:27,361 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:27,364 - INFO - Requesting chunk 4
+2025-03-12 16:07:27,686 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:27,687 - INFO - Requesting chunk 5
+2025-03-12 16:07:27,709 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:27,717 - INFO - Requesting chunk 6
+2025-03-12 16:07:27,740 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:27,741 - INFO - File download completed
+2025-03-12 16:07:27,742 - DEBUG - Closed TCP connection
+2025-03-12 16:07:30,066 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:30,069 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:30,070 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:30,072 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:30,075 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:30,078 - INFO - Requesting chunk 0
+2025-03-12 16:07:30,091 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:30,091 - INFO - Requesting chunk 1
+2025-03-12 16:07:30,106 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:30,106 - INFO - Requesting chunk 2
+2025-03-12 16:07:30,117 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:30,119 - INFO - Requesting chunk 3
+2025-03-12 16:07:30,127 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:30,131 - INFO - Requesting chunk 4
+2025-03-12 16:07:30,142 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:30,142 - INFO - Requesting chunk 5
+2025-03-12 16:07:30,155 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:30,158 - INFO - Requesting chunk 6
+2025-03-12 16:07:30,169 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:30,170 - INFO - File download completed
+2025-03-12 16:07:30,172 - DEBUG - Closed TCP connection
+2025-03-12 16:07:31,402 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:31,406 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:31,408 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:31,409 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:31,417 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:31,419 - INFO - Requesting chunk 0
+2025-03-12 16:07:31,439 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:31,439 - INFO - Requesting chunk 1
+2025-03-12 16:07:31,463 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:31,466 - INFO - Requesting chunk 2
+2025-03-12 16:07:31,489 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:31,490 - INFO - Requesting chunk 3
+2025-03-12 16:07:31,515 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:31,516 - INFO - Requesting chunk 4
+2025-03-12 16:07:31,540 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:31,541 - INFO - Requesting chunk 5
+2025-03-12 16:07:31,567 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:31,567 - INFO - Requesting chunk 6
+2025-03-12 16:07:31,593 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:31,598 - INFO - File download completed
+2025-03-12 16:07:31,601 - DEBUG - Closed TCP connection
+2025-03-12 16:07:32,447 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:32,451 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:32,452 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:32,454 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:32,457 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:32,459 - INFO - Requesting chunk 0
+2025-03-12 16:07:32,482 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:32,485 - INFO - Requesting chunk 1
+2025-03-12 16:07:32,505 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:32,505 - INFO - Requesting chunk 2
+2025-03-12 16:07:32,528 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:32,531 - INFO - Requesting chunk 3
+2025-03-12 16:07:32,554 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:32,554 - INFO - Requesting chunk 4
+2025-03-12 16:07:32,575 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:32,576 - INFO - Requesting chunk 5
+2025-03-12 16:07:32,602 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:32,604 - INFO - Requesting chunk 6
+2025-03-12 16:07:32,624 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:32,625 - INFO - File download completed
+2025-03-12 16:07:32,626 - DEBUG - Closed TCP connection
+2025-03-12 16:07:33,998 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:34,002 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:34,002 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:34,004 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:34,007 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:34,009 - INFO - Requesting chunk 0
+2025-03-12 16:07:34,036 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:34,038 - INFO - Requesting chunk 1
+2025-03-12 16:07:34,070 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:34,071 - INFO - Requesting chunk 2
+2025-03-12 16:07:34,091 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:34,092 - INFO - Requesting chunk 3
+2025-03-12 16:07:34,120 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:34,121 - INFO - Requesting chunk 4
+2025-03-12 16:07:34,145 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:34,150 - INFO - Requesting chunk 5
+2025-03-12 16:07:34,175 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:34,176 - INFO - Requesting chunk 6
+2025-03-12 16:07:34,200 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:34,201 - INFO - File download completed
+2025-03-12 16:07:34,203 - DEBUG - Closed TCP connection
+2025-03-12 16:07:35,309 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:35,314 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:35,315 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:35,317 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:35,321 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:35,323 - INFO - Requesting chunk 0
+2025-03-12 16:07:35,337 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:35,339 - INFO - Requesting chunk 1
+2025-03-12 16:07:35,351 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:35,354 - INFO - Requesting chunk 2
+2025-03-12 16:07:35,361 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:35,367 - INFO - Requesting chunk 3
+2025-03-12 16:07:35,384 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:35,385 - INFO - Requesting chunk 4
+2025-03-12 16:07:35,391 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:35,392 - INFO - Requesting chunk 5
+2025-03-12 16:07:35,404 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:35,405 - INFO - Requesting chunk 6
+2025-03-12 16:07:35,717 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:35,719 - INFO - File download completed
+2025-03-12 16:07:35,720 - DEBUG - Closed TCP connection
+2025-03-12 16:07:36,697 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:36,701 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:36,702 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:36,704 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:36,708 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:36,710 - INFO - Requesting chunk 0
+2025-03-12 16:07:36,734 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:36,737 - INFO - Requesting chunk 1
+2025-03-12 16:07:36,758 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:36,759 - INFO - Requesting chunk 2
+2025-03-12 16:07:36,787 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:36,788 - INFO - Requesting chunk 3
+2025-03-12 16:07:36,809 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:36,810 - INFO - Requesting chunk 4
+2025-03-12 16:07:36,833 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:36,835 - INFO - Requesting chunk 5
+2025-03-12 16:07:36,857 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:36,858 - INFO - Requesting chunk 6
+2025-03-12 16:07:36,883 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:36,885 - INFO - File download completed
+2025-03-12 16:07:36,886 - DEBUG - Closed TCP connection
+2025-03-12 16:07:38,268 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:38,271 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:38,272 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:38,275 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:38,282 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:38,285 - INFO - Requesting chunk 0
+2025-03-12 16:07:38,292 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:38,292 - INFO - Requesting chunk 1
+2025-03-12 16:07:38,306 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:38,307 - INFO - Requesting chunk 2
+2025-03-12 16:07:38,318 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:38,319 - INFO - Requesting chunk 3
+2025-03-12 16:07:38,326 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:38,332 - INFO - Requesting chunk 4
+2025-03-12 16:07:38,340 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:38,340 - INFO - Requesting chunk 5
+2025-03-12 16:07:38,354 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:38,354 - INFO - Requesting chunk 6
+2025-03-12 16:07:38,362 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:38,368 - INFO - File download completed
+2025-03-12 16:07:38,369 - DEBUG - Closed TCP connection
+2025-03-12 16:07:39,310 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:39,315 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:39,316 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:39,317 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:39,321 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:39,324 - INFO - Requesting chunk 0
+2025-03-12 16:07:39,338 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:39,338 - INFO - Requesting chunk 1
+2025-03-12 16:07:39,346 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:39,351 - INFO - Requesting chunk 2
+2025-03-12 16:07:39,357 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:39,357 - INFO - Requesting chunk 3
+2025-03-12 16:07:39,674 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:39,675 - INFO - Requesting chunk 4
+2025-03-12 16:07:39,686 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:39,686 - INFO - Requesting chunk 5
+2025-03-12 16:07:40,002 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:40,005 - INFO - Requesting chunk 6
+2025-03-12 16:07:40,018 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:40,020 - INFO - File download completed
+2025-03-12 16:07:40,020 - DEBUG - Closed TCP connection
+2025-03-12 16:07:44,360 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:44,363 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:44,363 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:44,365 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:44,368 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:44,370 - INFO - Requesting chunk 0
+2025-03-12 16:07:44,391 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:44,392 - INFO - Requesting chunk 1
+2025-03-12 16:07:44,413 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:44,415 - INFO - Requesting chunk 2
+2025-03-12 16:07:44,433 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:44,434 - INFO - Requesting chunk 3
+2025-03-12 16:07:44,454 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:44,454 - INFO - Requesting chunk 4
+2025-03-12 16:07:44,475 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:44,475 - INFO - Requesting chunk 5
+2025-03-12 16:07:44,500 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:44,500 - INFO - Requesting chunk 6
+2025-03-12 16:07:44,520 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:44,522 - INFO - File download completed
+2025-03-12 16:07:44,522 - DEBUG - Closed TCP connection
+2025-03-12 16:07:46,024 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:46,027 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:46,029 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:46,030 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:46,033 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:46,037 - INFO - Requesting chunk 0
+2025-03-12 16:07:46,046 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:46,048 - INFO - Requesting chunk 1
+2025-03-12 16:07:46,058 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:46,059 - INFO - Requesting chunk 2
+2025-03-12 16:07:46,070 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:46,071 - INFO - Requesting chunk 3
+2025-03-12 16:07:46,077 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:46,083 - INFO - Requesting chunk 4
+2025-03-12 16:07:46,091 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:46,091 - INFO - Requesting chunk 5
+2025-03-12 16:07:46,105 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:46,106 - INFO - Requesting chunk 6
+2025-03-12 16:07:46,119 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:46,120 - INFO - File download completed
+2025-03-12 16:07:46,120 - DEBUG - Closed TCP connection
+2025-03-12 16:07:47,540 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:07:47,545 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:07:47,545 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:07:47,548 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:07:47,550 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:07:47,603 - INFO - Requesting chunk 0
+2025-03-12 16:07:47,625 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:07:47,625 - INFO - Requesting chunk 1
+2025-03-12 16:07:47,647 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:07:47,650 - INFO - Requesting chunk 2
+2025-03-12 16:07:47,670 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:07:47,670 - INFO - Requesting chunk 3
+2025-03-12 16:07:47,691 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:07:47,691 - INFO - Requesting chunk 4
+2025-03-12 16:07:47,717 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:07:47,718 - INFO - Requesting chunk 5
+2025-03-12 16:07:47,739 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:07:47,739 - INFO - Requesting chunk 6
+2025-03-12 16:07:47,767 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:07:47,769 - INFO - File download completed
+2025-03-12 16:07:47,771 - DEBUG - Closed TCP connection
+2025-03-12 16:08:07,729 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:07,733 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:08:07,734 - ERROR - No seeders available.
+2025-03-12 16:08:07,734 - ERROR - No seeders found. Exiting.
+2025-03-12 16:08:08,910 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:08,914 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:08:08,915 - ERROR - No seeders available.
+2025-03-12 16:08:08,915 - ERROR - No seeders found. Exiting.
+2025-03-12 16:08:23,404 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:23,410 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:23,411 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:23,412 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:23,415 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:23,418 - INFO - Requesting chunk 0
+2025-03-12 16:08:23,730 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:23,733 - INFO - Requesting chunk 1
+2025-03-12 16:08:24,065 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:24,065 - INFO - Requesting chunk 2
+2025-03-12 16:08:24,082 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:24,084 - INFO - Requesting chunk 3
+2025-03-12 16:08:24,096 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:24,098 - INFO - Requesting chunk 4
+2025-03-12 16:08:24,106 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:24,107 - INFO - Requesting chunk 5
+2025-03-12 16:08:24,423 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:24,427 - INFO - Requesting chunk 6
+2025-03-12 16:08:24,443 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:24,450 - INFO - File download completed
+2025-03-12 16:08:24,451 - DEBUG - Closed TCP connection
+2025-03-12 16:08:29,442 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:29,446 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:29,447 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:29,448 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:29,452 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:29,454 - INFO - Requesting chunk 0
+2025-03-12 16:08:29,480 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:29,487 - INFO - Requesting chunk 1
+2025-03-12 16:08:29,509 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:29,512 - INFO - Requesting chunk 2
+2025-03-12 16:08:29,533 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:29,534 - INFO - Requesting chunk 3
+2025-03-12 16:08:29,555 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:29,556 - INFO - Requesting chunk 4
+2025-03-12 16:08:29,585 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:29,585 - INFO - Requesting chunk 5
+2025-03-12 16:08:29,604 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:29,605 - INFO - Requesting chunk 6
+2025-03-12 16:08:29,633 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:29,635 - INFO - File download completed
+2025-03-12 16:08:29,636 - DEBUG - Closed TCP connection
+2025-03-12 16:08:40,065 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:40,067 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:40,068 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:40,071 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:40,080 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:40,081 - INFO - Requesting chunk 0
+2025-03-12 16:08:40,101 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:40,102 - INFO - Requesting chunk 1
+2025-03-12 16:08:40,122 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:40,122 - INFO - Requesting chunk 2
+2025-03-12 16:08:40,146 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:40,146 - INFO - Requesting chunk 3
+2025-03-12 16:08:40,166 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:40,167 - INFO - Requesting chunk 4
+2025-03-12 16:08:40,196 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:40,197 - INFO - Requesting chunk 5
+2025-03-12 16:08:40,218 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:40,219 - INFO - Requesting chunk 6
+2025-03-12 16:08:40,239 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:40,246 - INFO - File download completed
+2025-03-12 16:08:40,247 - DEBUG - Closed TCP connection
+2025-03-12 16:08:41,307 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:41,319 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:41,330 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:41,333 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:41,345 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:41,348 - INFO - Requesting chunk 0
+2025-03-12 16:08:41,379 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:41,382 - INFO - Requesting chunk 1
+2025-03-12 16:08:41,412 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:41,412 - INFO - Requesting chunk 2
+2025-03-12 16:08:41,433 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:41,434 - INFO - Requesting chunk 3
+2025-03-12 16:08:41,455 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:41,456 - INFO - Requesting chunk 4
+2025-03-12 16:08:41,480 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:41,480 - INFO - Requesting chunk 5
+2025-03-12 16:08:41,504 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:41,505 - INFO - Requesting chunk 6
+2025-03-12 16:08:41,529 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:41,532 - INFO - File download completed
+2025-03-12 16:08:41,533 - DEBUG - Closed TCP connection
+2025-03-12 16:08:43,002 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:43,005 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:43,005 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:43,009 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:43,013 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:43,016 - INFO - Requesting chunk 0
+2025-03-12 16:08:43,035 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:43,036 - INFO - Requesting chunk 1
+2025-03-12 16:08:43,063 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:43,063 - INFO - Requesting chunk 2
+2025-03-12 16:08:43,083 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:43,084 - INFO - Requesting chunk 3
+2025-03-12 16:08:43,104 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:43,105 - INFO - Requesting chunk 4
+2025-03-12 16:08:43,132 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:43,132 - INFO - Requesting chunk 5
+2025-03-12 16:08:43,155 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:43,156 - INFO - Requesting chunk 6
+2025-03-12 16:08:43,184 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:43,185 - INFO - File download completed
+2025-03-12 16:08:43,186 - DEBUG - Closed TCP connection
+2025-03-12 16:08:44,243 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:44,249 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:44,250 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:44,251 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:44,258 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:44,262 - INFO - Requesting chunk 0
+2025-03-12 16:08:44,272 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:44,280 - INFO - Requesting chunk 1
+2025-03-12 16:08:44,288 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:44,293 - INFO - Requesting chunk 2
+2025-03-12 16:08:44,302 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:44,303 - INFO - Requesting chunk 3
+2025-03-12 16:08:44,316 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:44,317 - INFO - Requesting chunk 4
+2025-03-12 16:08:44,330 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:44,331 - INFO - Requesting chunk 5
+2025-03-12 16:08:44,337 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:44,338 - INFO - Requesting chunk 6
+2025-03-12 16:08:44,350 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:44,351 - INFO - File download completed
+2025-03-12 16:08:44,351 - DEBUG - Closed TCP connection
+2025-03-12 16:08:45,315 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:45,319 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:45,321 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:45,328 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:45,332 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:45,335 - INFO - Requesting chunk 0
+2025-03-12 16:08:45,362 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:45,366 - INFO - Requesting chunk 1
+2025-03-12 16:08:45,703 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:45,709 - INFO - Requesting chunk 2
+2025-03-12 16:08:45,733 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:45,734 - INFO - Requesting chunk 3
+2025-03-12 16:08:45,754 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:45,754 - INFO - Requesting chunk 4
+2025-03-12 16:08:45,781 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:45,782 - INFO - Requesting chunk 5
+2025-03-12 16:08:45,802 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:45,803 - INFO - Requesting chunk 6
+2025-03-12 16:08:45,835 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:45,837 - INFO - File download completed
+2025-03-12 16:08:45,838 - DEBUG - Closed TCP connection
+2025-03-12 16:08:46,530 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:46,533 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:46,535 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:46,537 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:46,545 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:46,547 - INFO - Requesting chunk 0
+2025-03-12 16:08:46,887 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:46,888 - INFO - Requesting chunk 1
+2025-03-12 16:08:46,920 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:46,921 - INFO - Requesting chunk 2
+2025-03-12 16:08:46,944 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:46,951 - INFO - Requesting chunk 3
+2025-03-12 16:08:46,979 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:46,979 - INFO - Requesting chunk 4
+2025-03-12 16:08:47,000 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:47,003 - INFO - Requesting chunk 5
+2025-03-12 16:08:47,029 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:47,029 - INFO - Requesting chunk 6
+2025-03-12 16:08:47,051 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:47,052 - INFO - File download completed
+2025-03-12 16:08:47,054 - DEBUG - Closed TCP connection
+2025-03-12 16:08:49,232 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:49,237 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:49,239 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:49,243 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:49,250 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:49,253 - INFO - Requesting chunk 0
+2025-03-12 16:08:49,268 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:49,269 - INFO - Requesting chunk 1
+2025-03-12 16:08:49,282 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:49,285 - INFO - Requesting chunk 2
+2025-03-12 16:08:49,297 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:49,298 - INFO - Requesting chunk 3
+2025-03-12 16:08:49,305 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:49,309 - INFO - Requesting chunk 4
+2025-03-12 16:08:49,318 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:49,318 - INFO - Requesting chunk 5
+2025-03-12 16:08:49,331 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:49,332 - INFO - Requesting chunk 6
+2025-03-12 16:08:49,338 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:49,340 - INFO - File download completed
+2025-03-12 16:08:49,345 - DEBUG - Closed TCP connection
+2025-03-12 16:08:50,371 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:50,376 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:50,379 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:50,381 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:50,384 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:50,386 - INFO - Requesting chunk 0
+2025-03-12 16:08:50,409 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:50,413 - INFO - Requesting chunk 1
+2025-03-12 16:08:50,433 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:50,433 - INFO - Requesting chunk 2
+2025-03-12 16:08:50,454 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:50,455 - INFO - Requesting chunk 3
+2025-03-12 16:08:50,487 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:50,488 - INFO - Requesting chunk 4
+2025-03-12 16:08:50,518 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:50,519 - INFO - Requesting chunk 5
+2025-03-12 16:08:50,542 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:50,545 - INFO - Requesting chunk 6
+2025-03-12 16:08:50,566 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:50,567 - INFO - File download completed
+2025-03-12 16:08:50,569 - DEBUG - Closed TCP connection
+2025-03-12 16:08:51,284 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:51,288 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:51,290 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:51,294 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:51,298 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:51,300 - INFO - Requesting chunk 0
+2025-03-12 16:08:51,327 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:51,329 - INFO - Requesting chunk 1
+2025-03-12 16:08:51,350 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:51,351 - INFO - Requesting chunk 2
+2025-03-12 16:08:51,371 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:51,372 - INFO - Requesting chunk 3
+2025-03-12 16:08:51,397 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:51,397 - INFO - Requesting chunk 4
+2025-03-12 16:08:51,418 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:51,418 - INFO - Requesting chunk 5
+2025-03-12 16:08:51,440 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:51,443 - INFO - Requesting chunk 6
+2025-03-12 16:08:51,464 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:51,465 - INFO - File download completed
+2025-03-12 16:08:51,466 - DEBUG - Closed TCP connection
+2025-03-12 16:08:52,892 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:52,895 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:52,896 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:52,898 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:52,901 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:52,904 - INFO - Requesting chunk 0
+2025-03-12 16:08:52,926 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:52,927 - INFO - Requesting chunk 1
+2025-03-12 16:08:52,954 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:52,955 - INFO - Requesting chunk 2
+2025-03-12 16:08:52,985 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:52,985 - INFO - Requesting chunk 3
+2025-03-12 16:08:53,008 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:53,010 - INFO - Requesting chunk 4
+2025-03-12 16:08:53,029 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:53,032 - INFO - Requesting chunk 5
+2025-03-12 16:08:53,050 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:53,050 - INFO - Requesting chunk 6
+2025-03-12 16:08:53,068 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:53,070 - INFO - File download completed
+2025-03-12 16:08:53,071 - DEBUG - Closed TCP connection
+2025-03-12 16:08:53,804 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:53,809 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:53,809 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:53,811 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:53,814 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:53,816 - INFO - Requesting chunk 0
+2025-03-12 16:08:53,824 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:53,827 - INFO - Requesting chunk 1
+2025-03-12 16:08:53,835 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:53,836 - INFO - Requesting chunk 2
+2025-03-12 16:08:53,848 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:53,848 - INFO - Requesting chunk 3
+2025-03-12 16:08:53,855 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:53,859 - INFO - Requesting chunk 4
+2025-03-12 16:08:53,867 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:53,868 - INFO - Requesting chunk 5
+2025-03-12 16:08:53,881 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:53,881 - INFO - Requesting chunk 6
+2025-03-12 16:08:53,888 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:53,889 - INFO - File download completed
+2025-03-12 16:08:53,894 - DEBUG - Closed TCP connection
+2025-03-12 16:08:54,749 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:54,752 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:54,752 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:54,758 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:54,762 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:54,764 - INFO - Requesting chunk 0
+2025-03-12 16:08:54,782 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:54,783 - INFO - Requesting chunk 1
+2025-03-12 16:08:54,802 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:54,803 - INFO - Requesting chunk 2
+2025-03-12 16:08:54,823 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:54,826 - INFO - Requesting chunk 3
+2025-03-12 16:08:54,850 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:54,850 - INFO - Requesting chunk 4
+2025-03-12 16:08:54,869 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:54,870 - INFO - Requesting chunk 5
+2025-03-12 16:08:54,894 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:54,894 - INFO - Requesting chunk 6
+2025-03-12 16:08:54,914 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:54,916 - INFO - File download completed
+2025-03-12 16:08:54,917 - DEBUG - Closed TCP connection
+2025-03-12 16:08:56,036 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:56,041 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:56,042 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:56,044 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:56,048 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:56,050 - INFO - Requesting chunk 0
+2025-03-12 16:08:56,069 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:56,069 - INFO - Requesting chunk 1
+2025-03-12 16:08:56,090 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:56,093 - INFO - Requesting chunk 2
+2025-03-12 16:08:56,114 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:56,115 - INFO - Requesting chunk 3
+2025-03-12 16:08:56,132 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:56,133 - INFO - Requesting chunk 4
+2025-03-12 16:08:56,152 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:56,152 - INFO - Requesting chunk 5
+2025-03-12 16:08:56,178 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:56,179 - INFO - Requesting chunk 6
+2025-03-12 16:08:56,203 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:56,204 - INFO - File download completed
+2025-03-12 16:08:56,205 - DEBUG - Closed TCP connection
+2025-03-12 16:08:58,437 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:08:58,442 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:08:58,444 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:08:58,446 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:08:58,449 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:08:58,451 - INFO - Requesting chunk 0
+2025-03-12 16:08:58,768 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:08:58,769 - INFO - Requesting chunk 1
+2025-03-12 16:08:58,791 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:08:58,797 - INFO - Requesting chunk 2
+2025-03-12 16:08:58,819 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:08:58,820 - INFO - Requesting chunk 3
+2025-03-12 16:08:58,832 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:08:58,833 - INFO - Requesting chunk 4
+2025-03-12 16:08:58,845 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:08:58,846 - INFO - Requesting chunk 5
+2025-03-12 16:08:58,851 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:08:58,852 - INFO - Requesting chunk 6
+2025-03-12 16:08:58,864 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:08:58,877 - INFO - File download completed
+2025-03-12 16:08:58,879 - DEBUG - Closed TCP connection
+2025-03-12 16:09:02,266 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:02,269 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:09:02,269 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:09:02,271 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:09:02,278 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:09:02,281 - INFO - Requesting chunk 0
+2025-03-12 16:09:02,300 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:09:02,300 - INFO - Requesting chunk 1
+2025-03-12 16:09:02,319 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:09:02,319 - INFO - Requesting chunk 2
+2025-03-12 16:09:02,344 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:09:02,351 - INFO - Requesting chunk 3
+2025-03-12 16:09:02,375 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:09:02,378 - INFO - Requesting chunk 4
+2025-03-12 16:09:02,400 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:09:02,400 - INFO - Requesting chunk 5
+2025-03-12 16:09:02,419 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:09:02,421 - INFO - Requesting chunk 6
+2025-03-12 16:09:02,446 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:09:02,447 - INFO - File download completed
+2025-03-12 16:09:02,448 - DEBUG - Closed TCP connection
+2025-03-12 16:09:03,619 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:03,624 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:09:03,626 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:09:03,627 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:09:03,630 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:09:03,659 - INFO - Requesting chunk 0
+2025-03-12 16:09:03,681 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:09:03,682 - INFO - Requesting chunk 1
+2025-03-12 16:09:03,702 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:09:03,702 - INFO - Requesting chunk 2
+2025-03-12 16:09:03,723 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:09:03,726 - INFO - Requesting chunk 3
+2025-03-12 16:09:03,750 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:09:03,751 - INFO - Requesting chunk 4
+2025-03-12 16:09:03,773 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:09:03,778 - INFO - Requesting chunk 5
+2025-03-12 16:09:03,802 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:09:03,802 - INFO - Requesting chunk 6
+2025-03-12 16:09:03,823 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:09:03,829 - INFO - File download completed
+2025-03-12 16:09:03,830 - DEBUG - Closed TCP connection
+2025-03-12 16:09:05,243 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:05,247 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:09:05,247 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:09:05,249 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:09:05,252 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:09:05,333 - INFO - Requesting chunk 0
+2025-03-12 16:09:05,353 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:09:05,354 - INFO - Requesting chunk 1
+2025-03-12 16:09:05,366 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:09:05,367 - INFO - Requesting chunk 2
+2025-03-12 16:09:05,377 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:09:05,378 - INFO - Requesting chunk 3
+2025-03-12 16:09:05,386 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:09:05,387 - INFO - Requesting chunk 4
+2025-03-12 16:09:05,401 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:09:05,402 - INFO - Requesting chunk 5
+2025-03-12 16:09:05,417 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:09:05,417 - INFO - Requesting chunk 6
+2025-03-12 16:09:05,431 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:09:05,432 - INFO - File download completed
+2025-03-12 16:09:05,433 - DEBUG - Closed TCP connection
+2025-03-12 16:09:10,143 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:10,145 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:09:10,146 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:09:10,149 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:09:10,152 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:09:10,154 - INFO - Requesting chunk 0
+2025-03-12 16:09:10,480 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:09:10,481 - INFO - Requesting chunk 1
+2025-03-12 16:09:10,503 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:09:10,504 - INFO - Requesting chunk 2
+2025-03-12 16:09:10,524 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:09:10,528 - INFO - Requesting chunk 3
+2025-03-12 16:09:10,543 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:09:10,543 - INFO - Requesting chunk 4
+2025-03-12 16:09:10,549 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:09:10,549 - INFO - Requesting chunk 5
+2025-03-12 16:09:10,561 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:09:10,562 - INFO - Requesting chunk 6
+2025-03-12 16:09:10,570 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:09:10,571 - INFO - File download completed
+2025-03-12 16:09:10,578 - DEBUG - Closed TCP connection
+2025-03-12 16:09:33,955 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:33,959 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:09:33,959 - ERROR - No seeders available.
+2025-03-12 16:09:33,959 - ERROR - No seeders found. Exiting.
+2025-03-12 16:09:36,967 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:36,973 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:09:36,974 - ERROR - No seeders available.
+2025-03-12 16:09:36,974 - ERROR - No seeders found. Exiting.
+2025-03-12 16:09:40,848 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:40,851 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:09:40,851 - ERROR - No seeders available.
+2025-03-12 16:09:40,852 - ERROR - No seeders found. Exiting.
+2025-03-12 16:09:48,855 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:09:48,859 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-12 16:09:48,861 - ERROR - No seeders available.
+2025-03-12 16:09:48,861 - ERROR - No seeders found. Exiting.
+2025-03-12 16:10:02,287 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:10:02,290 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:10:02,291 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:10:02,294 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:10:02,297 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:10:02,299 - INFO - Requesting chunk 0
+2025-03-12 16:10:02,321 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:10:02,325 - INFO - Requesting chunk 1
+2025-03-12 16:10:02,345 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:10:02,345 - INFO - Requesting chunk 2
+2025-03-12 16:10:02,373 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:10:02,375 - INFO - Requesting chunk 3
+2025-03-12 16:10:02,394 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:10:02,395 - INFO - Requesting chunk 4
+2025-03-12 16:10:02,413 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:10:02,413 - INFO - Requesting chunk 5
+2025-03-12 16:10:02,435 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:10:02,438 - INFO - Requesting chunk 6
+2025-03-12 16:10:02,462 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:10:02,463 - INFO - File download completed
+2025-03-12 16:10:02,464 - DEBUG - Closed TCP connection
+2025-03-12 16:10:04,184 - DEBUG - Sending seeders request to tracker
+2025-03-12 16:10:04,193 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.98:7000:0']
+2025-03-12 16:10:04,195 - DEBUG - Attempting to connect to seeder: ('196.47.247.98', 7000)
+2025-03-12 16:10:04,197 - INFO - Connected to seeder ('196.47.247.98', 7000)
+2025-03-12 16:10:04,200 - INFO - Total chunks reported by seeder: 21
+2025-03-12 16:10:04,203 - INFO - Requesting chunk 0
+2025-03-12 16:10:04,226 - INFO - Chunk 0 written: 524288 bytes
+2025-03-12 16:10:04,227 - INFO - Requesting chunk 1
+2025-03-12 16:10:04,247 - INFO - Chunk 1 written: 524288 bytes
+2025-03-12 16:10:04,247 - INFO - Requesting chunk 2
+2025-03-12 16:10:04,267 - INFO - Chunk 2 written: 524288 bytes
+2025-03-12 16:10:04,267 - INFO - Requesting chunk 3
+2025-03-12 16:10:04,289 - INFO - Chunk 3 written: 524288 bytes
+2025-03-12 16:10:04,290 - INFO - Requesting chunk 4
+2025-03-12 16:10:04,614 - INFO - Chunk 4 written: 524288 bytes
+2025-03-12 16:10:04,616 - INFO - Requesting chunk 5
+2025-03-12 16:10:04,644 - INFO - Chunk 5 written: 524288 bytes
+2025-03-12 16:10:04,645 - INFO - Requesting chunk 6
+2025-03-12 16:10:04,665 - INFO - Chunk 6 written: 524288 bytes
+2025-03-12 16:10:04,666 - INFO - File download completed
+2025-03-12 16:10:04,667 - DEBUG - Closed TCP connection

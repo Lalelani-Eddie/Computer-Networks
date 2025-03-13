@@ -310,3 +310,1204 @@
 2025-03-12 13:22:25,388 - INFO - Processing request from ('196.47.194.183', 65114): DONE large_text_file.txt
 2025-03-12 13:22:25,390 - INFO - Client ('196.47.194.183', 65114) indicated completion
 2025-03-12 13:22:25,393 - DEBUG - Closed connection to ('196.47.194.183', 65114)
+2025-03-12 16:04:47,040 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 16:04:47,043 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 16:04:47,046 - INFO - Sent chunk count to tracker: 21
+2025-03-12 16:04:47,059 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 16:05:03,212 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 16:05:03,215 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 16:05:03,216 - INFO - Sent chunk count to tracker: 21
+2025-03-12 16:05:03,223 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 16:05:32,041 - INFO - Accepted new connection from ('196.47.247.98', 54602)
+2025-03-12 16:05:32,042 - DEBUG - Starting connection handler for ('196.47.247.98', 54602)
+2025-03-12 16:05:32,043 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:05:32,043 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:05:32,044 - INFO - Sent total chunks: 21
+2025-03-12 16:05:32,046 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:05:32,047 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,059 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:05:32,073 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:05:32,073 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,077 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:05:32,095 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:05:32,096 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,106 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:05:32,122 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:05:32,122 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,128 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:05:32,144 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:05:32,145 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,171 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:05:32,180 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:05:32,180 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,190 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:05:32,210 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:05:32,210 - INFO - Processing request from ('196.47.247.98', 54602): GET_CHUNK large_text_file.txt
+2025-03-12 16:05:32,230 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:05:32,249 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:05:32,258 - INFO - Processing request from ('196.47.247.98', 54602): DONE large_text_file.txt
+2025-03-12 16:05:32,291 - INFO - Client ('196.47.247.98', 54602) indicated completion
+2025-03-12 16:05:32,295 - DEBUG - Closed connection to ('196.47.247.98', 54602)
+2025-03-12 16:07:00,282 - INFO - Seeder stopped.
+2025-03-12 16:07:04,878 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 16:07:04,926 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 16:07:04,938 - INFO - Sent chunk count to tracker: 21
+2025-03-12 16:07:04,940 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 16:07:08,472 - INFO - Accepted new connection from ('196.47.247.98', 54616)
+2025-03-12 16:07:08,474 - DEBUG - Starting connection handler for ('196.47.247.98', 54616)
+2025-03-12 16:07:08,493 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:08,493 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:08,494 - INFO - Sent total chunks: 21
+2025-03-12 16:07:08,500 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:08,501 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,506 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:08,510 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:08,510 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,519 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:08,526 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:08,526 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,535 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:08,539 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:08,539 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,543 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:08,551 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:08,552 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,556 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:08,561 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:08,561 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,571 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:08,575 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:08,575 - INFO - Processing request from ('196.47.247.98', 54616): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:08,586 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:08,588 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:08,589 - INFO - Processing request from ('196.47.247.98', 54616): DONE large_text_file.txt
+2025-03-12 16:07:08,593 - INFO - Client ('196.47.247.98', 54616) indicated completion
+2025-03-12 16:07:08,594 - DEBUG - Closed connection to ('196.47.247.98', 54616)
+2025-03-12 16:07:19,373 - INFO - Accepted new connection from ('196.47.247.98', 54619)
+2025-03-12 16:07:19,385 - DEBUG - Starting connection handler for ('196.47.247.98', 54619)
+2025-03-12 16:07:19,387 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:19,388 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:19,388 - INFO - Sent total chunks: 21
+2025-03-12 16:07:19,406 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:19,407 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,425 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:19,427 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:19,427 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,434 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:19,442 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:19,443 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,450 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:19,455 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:19,456 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,460 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:19,516 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:19,516 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,520 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:19,524 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:19,524 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,529 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:19,538 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:19,538 - INFO - Processing request from ('196.47.247.98', 54619): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:19,542 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:19,550 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:19,552 - INFO - Processing request from ('196.47.247.98', 54619): DONE large_text_file.txt
+2025-03-12 16:07:19,553 - INFO - Client ('196.47.247.98', 54619) indicated completion
+2025-03-12 16:07:19,553 - DEBUG - Closed connection to ('196.47.247.98', 54619)
+2025-03-12 16:07:21,655 - INFO - Accepted new connection from ('196.47.247.98', 54620)
+2025-03-12 16:07:21,657 - DEBUG - Starting connection handler for ('196.47.247.98', 54620)
+2025-03-12 16:07:21,657 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:21,657 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:21,658 - INFO - Sent total chunks: 21
+2025-03-12 16:07:21,666 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:21,666 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:21,671 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:21,687 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:21,687 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:21,692 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:21,766 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:21,767 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:21,771 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:21,789 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:21,789 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:21,794 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:22,101 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:22,101 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:22,414 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:22,430 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:22,430 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:22,435 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:22,453 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:22,453 - INFO - Processing request from ('196.47.247.98', 54620): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:22,457 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:22,472 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:22,472 - INFO - Processing request from ('196.47.247.98', 54620): DONE large_text_file.txt
+2025-03-12 16:07:22,473 - INFO - Client ('196.47.247.98', 54620) indicated completion
+2025-03-12 16:07:22,473 - DEBUG - Closed connection to ('196.47.247.98', 54620)
+2025-03-12 16:07:24,924 - INFO - Accepted new connection from ('196.47.247.98', 54621)
+2025-03-12 16:07:24,926 - DEBUG - Starting connection handler for ('196.47.247.98', 54621)
+2025-03-12 16:07:24,927 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:24,927 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:24,930 - INFO - Sent total chunks: 21
+2025-03-12 16:07:25,258 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:25,259 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,265 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:25,643 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:25,653 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,661 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:25,673 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:25,677 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,689 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:25,692 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:25,692 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,702 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:25,707 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:25,707 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,711 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:25,720 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:25,721 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,725 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:25,726 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:25,727 - INFO - Processing request from ('196.47.247.98', 54621): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:25,736 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:25,740 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:25,741 - INFO - Processing request from ('196.47.247.98', 54621): DONE large_text_file.txt
+2025-03-12 16:07:25,741 - INFO - Client ('196.47.247.98', 54621) indicated completion
+2025-03-12 16:07:25,751 - DEBUG - Closed connection to ('196.47.247.98', 54621)
+2025-03-12 16:07:26,950 - INFO - Accepted new connection from ('196.47.247.98', 54623)
+2025-03-12 16:07:26,952 - DEBUG - Starting connection handler for ('196.47.247.98', 54623)
+2025-03-12 16:07:26,953 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:26,953 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:26,953 - INFO - Sent total chunks: 21
+2025-03-12 16:07:26,958 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:26,959 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:26,969 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:26,985 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:26,986 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:26,991 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:27,007 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:27,007 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:27,017 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:27,027 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:27,031 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:27,350 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:27,365 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:27,366 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:27,680 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:27,688 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:27,690 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:27,695 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:27,718 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:27,719 - INFO - Processing request from ('196.47.247.98', 54623): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:27,725 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:27,741 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:27,742 - INFO - Processing request from ('196.47.247.98', 54623): DONE large_text_file.txt
+2025-03-12 16:07:27,742 - INFO - Client ('196.47.247.98', 54623) indicated completion
+2025-03-12 16:07:27,743 - DEBUG - Closed connection to ('196.47.247.98', 54623)
+2025-03-12 16:07:30,071 - INFO - Accepted new connection from ('196.47.247.98', 54626)
+2025-03-12 16:07:30,073 - DEBUG - Starting connection handler for ('196.47.247.98', 54626)
+2025-03-12 16:07:30,074 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:30,074 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:30,075 - INFO - Sent total chunks: 21
+2025-03-12 16:07:30,083 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:30,083 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,088 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:30,092 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:30,099 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,104 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:30,107 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:30,107 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,112 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:30,120 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:30,120 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,125 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:30,132 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:30,132 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,136 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:30,143 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:30,143 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,152 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:30,159 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:30,160 - INFO - Processing request from ('196.47.247.98', 54626): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:30,168 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:30,170 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:30,172 - INFO - Processing request from ('196.47.247.98', 54626): DONE large_text_file.txt
+2025-03-12 16:07:30,175 - INFO - Client ('196.47.247.98', 54626) indicated completion
+2025-03-12 16:07:30,176 - DEBUG - Closed connection to ('196.47.247.98', 54626)
+2025-03-12 16:07:31,409 - INFO - Accepted new connection from ('196.47.247.98', 54627)
+2025-03-12 16:07:31,415 - DEBUG - Starting connection handler for ('196.47.247.98', 54627)
+2025-03-12 16:07:31,416 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:31,416 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:31,417 - INFO - Sent total chunks: 21
+2025-03-12 16:07:31,419 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:31,421 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,424 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:31,440 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:31,440 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,449 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:31,469 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:31,469 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,474 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:31,490 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:31,491 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,499 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:31,518 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:31,519 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,524 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:31,541 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:31,542 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,551 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:31,570 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:31,571 - INFO - Processing request from ('196.47.247.98', 54627): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:31,575 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:31,598 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:31,600 - INFO - Processing request from ('196.47.247.98', 54627): DONE large_text_file.txt
+2025-03-12 16:07:31,600 - INFO - Client ('196.47.247.98', 54627) indicated completion
+2025-03-12 16:07:31,600 - DEBUG - Closed connection to ('196.47.247.98', 54627)
+2025-03-12 16:07:32,453 - INFO - Accepted new connection from ('196.47.247.98', 54628)
+2025-03-12 16:07:32,456 - DEBUG - Starting connection handler for ('196.47.247.98', 54628)
+2025-03-12 16:07:32,456 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:32,456 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:32,457 - INFO - Sent total chunks: 21
+2025-03-12 16:07:32,460 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:32,465 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,469 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:32,486 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:32,486 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,490 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:32,506 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:32,506 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,520 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:32,533 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:32,533 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,537 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:32,555 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:32,556 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,561 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:32,576 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:32,582 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,587 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:32,605 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:32,606 - INFO - Processing request from ('196.47.247.98', 54628): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:32,610 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:32,626 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:32,626 - INFO - Processing request from ('196.47.247.98', 54628): DONE large_text_file.txt
+2025-03-12 16:07:32,627 - INFO - Client ('196.47.247.98', 54628) indicated completion
+2025-03-12 16:07:32,627 - DEBUG - Closed connection to ('196.47.247.98', 54628)
+2025-03-12 16:07:34,004 - INFO - Accepted new connection from ('196.47.247.98', 54629)
+2025-03-12 16:07:34,006 - DEBUG - Starting connection handler for ('196.47.247.98', 54629)
+2025-03-12 16:07:34,006 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:34,006 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:34,007 - INFO - Sent total chunks: 21
+2025-03-12 16:07:34,015 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:34,017 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,021 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:34,039 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:34,040 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,051 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:34,072 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:34,072 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,082 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:34,092 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:34,092 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,100 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:34,123 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:34,123 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,133 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:34,151 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:34,152 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,165 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:34,176 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:34,181 - INFO - Processing request from ('196.47.247.98', 54629): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:34,187 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:34,202 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:34,203 - INFO - Processing request from ('196.47.247.98', 54629): DONE large_text_file.txt
+2025-03-12 16:07:34,208 - INFO - Client ('196.47.247.98', 54629) indicated completion
+2025-03-12 16:07:34,209 - DEBUG - Closed connection to ('196.47.247.98', 54629)
+2025-03-12 16:07:35,316 - INFO - Accepted new connection from ('196.47.247.98', 54630)
+2025-03-12 16:07:35,319 - DEBUG - Starting connection handler for ('196.47.247.98', 54630)
+2025-03-12 16:07:35,320 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:35,321 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:35,322 - INFO - Sent total chunks: 21
+2025-03-12 16:07:35,325 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:35,325 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,335 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:35,340 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:35,341 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,350 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:35,355 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:35,355 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,360 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:35,373 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:35,373 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,378 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:35,386 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:35,386 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,390 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:35,392 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:35,393 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,404 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:35,405 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:35,406 - INFO - Processing request from ('196.47.247.98', 54630): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:35,716 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:35,719 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:35,720 - INFO - Processing request from ('196.47.247.98', 54630): DONE large_text_file.txt
+2025-03-12 16:07:35,721 - INFO - Client ('196.47.247.98', 54630) indicated completion
+2025-03-12 16:07:35,722 - DEBUG - Closed connection to ('196.47.247.98', 54630)
+2025-03-12 16:07:36,704 - INFO - Accepted new connection from ('196.47.247.98', 54631)
+2025-03-12 16:07:36,706 - DEBUG - Starting connection handler for ('196.47.247.98', 54631)
+2025-03-12 16:07:36,707 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:36,707 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:36,708 - INFO - Sent total chunks: 21
+2025-03-12 16:07:36,714 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:36,715 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,720 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:36,738 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:36,739 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,743 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:36,765 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:36,768 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,773 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:36,788 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:36,789 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,798 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:36,815 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:36,815 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,820 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:36,837 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:36,837 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,842 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:36,858 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:36,859 - INFO - Processing request from ('196.47.247.98', 54631): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:36,868 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:36,886 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:36,887 - INFO - Processing request from ('196.47.247.98', 54631): DONE large_text_file.txt
+2025-03-12 16:07:36,890 - INFO - Client ('196.47.247.98', 54631) indicated completion
+2025-03-12 16:07:36,901 - DEBUG - Closed connection to ('196.47.247.98', 54631)
+2025-03-12 16:07:38,274 - INFO - Accepted new connection from ('196.47.247.98', 54632)
+2025-03-12 16:07:38,276 - DEBUG - Starting connection handler for ('196.47.247.98', 54632)
+2025-03-12 16:07:38,281 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:38,281 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:38,282 - INFO - Sent total chunks: 21
+2025-03-12 16:07:38,285 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:38,286 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,289 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:38,294 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:38,297 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,304 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:38,307 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:38,307 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,316 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:38,320 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:38,320 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,324 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:38,333 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:38,334 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,338 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:38,340 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:38,341 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,352 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:38,355 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:38,355 - INFO - Processing request from ('196.47.247.98', 54632): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:38,362 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:38,368 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:38,369 - INFO - Processing request from ('196.47.247.98', 54632): DONE large_text_file.txt
+2025-03-12 16:07:38,369 - INFO - Client ('196.47.247.98', 54632) indicated completion
+2025-03-12 16:07:38,373 - DEBUG - Closed connection to ('196.47.247.98', 54632)
+2025-03-12 16:07:39,318 - INFO - Accepted new connection from ('196.47.247.98', 54633)
+2025-03-12 16:07:39,319 - DEBUG - Starting connection handler for ('196.47.247.98', 54633)
+2025-03-12 16:07:39,320 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:39,320 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:39,322 - INFO - Sent total chunks: 21
+2025-03-12 16:07:39,325 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:39,325 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:39,334 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:39,339 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:39,339 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:39,343 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:39,352 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:39,352 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:39,356 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:39,359 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:39,359 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:39,369 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:39,677 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:39,679 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:39,684 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:39,687 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:39,687 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:40,001 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:40,007 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:40,007 - INFO - Processing request from ('196.47.247.98', 54633): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:40,016 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:40,020 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:40,020 - INFO - Processing request from ('196.47.247.98', 54633): DONE large_text_file.txt
+2025-03-12 16:07:40,021 - INFO - Client ('196.47.247.98', 54633) indicated completion
+2025-03-12 16:07:40,022 - DEBUG - Closed connection to ('196.47.247.98', 54633)
+2025-03-12 16:07:44,365 - INFO - Accepted new connection from ('196.47.247.98', 54634)
+2025-03-12 16:07:44,367 - DEBUG - Starting connection handler for ('196.47.247.98', 54634)
+2025-03-12 16:07:44,367 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:44,367 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:44,368 - INFO - Sent total chunks: 21
+2025-03-12 16:07:44,371 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:44,371 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,384 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:44,392 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:44,393 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,401 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:44,416 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:44,416 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,421 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:44,436 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:44,436 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,439 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:44,455 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:44,455 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,464 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:44,475 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:44,480 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,486 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:44,502 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:44,502 - INFO - Processing request from ('196.47.247.98', 54634): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:44,507 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:44,521 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:44,522 - INFO - Processing request from ('196.47.247.98', 54634): DONE large_text_file.txt
+2025-03-12 16:07:44,522 - INFO - Client ('196.47.247.98', 54634) indicated completion
+2025-03-12 16:07:44,523 - DEBUG - Closed connection to ('196.47.247.98', 54634)
+2025-03-12 16:07:46,030 - INFO - Accepted new connection from ('196.47.247.98', 54635)
+2025-03-12 16:07:46,032 - DEBUG - Starting connection handler for ('196.47.247.98', 54635)
+2025-03-12 16:07:46,032 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:46,032 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:46,034 - INFO - Sent total chunks: 21
+2025-03-12 16:07:46,038 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:46,038 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,042 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:46,051 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:46,052 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,057 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:46,059 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:46,064 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,069 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:46,071 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:46,071 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,078 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:46,084 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:46,084 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,089 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:46,092 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:46,092 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,101 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:46,107 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:46,107 - INFO - Processing request from ('196.47.247.98', 54635): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:46,117 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:46,120 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:46,120 - INFO - Processing request from ('196.47.247.98', 54635): DONE large_text_file.txt
+2025-03-12 16:07:46,121 - INFO - Client ('196.47.247.98', 54635) indicated completion
+2025-03-12 16:07:46,121 - DEBUG - Closed connection to ('196.47.247.98', 54635)
+2025-03-12 16:07:47,548 - INFO - Accepted new connection from ('196.47.247.98', 54636)
+2025-03-12 16:07:47,549 - DEBUG - Starting connection handler for ('196.47.247.98', 54636)
+2025-03-12 16:07:47,549 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:07:47,549 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:07:47,550 - INFO - Sent total chunks: 21
+2025-03-12 16:07:47,606 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:07:47,606 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,615 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:07:47,626 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:07:47,630 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,635 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:07:47,650 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:07:47,652 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,656 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:07:47,671 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:07:47,672 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,676 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:07:47,692 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:07:47,692 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,701 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:07:47,719 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:07:47,720 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,724 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:07:47,740 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:07:47,740 - INFO - Processing request from ('196.47.247.98', 54636): GET_CHUNK large_text_file.txt
+2025-03-12 16:07:47,751 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:07:47,770 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:07:47,771 - INFO - Processing request from ('196.47.247.98', 54636): DONE large_text_file.txt
+2025-03-12 16:07:47,772 - INFO - Client ('196.47.247.98', 54636) indicated completion
+2025-03-12 16:07:47,772 - DEBUG - Closed connection to ('196.47.247.98', 54636)
+2025-03-12 16:08:18,005 - INFO - Seeder stopped.
+2025-03-12 16:08:19,698 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 16:08:19,702 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 16:08:19,704 - INFO - Sent chunk count to tracker: 21
+2025-03-12 16:08:19,706 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 16:08:23,412 - INFO - Accepted new connection from ('196.47.247.98', 54670)
+2025-03-12 16:08:23,414 - DEBUG - Starting connection handler for ('196.47.247.98', 54670)
+2025-03-12 16:08:23,414 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:23,414 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:23,415 - INFO - Sent total chunks: 21
+2025-03-12 16:08:23,419 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:23,419 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:23,422 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:23,736 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:23,738 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:24,060 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:24,067 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:24,069 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:24,081 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:24,086 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:24,086 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:24,090 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:24,100 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:24,100 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:24,105 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:24,110 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:24,111 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:24,422 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:24,429 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:24,430 - INFO - Processing request from ('196.47.247.98', 54670): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:24,443 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:24,453 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:24,453 - INFO - Processing request from ('196.47.247.98', 54670): DONE large_text_file.txt
+2025-03-12 16:08:24,454 - INFO - Client ('196.47.247.98', 54670) indicated completion
+2025-03-12 16:08:24,455 - DEBUG - Closed connection to ('196.47.247.98', 54670)
+2025-03-12 16:08:29,448 - INFO - Accepted new connection from ('196.47.247.98', 54671)
+2025-03-12 16:08:29,450 - DEBUG - Starting connection handler for ('196.47.247.98', 54671)
+2025-03-12 16:08:29,450 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:29,450 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:29,452 - INFO - Sent total chunks: 21
+2025-03-12 16:08:29,455 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:29,455 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,469 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:29,488 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:29,488 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,499 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:29,514 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:29,514 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,519 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:29,535 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:29,535 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,540 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:29,563 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:29,565 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,568 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:29,586 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:29,586 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,602 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:29,606 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:29,613 - INFO - Processing request from ('196.47.247.98', 54671): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:29,618 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:29,635 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:29,636 - INFO - Processing request from ('196.47.247.98', 54671): DONE large_text_file.txt
+2025-03-12 16:08:29,636 - INFO - Client ('196.47.247.98', 54671) indicated completion
+2025-03-12 16:08:29,640 - DEBUG - Closed connection to ('196.47.247.98', 54671)
+2025-03-12 16:08:40,071 - INFO - Accepted new connection from ('196.47.247.98', 54673)
+2025-03-12 16:08:40,078 - DEBUG - Starting connection handler for ('196.47.247.98', 54673)
+2025-03-12 16:08:40,079 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:40,079 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:40,080 - INFO - Sent total chunks: 21
+2025-03-12 16:08:40,082 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:40,082 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,087 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:40,102 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:40,102 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,112 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:40,123 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:40,127 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,132 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:40,148 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:40,148 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,153 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:40,167 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:40,168 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,179 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:40,198 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:40,199 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,204 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:40,219 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:40,219 - INFO - Processing request from ('196.47.247.98', 54673): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:40,232 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:40,246 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:40,247 - INFO - Processing request from ('196.47.247.98', 54673): DONE large_text_file.txt
+2025-03-12 16:08:40,248 - INFO - Client ('196.47.247.98', 54673) indicated completion
+2025-03-12 16:08:40,249 - DEBUG - Closed connection to ('196.47.247.98', 54673)
+2025-03-12 16:08:41,333 - INFO - Accepted new connection from ('196.47.247.98', 54674)
+2025-03-12 16:08:41,336 - DEBUG - Starting connection handler for ('196.47.247.98', 54674)
+2025-03-12 16:08:41,336 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:41,343 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:41,346 - INFO - Sent total chunks: 21
+2025-03-12 16:08:41,351 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:41,356 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,366 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:41,384 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:41,386 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,398 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:41,414 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:41,414 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,419 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:41,434 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:41,435 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,439 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:41,456 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:41,462 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,467 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:41,482 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:41,484 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,488 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:41,505 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:41,510 - INFO - Processing request from ('196.47.247.98', 54674): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:41,515 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:41,532 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:41,534 - INFO - Processing request from ('196.47.247.98', 54674): DONE large_text_file.txt
+2025-03-12 16:08:41,534 - INFO - Client ('196.47.247.98', 54674) indicated completion
+2025-03-12 16:08:41,536 - DEBUG - Closed connection to ('196.47.247.98', 54674)
+2025-03-12 16:08:43,009 - INFO - Accepted new connection from ('196.47.247.98', 54675)
+2025-03-12 16:08:43,010 - DEBUG - Starting connection handler for ('196.47.247.98', 54675)
+2025-03-12 16:08:43,011 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:43,011 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:43,014 - INFO - Sent total chunks: 21
+2025-03-12 16:08:43,016 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:43,017 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,021 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:43,036 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:43,036 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,047 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:43,064 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:43,065 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,070 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:43,084 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:43,085 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,090 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:43,105 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:43,114 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,119 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:43,134 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:43,134 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,144 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:43,161 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:43,161 - INFO - Processing request from ('196.47.247.98', 54675): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:43,166 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:43,185 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:43,186 - INFO - Processing request from ('196.47.247.98', 54675): DONE large_text_file.txt
+2025-03-12 16:08:43,186 - INFO - Client ('196.47.247.98', 54675) indicated completion
+2025-03-12 16:08:43,196 - DEBUG - Closed connection to ('196.47.247.98', 54675)
+2025-03-12 16:08:44,251 - INFO - Accepted new connection from ('196.47.247.98', 54677)
+2025-03-12 16:08:44,254 - DEBUG - Starting connection handler for ('196.47.247.98', 54677)
+2025-03-12 16:08:44,255 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:44,255 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:44,258 - INFO - Sent total chunks: 21
+2025-03-12 16:08:44,263 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:44,264 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,268 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:44,281 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:44,281 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,286 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:44,295 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:44,295 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,300 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:44,304 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:44,305 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,313 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:44,317 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:44,318 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,322 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:44,331 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:44,332 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,336 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:44,338 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:44,339 - INFO - Processing request from ('196.47.247.98', 54677): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:44,348 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:44,351 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:44,352 - INFO - Processing request from ('196.47.247.98', 54677): DONE large_text_file.txt
+2025-03-12 16:08:44,352 - INFO - Client ('196.47.247.98', 54677) indicated completion
+2025-03-12 16:08:44,353 - DEBUG - Closed connection to ('196.47.247.98', 54677)
+2025-03-12 16:08:45,328 - INFO - Accepted new connection from ('196.47.247.98', 54690)
+2025-03-12 16:08:45,330 - DEBUG - Starting connection handler for ('196.47.247.98', 54690)
+2025-03-12 16:08:45,331 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:45,332 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:45,332 - INFO - Sent total chunks: 21
+2025-03-12 16:08:45,336 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:45,338 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,348 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:45,367 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:45,368 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,683 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:45,711 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:45,712 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,718 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:45,734 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:45,734 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,746 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:45,755 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:45,755 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,764 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:45,782 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:45,782 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,787 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:45,803 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:45,803 - INFO - Processing request from ('196.47.247.98', 54690): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:45,815 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:45,837 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:45,837 - INFO - Processing request from ('196.47.247.98', 54690): DONE large_text_file.txt
+2025-03-12 16:08:45,838 - INFO - Client ('196.47.247.98', 54690) indicated completion
+2025-03-12 16:08:45,839 - DEBUG - Closed connection to ('196.47.247.98', 54690)
+2025-03-12 16:08:46,537 - INFO - Accepted new connection from ('196.47.247.98', 54693)
+2025-03-12 16:08:46,539 - DEBUG - Starting connection handler for ('196.47.247.98', 54693)
+2025-03-12 16:08:46,543 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:46,544 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:46,544 - INFO - Sent total chunks: 21
+2025-03-12 16:08:46,548 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:46,548 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:46,872 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:46,894 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:46,895 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:46,905 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:46,922 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:46,928 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:46,932 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:46,952 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:46,952 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:46,957 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:46,979 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:46,981 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:46,986 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:47,004 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:47,005 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:47,013 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:47,031 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:47,031 - INFO - Processing request from ('196.47.247.98', 54693): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:47,036 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:47,052 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:47,054 - INFO - Processing request from ('196.47.247.98', 54693): DONE large_text_file.txt
+2025-03-12 16:08:47,054 - INFO - Client ('196.47.247.98', 54693) indicated completion
+2025-03-12 16:08:47,064 - DEBUG - Closed connection to ('196.47.247.98', 54693)
+2025-03-12 16:08:49,244 - INFO - Accepted new connection from ('196.47.247.98', 54697)
+2025-03-12 16:08:49,248 - DEBUG - Starting connection handler for ('196.47.247.98', 54697)
+2025-03-12 16:08:49,249 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:49,250 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:49,250 - INFO - Sent total chunks: 21
+2025-03-12 16:08:49,253 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:49,254 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,262 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:49,269 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:49,270 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,279 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:49,286 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:49,286 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,295 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:49,299 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:49,299 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,303 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:49,311 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:49,311 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,316 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:49,319 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:49,319 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,324 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:49,332 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:49,333 - INFO - Processing request from ('196.47.247.98', 54697): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:49,337 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:49,343 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:49,346 - INFO - Processing request from ('196.47.247.98', 54697): DONE large_text_file.txt
+2025-03-12 16:08:49,346 - INFO - Client ('196.47.247.98', 54697) indicated completion
+2025-03-12 16:08:49,347 - DEBUG - Closed connection to ('196.47.247.98', 54697)
+2025-03-12 16:08:50,381 - INFO - Accepted new connection from ('196.47.247.98', 54698)
+2025-03-12 16:08:50,383 - DEBUG - Starting connection handler for ('196.47.247.98', 54698)
+2025-03-12 16:08:50,383 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:50,383 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:50,384 - INFO - Sent total chunks: 21
+2025-03-12 16:08:50,387 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:50,387 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,397 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:50,414 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:50,414 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,419 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:50,433 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:50,435 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,448 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:50,456 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:50,461 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,470 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:50,496 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:50,497 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,511 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:50,519 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:50,520 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,530 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:50,545 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:50,546 - INFO - Processing request from ('196.47.247.98', 54698): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:50,550 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:50,567 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:50,569 - INFO - Processing request from ('196.47.247.98', 54698): DONE large_text_file.txt
+2025-03-12 16:08:50,569 - INFO - Client ('196.47.247.98', 54698) indicated completion
+2025-03-12 16:08:50,570 - DEBUG - Closed connection to ('196.47.247.98', 54698)
+2025-03-12 16:08:51,293 - INFO - Accepted new connection from ('196.47.247.98', 54699)
+2025-03-12 16:08:51,295 - DEBUG - Starting connection handler for ('196.47.247.98', 54699)
+2025-03-12 16:08:51,295 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:51,295 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:51,298 - INFO - Sent total chunks: 21
+2025-03-12 16:08:51,302 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:51,303 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,314 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:51,331 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:51,331 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,336 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:51,351 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:51,352 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,362 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:51,376 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:51,378 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,383 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:51,399 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:51,399 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,404 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:51,420 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:51,420 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,429 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:51,445 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:51,445 - INFO - Processing request from ('196.47.247.98', 54699): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:51,450 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:51,465 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:51,466 - INFO - Processing request from ('196.47.247.98', 54699): DONE large_text_file.txt
+2025-03-12 16:08:51,466 - INFO - Client ('196.47.247.98', 54699) indicated completion
+2025-03-12 16:08:51,470 - DEBUG - Closed connection to ('196.47.247.98', 54699)
+2025-03-12 16:08:52,898 - INFO - Accepted new connection from ('196.47.247.98', 54700)
+2025-03-12 16:08:52,900 - DEBUG - Starting connection handler for ('196.47.247.98', 54700)
+2025-03-12 16:08:52,900 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:52,900 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:52,901 - INFO - Sent total chunks: 21
+2025-03-12 16:08:52,905 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:52,905 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:52,914 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:52,928 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:52,929 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:52,949 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:52,959 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:52,960 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:52,964 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:52,986 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:52,986 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:52,996 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:53,011 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:53,011 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,017 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:53,032 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:53,032 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,037 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:53,050 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:53,050 - INFO - Processing request from ('196.47.247.98', 54700): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,055 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:53,070 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:53,087 - INFO - Processing request from ('196.47.247.98', 54700): DONE large_text_file.txt
+2025-03-12 16:08:53,088 - INFO - Client ('196.47.247.98', 54700) indicated completion
+2025-03-12 16:08:53,089 - DEBUG - Closed connection to ('196.47.247.98', 54700)
+2025-03-12 16:08:53,811 - INFO - Accepted new connection from ('196.47.247.98', 54701)
+2025-03-12 16:08:53,812 - DEBUG - Starting connection handler for ('196.47.247.98', 54701)
+2025-03-12 16:08:53,813 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:53,814 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:53,814 - INFO - Sent total chunks: 21
+2025-03-12 16:08:53,817 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:53,817 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,821 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:53,829 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:53,830 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,834 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:53,836 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:53,837 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,844 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:53,849 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:53,849 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,853 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:53,861 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:53,862 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,866 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:53,868 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:53,869 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,874 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:53,882 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:53,882 - INFO - Processing request from ('196.47.247.98', 54701): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:53,886 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:53,889 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:53,895 - INFO - Processing request from ('196.47.247.98', 54701): DONE large_text_file.txt
+2025-03-12 16:08:53,895 - INFO - Client ('196.47.247.98', 54701) indicated completion
+2025-03-12 16:08:53,895 - DEBUG - Closed connection to ('196.47.247.98', 54701)
+2025-03-12 16:08:54,755 - INFO - Accepted new connection from ('196.47.247.98', 54702)
+2025-03-12 16:08:54,761 - DEBUG - Starting connection handler for ('196.47.247.98', 54702)
+2025-03-12 16:08:54,761 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:54,762 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:54,762 - INFO - Sent total chunks: 21
+2025-03-12 16:08:54,765 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:54,765 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,771 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:54,783 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:54,784 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,788 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:54,803 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:54,803 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,813 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:54,828 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:54,828 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,832 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:54,851 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:54,851 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,855 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:54,870 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:54,870 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,879 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:54,896 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:54,896 - INFO - Processing request from ('196.47.247.98', 54702): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:54,901 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:54,916 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:54,917 - INFO - Processing request from ('196.47.247.98', 54702): DONE large_text_file.txt
+2025-03-12 16:08:54,920 - INFO - Client ('196.47.247.98', 54702) indicated completion
+2025-03-12 16:08:54,921 - DEBUG - Closed connection to ('196.47.247.98', 54702)
+2025-03-12 16:08:56,044 - INFO - Accepted new connection from ('196.47.247.98', 54703)
+2025-03-12 16:08:56,045 - DEBUG - Starting connection handler for ('196.47.247.98', 54703)
+2025-03-12 16:08:56,046 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:56,046 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:56,046 - INFO - Sent total chunks: 21
+2025-03-12 16:08:56,050 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:56,050 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,054 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:56,069 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:56,070 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,079 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:56,095 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:56,096 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,100 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:56,115 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:56,116 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,119 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:56,133 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:56,133 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,138 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:56,153 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:56,153 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,161 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:56,183 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:56,184 - INFO - Processing request from ('196.47.247.98', 54703): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:56,187 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:56,204 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:56,205 - INFO - Processing request from ('196.47.247.98', 54703): DONE large_text_file.txt
+2025-03-12 16:08:56,209 - INFO - Client ('196.47.247.98', 54703) indicated completion
+2025-03-12 16:08:56,211 - DEBUG - Closed connection to ('196.47.247.98', 54703)
+2025-03-12 16:08:58,446 - INFO - Accepted new connection from ('196.47.247.98', 54704)
+2025-03-12 16:08:58,448 - DEBUG - Starting connection handler for ('196.47.247.98', 54704)
+2025-03-12 16:08:58,448 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:08:58,449 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:08:58,449 - INFO - Sent total chunks: 21
+2025-03-12 16:08:58,452 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:08:58,452 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,461 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:08:58,773 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:08:58,777 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,787 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:08:58,800 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:08:58,802 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,817 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:08:58,821 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:08:58,821 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,830 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:08:58,834 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:08:58,834 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,838 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:08:58,846 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:08:58,847 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,850 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:08:58,852 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:08:58,853 - INFO - Processing request from ('196.47.247.98', 54704): GET_CHUNK large_text_file.txt
+2025-03-12 16:08:58,861 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:08:58,878 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:08:58,879 - INFO - Processing request from ('196.47.247.98', 54704): DONE large_text_file.txt
+2025-03-12 16:08:58,880 - INFO - Client ('196.47.247.98', 54704) indicated completion
+2025-03-12 16:08:58,881 - DEBUG - Closed connection to ('196.47.247.98', 54704)
+2025-03-12 16:09:02,271 - INFO - Accepted new connection from ('196.47.247.98', 54707)
+2025-03-12 16:09:02,276 - DEBUG - Starting connection handler for ('196.47.247.98', 54707)
+2025-03-12 16:09:02,276 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:09:02,278 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:09:02,278 - INFO - Sent total chunks: 21
+2025-03-12 16:09:02,282 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:09:02,282 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,286 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:09:02,301 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:09:02,301 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,309 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:09:02,320 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:09:02,320 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,331 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:09:02,352 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:09:02,353 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,364 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:09:02,379 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:09:02,380 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,384 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:09:02,401 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:09:02,401 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,406 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:09:02,425 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:09:02,426 - INFO - Processing request from ('196.47.247.98', 54707): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:02,430 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:09:02,447 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:09:02,450 - INFO - Processing request from ('196.47.247.98', 54707): DONE large_text_file.txt
+2025-03-12 16:09:02,450 - INFO - Client ('196.47.247.98', 54707) indicated completion
+2025-03-12 16:09:02,450 - DEBUG - Closed connection to ('196.47.247.98', 54707)
+2025-03-12 16:09:03,627 - INFO - Accepted new connection from ('196.47.247.98', 54708)
+2025-03-12 16:09:03,628 - DEBUG - Starting connection handler for ('196.47.247.98', 54708)
+2025-03-12 16:09:03,629 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:09:03,629 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:09:03,629 - INFO - Sent total chunks: 21
+2025-03-12 16:09:03,661 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:09:03,663 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,667 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:09:03,683 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:09:03,683 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,687 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:09:03,703 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:09:03,703 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,713 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:09:03,727 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:09:03,728 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,734 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:09:03,751 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:09:03,752 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,756 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:09:03,780 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:09:03,781 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,785 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:09:03,803 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:09:03,803 - INFO - Processing request from ('196.47.247.98', 54708): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:03,816 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:09:03,829 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:09:03,832 - INFO - Processing request from ('196.47.247.98', 54708): DONE large_text_file.txt
+2025-03-12 16:09:03,833 - INFO - Client ('196.47.247.98', 54708) indicated completion
+2025-03-12 16:09:03,833 - DEBUG - Closed connection to ('196.47.247.98', 54708)
+2025-03-12 16:09:05,249 - INFO - Accepted new connection from ('196.47.247.98', 54709)
+2025-03-12 16:09:05,250 - DEBUG - Starting connection handler for ('196.47.247.98', 54709)
+2025-03-12 16:09:05,251 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:09:05,251 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:09:05,251 - INFO - Sent total chunks: 21
+2025-03-12 16:09:05,335 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:09:05,341 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,351 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:09:05,356 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:09:05,359 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,364 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:09:05,367 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:09:05,367 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,374 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:09:05,379 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:09:05,380 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,384 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:09:05,388 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:09:05,394 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,398 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:09:05,402 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:09:05,403 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,411 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:09:05,418 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:09:05,418 - INFO - Processing request from ('196.47.247.98', 54709): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:05,428 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:09:05,432 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:09:05,432 - INFO - Processing request from ('196.47.247.98', 54709): DONE large_text_file.txt
+2025-03-12 16:09:05,432 - INFO - Client ('196.47.247.98', 54709) indicated completion
+2025-03-12 16:09:05,433 - DEBUG - Closed connection to ('196.47.247.98', 54709)
+2025-03-12 16:09:10,149 - INFO - Accepted new connection from ('196.47.247.98', 54710)
+2025-03-12 16:09:10,150 - DEBUG - Starting connection handler for ('196.47.247.98', 54710)
+2025-03-12 16:09:10,151 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:09:10,151 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:09:10,152 - INFO - Sent total chunks: 21
+2025-03-12 16:09:10,160 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:09:10,161 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,476 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:09:10,484 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:09:10,485 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,499 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:09:10,513 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:09:10,516 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,524 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:09:10,530 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:09:10,531 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,534 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:09:10,544 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:09:10,544 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,548 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:09:10,550 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:09:10,552 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,562 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:09:10,564 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:09:10,564 - INFO - Processing request from ('196.47.247.98', 54710): GET_CHUNK large_text_file.txt
+2025-03-12 16:09:10,568 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:09:10,571 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:09:10,577 - INFO - Processing request from ('196.47.247.98', 54710): DONE large_text_file.txt
+2025-03-12 16:09:10,578 - INFO - Client ('196.47.247.98', 54710) indicated completion
+2025-03-12 16:09:10,583 - DEBUG - Closed connection to ('196.47.247.98', 54710)
+2025-03-12 16:09:52,632 - INFO - Seeder stopped.
+2025-03-12 16:09:53,944 - INFO - Binding TCP socket to 196.47.247.98:7000
+2025-03-12 16:09:53,946 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-12 16:09:53,949 - INFO - Sent chunk count to tracker: 21
+2025-03-12 16:09:53,951 - INFO - Seeder listening on 196.47.247.98:7000
+2025-03-12 16:10:02,294 - INFO - Accepted new connection from ('196.47.247.98', 54713)
+2025-03-12 16:10:02,296 - DEBUG - Starting connection handler for ('196.47.247.98', 54713)
+2025-03-12 16:10:02,296 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:10:02,297 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:10:02,297 - INFO - Sent total chunks: 21
+2025-03-12 16:10:02,300 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:10:02,300 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,310 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:10:02,326 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:10:02,326 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,330 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:10:02,346 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:10:02,346 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,350 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:10:02,376 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:10:02,376 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,380 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:10:02,395 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:10:02,396 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,400 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:10:02,415 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:10:02,415 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,418 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:10:02,439 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:10:02,440 - INFO - Processing request from ('196.47.247.98', 54713): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:02,444 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:10:02,463 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:10:02,463 - INFO - Processing request from ('196.47.247.98', 54713): DONE large_text_file.txt
+2025-03-12 16:10:02,464 - INFO - Client ('196.47.247.98', 54713) indicated completion
+2025-03-12 16:10:02,465 - DEBUG - Closed connection to ('196.47.247.98', 54713)
+2025-03-12 16:10:04,197 - INFO - Accepted new connection from ('196.47.247.98', 54714)
+2025-03-12 16:10:04,199 - DEBUG - Starting connection handler for ('196.47.247.98', 54714)
+2025-03-12 16:10:04,199 - DEBUG - Received request: ['GET_CHUNK_COUNT', 'large_text_file.txt']
+2025-03-12 16:10:04,199 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK_COUNT large_text_file.txt
+2025-03-12 16:10:04,200 - INFO - Sent total chunks: 21
+2025-03-12 16:10:04,207 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '0']
+2025-03-12 16:10:04,208 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,212 - INFO - Sent chunk 0 (524288 bytes)
+2025-03-12 16:10:04,228 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '1']
+2025-03-12 16:10:04,229 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,233 - INFO - Sent chunk 1 (524288 bytes)
+2025-03-12 16:10:04,248 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '2']
+2025-03-12 16:10:04,248 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,257 - INFO - Sent chunk 2 (524288 bytes)
+2025-03-12 16:10:04,268 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '3']
+2025-03-12 16:10:04,273 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,277 - INFO - Sent chunk 3 (524288 bytes)
+2025-03-12 16:10:04,291 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '4']
+2025-03-12 16:10:04,292 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,599 - INFO - Sent chunk 4 (524288 bytes)
+2025-03-12 16:10:04,618 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '5']
+2025-03-12 16:10:04,621 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,626 - INFO - Sent chunk 5 (524288 bytes)
+2025-03-12 16:10:04,645 - DEBUG - Received request: ['GET_CHUNK', 'large_text_file.txt', '6']
+2025-03-12 16:10:04,646 - INFO - Processing request from ('196.47.247.98', 54714): GET_CHUNK large_text_file.txt
+2025-03-12 16:10:04,649 - INFO - Sent chunk 6 (524288 bytes)
+2025-03-12 16:10:04,666 - DEBUG - Received request: ['DONE', 'large_text_file.txt']
+2025-03-12 16:10:04,667 - INFO - Processing request from ('196.47.247.98', 54714): DONE large_text_file.txt
+2025-03-12 16:10:04,678 - INFO - Client ('196.47.247.98', 54714) indicated completion
+2025-03-12 16:10:04,679 - DEBUG - Closed connection to ('196.47.247.98', 54714)
+2025-03-13 15:09:19,869 - INFO - Binding TCP socket to 196.47.247.55:7000
+2025-03-13 15:09:19,872 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 15:09:19,874 - INFO - Sent chunk count to tracker: 21
+2025-03-13 15:09:19,874 - INFO - Seeder listening on 196.47.247.55:7000
+2025-03-13 15:10:11,853 - INFO - Binding TCP socket to 196.47.247.55:7000
+2025-03-13 15:10:11,853 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-13 15:10:11,865 - INFO - Sent chunk count to tracker: 21
+2025-03-13 15:10:11,869 - INFO - Seeder listening on 196.47.247.55:7000
