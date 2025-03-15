@@ -4,7 +4,6 @@ import time
 import traceback
 import os
 import threading
-import math
 import hashlib  # Added missing import
 
 # Configure logging
@@ -146,7 +145,7 @@ class FileLeecher:
             logging.error(f"Error downloading chunk {chunk_id}: {e}")
             return None
           
-def receive_chunk(self, conn, chunk_id):
+    def receive_chunk(self, conn, chunk_id):
         """Receive chunk and verify its hash"""
         try:
             # Receive the chunk's hash
@@ -172,120 +171,6 @@ def receive_chunk(self, conn, chunk_id):
         except Exception as e:
             logging.error(f"Error receiving chunk {chunk_id}: {e}")
             return None
-    # Update the download_chunks_from_seeder method to handle hash verification failures
-    def download_chunks_from_seeder(self, seeder_info, start_chunk, end_chunk):
-        tcp_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-        try:
-            ip, port = seeder_info['ip'], int(seeder_info['port'])
-            seeder_socket_addr = (ip, port)
-
-            logging.debug(f"Attempting to connect to seeder: {seeder_socket_addr}")
-            tcp_client.settimeout(CONNECTION_TIMEOUT)
-
-            for attempt in range(MAX_RETRIES):
-                try:
-                    tcp_client.connect(seeder_socket_addr)
-                    logging.info(f"Connected to seeder {seeder_socket_addr}")
-                    break
-                except Exception as connect_err:
-                    logging.warning(f"Connection attempt {attempt + 1} failed: {connect_err}")
-                    if attempt < MAX_RETRIES - 1:
-                        time.sleep(RETRY_DELAY)
-                    else:
-                        raise
-
-            # Request total chunk count
-            tcp_client.sendall(f"GET_CHUNK_COUNT {self.filename}".encode(FORMAT))
-            total_chunks_data = tcp_client.recv(1024)
-            total_chunks = int(total_chunks_data.decode(FORMAT))
-            logging.info(f"Total chunks reported by seeder: {total_chunks}")
-            
-            # Update total chunks for the file
-            self.total_chunks = max(self.total_chunks, total_chunks)
-            
-            # Tell seeder which chunk range we want
-            tcp_client.sendall(f"SET_CHUNK_RANGE {self.filename} {start_chunk} {end_chunk}".encode(FORMAT))
-            response = tcp_client.recv(1024).decode(FORMAT)
-            if response != "RANGE_ACCEPTED":
-                logging.error(f"Seeder rejected chunk range: {response}")
-                return
-            
-            logging.info(f"Seeder accepted chunk range from {start_chunk} to {end_chunk}")
-
-            # Download each chunk
-            for chunk_id in range(start_chunk, end_chunk + 1):
-                # Check if this is the last chunk in the file
-                is_last_chunk = (chunk_id == total_chunks - 1)
-                
-                # Try to download the chunk with retries
-                for retry in range(MAX_RETRIES):
-                    try:
-                        chunk_data = self.download_chunk(tcp_client, chunk_id, is_last_chunk)
-                        
-                        if chunk_data and len(chunk_data) > 0:
-                            # Write the chunk to file
-                            if self.write_chunk_to_file(chunk_id, chunk_data):
-                                break  # Success, move to next chunk
-                        
-                        # If we get here, the chunk download or hash verification failed
-                        if retry < MAX_RETRIES - 1:
-                            logging.warning(f"Retry {retry+1} for chunk {chunk_id}")
-                            time.sleep(RETRY_DELAY)
-                        else:
-                            logging.error(f"Failed to download chunk {chunk_id} after {MAX_RETRIES} retries")
-                            self.missing_chunks.append(chunk_id)
-                            
-                    except socket.timeout:
-                        logging.warning(f"Timeout on retry {retry+1} for chunk {chunk_id}")
-                        if retry < MAX_RETRIES - 1:
-                            time.sleep(RETRY_DELAY)
-                        else:
-                            logging.error(f"Failed due to timeout after {MAX_RETRIES} retries")
-                            self.missing_chunks.append(chunk_id)
-
-            # Notify seeder we're done
-            try:
-                tcp_client.sendall(f"DONE {self.filename}".encode(FORMAT))
-                logging.info(f"Chunks {start_chunk}-{end_chunk} download completed")
-            except Exception as e:
-                logging.warning(f"Error sending DONE message: {e}")
-
-        except Exception as e:
-            logging.error(f"Error during download from seeder {seeder_info['addr']}: {e}")
-            logging.error(traceback.format_exc())
-            
-            # Add failed chunks to missing chunks list
-            for chunk_id in range(start_chunk, end_chunk + 1):
-                if chunk_id not in self.download_status:
-                    self.missing_chunks.append(chunk_id)
-                    
-        finally:
-            try:
-                tcp_client.close()
-                logging.debug("Closed TCP connection")
-            except:
-                pass
-          
-    def write_chunk_to_file(self, chunk_id, chunk_data):
-        """Write a chunk to the output file"""
-        if not chunk_data:
-            logging.error(f"Cannot write empty chunk {chunk_id}")
-            return False
-            
-        try:
-            with self.output_file_lock:
-                with open(f"leeched_{self.filename}", "r+b" if os.path.exists(f"leeched_{self.filename}") else "wb") as f:
-                    f.seek(chunk_id * CHUNK_SIZE)
-                    f.write(chunk_data)
-                
-                self.download_status[chunk_id] = len(chunk_data)
-                logging.info(f"Chunk {chunk_id} written: {len(chunk_data)} bytes")
-                return True
-                
-        except Exception as e:
-            logging.error(f"Error writing chunk {chunk_id}: {e}")
-            return False
 
     def download_chunks_from_seeder(self, seeder_info, start_chunk, end_chunk):
         tcp_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -380,6 +265,26 @@ def receive_chunk(self, conn, chunk_id):
                 logging.debug("Closed TCP connection")
             except:
                 pass
+
+    def write_chunk_to_file(self, chunk_id, chunk_data):
+        """Write a chunk to the output file"""
+        if not chunk_data:
+            logging.error(f"Cannot write empty chunk {chunk_id}")
+            return False
+            
+        try:
+            with self.output_file_lock:
+                with open(f"leeched_{self.filename}", "r+b" if os.path.exists(f"leeched_{self.filename}") else "wb") as f:
+                    f.seek(chunk_id * CHUNK_SIZE)
+                    f.write(chunk_data)
+                
+                self.download_status[chunk_id] = len(chunk_data)
+                logging.info(f"Chunk {chunk_id} written: {len(chunk_data)} bytes")
+                return True
+                
+        except Exception as e:
+            logging.error(f"Error writing chunk {chunk_id}: {e}")
+            return False
 
     def retry_missing_chunks(self, seeders):
         """Retry downloading any missing chunks"""

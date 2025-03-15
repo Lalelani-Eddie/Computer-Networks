@@ -1689,3 +1689,18 @@ socket.timeout: timed out
 2025-03-13 22:22:38,314 - DEBUG - Sending seeders request to tracker
 2025-03-13 22:22:38,339 - DEBUG - Seeders response: ['SEEDERS', '196.47.194.183:7000:21']
 2025-03-13 22:22:38,339 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-15 21:50:01,223 - DEBUG - Sending seeders request to tracker
+2025-03-15 21:50:01,247 - DEBUG - Seeders response: ['SEEDERS', '192.168.1.175:7000:21']
+2025-03-15 21:50:01,307 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-15 21:50:07,503 - DEBUG - Sending seeders request to tracker
+2025-03-15 21:50:07,515 - DEBUG - Seeders response: ['SEEDERS', '192.168.1.175:7000:21']
+2025-03-15 21:50:07,517 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-15 21:54:17,695 - DEBUG - Sending seeders request to tracker
+2025-03-15 21:54:17,698 - DEBUG - Seeders response: ['SEEDERS', '192.168.1.175:7000:21']
+2025-03-15 21:54:17,698 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-15 21:54:24,603 - DEBUG - Sending seeders request to tracker
+2025-03-15 21:54:24,604 - DEBUG - Seeders response: ['SEEDERS', '192.168.1.175:7000:21']
+2025-03-15 21:54:24,604 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-15 21:57:08,210 - DEBUG - Sending seeders request to tracker
+2025-03-15 21:57:08,211 - DEBUG - Seeders response: ['SEEDERS', '192.168.1.175:7000:21']
+2025-03-15 21:57:08,211 - ERROR - Need at least 3 seeders, but only found 1. Exiting.

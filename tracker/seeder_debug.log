@@ -2385,3 +2385,30 @@ HUNK_COUNT large_text_file.txt
 2025-03-13 22:38:23,273 - DEBUG - Sent heartbeat to tracker
 2025-03-13 22:38:26,611 - DEBUG - Sent heartbeat to tracker
 2025-03-13 22:38:38,817 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:38:40,005 - INFO - Binding TCP socket to 192.168.1.175:7000
+2025-03-15 21:38:40,005 - INFO - File large_text_file.txt has 21 chunks (last chunk: 91442 bytes)
+2025-03-15 21:38:40,005 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-15 21:38:40,007 - INFO - Sent chunk count to tracker: 21
+2025-03-15 21:38:40,009 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:38:40,011 - INFO - Seeder listening on 192.168.1.175:7000
+2025-03-15 21:38:40,011 - INFO - Seeder started successfully on port 7000
+2025-03-15 21:39:10,017 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:39:40,026 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:39:50,271 - INFO - Binding TCP socket to 192.168.1.175:7000
+2025-03-15 21:39:50,271 - INFO - File large_text_file.txt has 21 chunks (last chunk: 91442 bytes)
+2025-03-15 21:39:50,281 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-15 21:39:50,282 - INFO - Sent chunk count to tracker: 21
+2025-03-15 21:39:50,294 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:39:50,294 - INFO - Seeder listening on 192.168.1.175:7000
+2025-03-15 21:39:50,294 - INFO - Seeder started successfully on port 7000
+2025-03-15 21:40:10,031 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:40:11,924 - INFO - Binding TCP socket to 192.168.1.175:7000
+2025-03-15 21:40:11,924 - INFO - File large_text_file.txt has 21 chunks (last chunk: 91442 bytes)
+2025-03-15 21:40:11,924 - INFO - Registered with tracker for file: large_text_file.txt
+2025-03-15 21:40:11,924 - INFO - Sent chunk count to tracker: 21
+2025-03-15 21:40:11,940 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:40:11,942 - INFO - Seeder listening on 192.168.1.175:7000
+2025-03-15 21:40:11,942 - INFO - Seeder started successfully on port 7000
+2025-03-15 21:40:20,305 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:40:40,035 - DEBUG - Sent heartbeat to tracker
+2025-03-15 21:40:41,943 - DEBUG - Sent heartbeat to tracker
