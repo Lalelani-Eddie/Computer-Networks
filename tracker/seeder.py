@@ -6,6 +6,7 @@ import logging
 import traceback
 import argparse
 import sys
+import hashlib
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, 
@@ -23,6 +24,13 @@ DEFAULT_SEEDER_PORT = 7000
 FORMAT = 'utf-8'
 CHUNK_SIZE = 512 * 1024  # 512 KB in bytes
 CONNECTION_TIMEOUT = 90  # 1 minute 30 seconds
+
+# Helper function to calculate the hash for a chunk
+def calculate_chunk_hash(chunk):
+    """Calculate SHA-256 hash of the given chunk"""
+    sha256 = hashlib.sha256()
+    sha256.update(chunk)
+    return sha256.hexdigest()
 
 class SeederServer:
     def __init__(self, filename, port):
@@ -139,7 +147,14 @@ class SeederServer:
                             f.seek(chunk_id * CHUNK_SIZE)
                             chunk = f.read(CHUNK_SIZE)
                             
-                            # Send in smaller portions to avoid blocking for too long
+                            # Calculate chunk hash
+                            chunk_hash = calculate_chunk_hash(chunk)
+                            
+                            # Send the chunk along with its hash
+                            conn.sendall(chunk_hash.encode(FORMAT))  # Send hash first
+                            logging.debug(f"Sent chunk hash for chunk {chunk_id}: {chunk_hash}")
+                            
+                            # Send the chunk data in smaller portions to avoid blocking for too long
                             bytes_sent = 0
                             while bytes_sent < len(chunk):
                                 sent = conn.send(chunk[bytes_sent:bytes_sent + 8192])
@@ -151,7 +166,7 @@ class SeederServer:
                             if is_last_chunk:
                                 time.sleep(0.1)  # Small delay to ensure client processes data
                                 conn.send(b'')  # Send an empty chunk to signal end of data
-                                
+                                 
                         logging.info(f"Sent chunk {chunk_id} ({bytes_sent} bytes){' [LAST CHUNK]' if is_last_chunk else ''}")
                     except Exception as e:
                         logging.error(f"Error sending chunk {chunk_id}: {e}")
