@@ -25,52 +25,71 @@ def handle_client():
             continue
 
         if message[0] == "REGISTER_SEEDER":
-            filename = message[1]
-            seeder_addr = (addr[0], int(message[2]))
+            if len(message) >= 3:
+                filename = message[1]
+                seeder_port = int(message[2])
+                seeder_addr = (addr[0], seeder_port)
 
-            seeder_info = (seeder_addr[0], seeder_addr[1], 0, time.time())
+                seeder_info = (seeder_addr[0], seeder_addr[1], 0, time.time())
 
-            if filename in active_seeders:
-                existing_seeders = [s for s in active_seeders[filename] if (s[0], s[1]) == seeder_addr]
-                if not existing_seeders:
-                    active_seeders[filename].append(seeder_info)
+                if filename in active_seeders:
+                    # Check if seeder already exists
+                    existing_seeder = None
+                    for i, seeder in enumerate(active_seeders[filename]):
+                        if (seeder[0], seeder[1]) == (seeder_addr[0], seeder_addr[1]):
+                            existing_seeder = i
+                            break
+                            
+                    if existing_seeder is not None:
+                        # Update existing seeder
+                        active_seeders[filename][existing_seeder] = seeder_info
+                    else:
+                        # Add new seeder
+                        active_seeders[filename].append(seeder_info)
+                else:
+                    active_seeders[filename] = [seeder_info]
+
+                print(f"Registered seeder {seeder_addr} with file {filename}")
             else:
-                active_seeders[filename] = [seeder_info]
-
-            print(f"Registered seeder {seeder_addr} with file {filename}")
+                print(f"Invalid REGISTER_SEEDER message from {addr}")
 
         elif message[0] == "CHUNK_COUNT":
-            filename = message[1]
-            
-            if len(message) < 2:
-                print(f"Error: CHUNK_COUNT message from {addr} is missing chunk count")
-                return
-
-            total_chunks = int(message[1])  # Corrected index
-
-            for i, seeder in enumerate(active_seeders.get(filename, [])):
-                if (seeder[0], seeder[1]) == (addr[0], addr[1]):  # Match correct port
-                    active_seeders[filename][i] = (seeder[0], seeder[1], total_chunks, seeder[3])
-                    print(f"Updated seeder {addr} for {filename} with {total_chunks} chunks")
-                    break
+            if len(message) >= 2:
+                total_chunks = int(message[1])
+                
+                # Find the seeder that sent this message
+                for filename, seeders in active_seeders.items():
+                    for i, seeder in enumerate(seeders):
+                        if (seeder[0], seeder[1]) == (addr[0], addr[1]) or seeder[0] == addr[0]:
+                            active_seeders[filename][i] = (seeder[0], seeder[1], total_chunks, seeder[3])
+                            print(f"Updated seeder {addr} for {filename} with {total_chunks} chunks")
+                            break
+            else:
+                print(f"Invalid CHUNK_COUNT message from {addr}")
 
         elif message[0] == "REQUEST_SEEDERS":
-            filename = message[1]
-            seeders = active_seeders.get(filename, [])
+            if len(message) >= 2:
+                filename = message[1]
+                seeders = active_seeders.get(filename, [])
 
-            response = "SEEDERS " + " ".join([f"{ip}:{port}:{chunks}" for ip, port, chunks, _ in seeders]) if seeders else "NO_SEEDERS"
-            tracker.sendto(response.encode(FORMAT), addr)
-            print(f"Sent seeder list for {filename} to {addr}")
+                response = "SEEDERS " + " ".join([f"{ip}:{port}:{chunks}" for ip, port, chunks, _ in seeders]) if seeders else "NO_SEEDERS"
+                tracker.sendto(response.encode(FORMAT), addr)
+                print(f"Sent seeder list for {filename} to {addr}: {response}")
+            else:
+                print(f"Invalid REQUEST_SEEDERS message from {addr}")
 
         elif message[0] == "ALIVE":
-            filename = message[1]
+            if len(message) >= 2:
+                filename = message[1]
 
-            if filename in active_seeders:
-                for i, (ip, port, chunks, last_heartbeat) in enumerate(active_seeders[filename]):
-                    if (ip, port) == (addr[0], addr[1]):  # Match correct port
-                        active_seeders[filename][i] = (ip, port, chunks, time.time())
-                        print(f"Received heartbeat from {ip}:{port} for {filename}")
-                        break
+                if filename in active_seeders:
+                    for i, (ip, port, chunks, last_heartbeat) in enumerate(active_seeders[filename]):
+                        if (ip, port) == (addr[0], addr[1]) or ip == addr[0]:
+                            active_seeders[filename][i] = (ip, port, chunks, time.time())
+                            print(f"Received heartbeat from {ip}:{port} for {filename}")
+                            break
+            else:
+                print(f"Invalid ALIVE message from {addr}")
                     
 def remove_inactive_seeders():
     while True:
