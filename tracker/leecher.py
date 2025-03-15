@@ -123,6 +123,32 @@ class FileLeecher:
             logging.error(f"Error downloading chunk {chunk_id}: {e}")
             return None
 
+
+
+    def receive_chunk(self, conn, chunk_id):
+    """Receive chunk and verify its hash"""
+    try:
+        # Receive the chunk's hash
+        chunk_hash = conn.recv(64).decode(FORMAT)  # SHA-256 hash length is 64 hex characters
+        
+        # Receive the chunk data
+        chunk_data = b''
+        while len(chunk_data) < CHUNK_SIZE:
+            chunk_data += conn.recv(8192)
+        
+        # Verify the chunk's hash
+        calculated_hash = hashlib.sha256(chunk_data).hexdigest()
+        if calculated_hash != chunk_hash:
+            logging.error(f"Hash mismatch for chunk {chunk_id}. Expected {chunk_hash}, but got {calculated_hash}")
+            return None  # Hash mismatch, indicate failure
+        
+        logging.info(f"Chunk {chunk_id} verified successfully")
+        return chunk_data
+    
+    except Exception as e:
+        logging.error(f"Error receiving chunk {chunk_id}: {e}")
+        return None
+
     def write_chunk_to_file(self, chunk_id, chunk_data):
         """Write a chunk to the output file"""
         if not chunk_data:
