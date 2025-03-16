@@ -93,7 +93,7 @@ def handle_client():
                     
 def remove_inactive_seeders():
     while True:
-        time.sleep(10)
+        time.sleep(100)
         current_time = time.time()
 
         for filename in list(active_seeders.keys()):
