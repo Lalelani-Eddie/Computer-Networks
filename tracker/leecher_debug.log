@@ -1938,3 +1938,1325 @@ socket.timeout: timed out
 2025-03-16 21:50:25,871 - DEBUG - Closed TCP connection
 2025-03-16 21:50:25,873 - INFO - All download threads completed
 2025-03-16 21:50:25,873 - INFO - Download complete. File size: 10577202 bytes
+2025-03-16 23:17:53,651 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:17:53,651 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-16 23:17:53,663 - INFO - Total chunks for file: 21
+2025-03-16 23:18:04,075 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:18:04,075 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-16 23:18:04,084 - INFO - Total chunks for file: 21
+2025-03-16 23:21:30,257 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:21:30,261 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-16 23:21:30,261 - ERROR - No seeders available.
+2025-03-16 23:21:30,264 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-16 23:22:16,182 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:22:16,192 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-16 23:22:16,271 - INFO - Total chunks for file: 21
+2025-03-16 23:22:16,275 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-16 23:22:16,275 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 6-10
+2025-03-16 23:22:16,275 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-16 23:22:16,275 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 16-20
+2025-03-16 23:22:16,293 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-16 23:22:16,299 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-16 23:22:16,305 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-16 23:22:16,309 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-16 23:22:16,309 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-16 23:22:16,321 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-16 23:22:16,323 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-16 23:22:16,327 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-16 23:22:16,353 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:22:16,369 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:22:16,373 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:22:16,376 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-16 23:22:16,384 - INFO - Requesting chunk 11
+2025-03-16 23:22:16,388 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-16 23:22:16,390 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:22:16,390 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-16 23:22:16,390 - INFO - Requesting chunk 0
+2025-03-16 23:22:16,392 - INFO - Requesting chunk 6
+2025-03-16 23:22:16,404 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-16 23:22:16,412 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-16 23:22:16,422 - INFO - Hash verified for chunk 11
+2025-03-16 23:22:16,422 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-16 23:22:16,442 - INFO - Hash verified for chunk 6
+2025-03-16 23:22:16,452 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-16 23:22:16,464 - INFO - Hash verified for chunk 0
+2025-03-16 23:22:16,468 - INFO - Requesting chunk 16
+2025-03-16 23:22:16,475 - INFO - Chunk 11 written: 524288 bytes
+2025-03-16 23:22:16,481 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-16 23:22:16,483 - INFO - Requesting chunk 12
+2025-03-16 23:22:16,497 - INFO - Hash verified for chunk 16
+2025-03-16 23:22:16,516 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-16 23:22:16,529 - INFO - Hash verified for chunk 12
+2025-03-16 23:22:16,561 - INFO - Chunk 6 written: 524288 bytes
+2025-03-16 23:22:16,569 - INFO - Requesting chunk 7
+2025-03-16 23:22:16,599 - INFO - Chunk 0 written: 524288 bytes
+2025-03-16 23:22:16,604 - INFO - Requesting chunk 1
+2025-03-16 23:22:16,638 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-16 23:22:16,653 - INFO - Chunk 16 written: 524288 bytes
+2025-03-16 23:22:16,665 - INFO - Hash verified for chunk 7
+2025-03-16 23:22:16,669 - INFO - Requesting chunk 17
+2025-03-16 23:22:16,683 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-16 23:22:16,685 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-16 23:22:16,691 - INFO - Hash verified for chunk 17
+2025-03-16 23:22:16,708 - INFO - Chunk 12 written: 524288 bytes
+2025-03-16 23:22:16,716 - INFO - Requesting chunk 13
+2025-03-16 23:22:16,716 - INFO - Hash verified for chunk 1
+2025-03-16 23:22:16,726 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-16 23:22:16,739 - INFO - Hash verified for chunk 13
+2025-03-16 23:22:16,767 - INFO - Chunk 7 written: 524288 bytes
+2025-03-16 23:22:16,771 - INFO - Requesting chunk 8
+2025-03-16 23:22:16,783 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-16 23:22:16,799 - INFO - Hash verified for chunk 8
+2025-03-16 23:22:16,821 - INFO - Chunk 17 written: 524288 bytes
+2025-03-16 23:22:16,823 - INFO - Requesting chunk 18
+2025-03-16 23:22:16,859 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-16 23:22:16,859 - INFO - Chunk 1 written: 524288 bytes
+2025-03-16 23:22:16,877 - INFO - Hash verified for chunk 18
+2025-03-16 23:22:16,882 - INFO - Requesting chunk 2
+2025-03-16 23:22:16,892 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-16 23:22:16,934 - INFO - Hash verified for chunk 2
+2025-03-16 23:22:16,942 - INFO - Chunk 13 written: 524288 bytes
+2025-03-16 23:22:16,956 - INFO - Requesting chunk 14
+2025-03-16 23:22:16,972 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-16 23:22:16,981 - INFO - Hash verified for chunk 14
+2025-03-16 23:22:17,002 - INFO - Chunk 8 written: 524288 bytes
+2025-03-16 23:22:17,004 - INFO - Requesting chunk 9
+2025-03-16 23:22:17,016 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-16 23:22:17,048 - INFO - Hash verified for chunk 9
+2025-03-16 23:22:17,056 - INFO - Chunk 18 written: 524288 bytes
+2025-03-16 23:22:17,088 - INFO - Requesting chunk 19
+2025-03-16 23:22:17,124 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-16 23:22:17,126 - INFO - Chunk 2 written: 524288 bytes
+2025-03-16 23:22:17,143 - INFO - Requesting chunk 3
+2025-03-16 23:22:17,143 - INFO - Hash verified for chunk 19
+2025-03-16 23:22:17,171 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-16 23:22:17,191 - INFO - Hash verified for chunk 3
+2025-03-16 23:22:17,199 - INFO - Chunk 14 written: 524288 bytes
+2025-03-16 23:22:17,204 - INFO - Requesting chunk 15
+2025-03-16 23:22:17,222 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-16 23:22:17,242 - INFO - Hash verified for chunk 15
+2025-03-16 23:22:17,244 - INFO - Chunk 9 written: 524288 bytes
+2025-03-16 23:22:17,256 - INFO - Requesting chunk 10
+2025-03-16 23:22:17,280 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-16 23:22:17,299 - INFO - Hash verified for chunk 10
+2025-03-16 23:22:17,310 - INFO - Chunk 19 written: 524288 bytes
+2025-03-16 23:22:17,319 - INFO - Requesting chunk 20
+2025-03-16 23:22:17,341 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-16 23:22:17,355 - INFO - Chunk 3 written: 524288 bytes
+2025-03-16 23:22:17,357 - INFO - Requesting chunk 4
+2025-03-16 23:22:17,373 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-16 23:22:17,390 - INFO - Hash verified for chunk 4
+2025-03-16 23:22:17,402 - INFO - Chunk 15 written: 524288 bytes
+2025-03-16 23:22:17,406 - INFO - Chunks 11-15 download completed
+2025-03-16 23:22:17,424 - DEBUG - Closed TCP connection
+2025-03-16 23:22:17,442 - INFO - Chunk 10 written: 524288 bytes
+2025-03-16 23:22:17,456 - INFO - Chunks 6-10 download completed
+2025-03-16 23:22:17,471 - DEBUG - Closed TCP connection
+2025-03-16 23:22:17,486 - INFO - Chunk 4 written: 524288 bytes
+2025-03-16 23:22:17,486 - INFO - Requesting chunk 5
+2025-03-16 23:22:17,491 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-16 23:22:17,507 - INFO - Hash verified for chunk 5
+2025-03-16 23:22:17,537 - INFO - Chunk 5 written: 524288 bytes
+2025-03-16 23:22:17,541 - INFO - Chunks 0-5 download completed
+2025-03-16 23:22:17,541 - DEBUG - Closed TCP connection
+2025-03-16 23:23:47,352 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-16 23:23:47,354 - INFO - Hash verified for chunk 20
+2025-03-16 23:23:47,408 - INFO - Chunk 20 written: 91442 bytes
+2025-03-16 23:23:47,410 - INFO - Chunks 16-20 download completed
+2025-03-16 23:23:47,410 - DEBUG - Closed TCP connection
+2025-03-16 23:23:47,412 - INFO - All download threads completed
+2025-03-16 23:23:47,412 - INFO - Download complete. File size: 10577202 bytes
+2025-03-16 23:23:47,414 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-16 23:36:19,879 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:36:19,890 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-16 23:36:19,892 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-16 23:37:03,377 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:37:03,381 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-16 23:37:03,386 - INFO - Total chunks for file: 21
+2025-03-16 23:37:38,093 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:37:38,097 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-16 23:37:38,101 - INFO - Total chunks for file: 21
+2025-03-16 23:37:38,103 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-16 23:37:38,109 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 6-10
+2025-03-16 23:37:38,133 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-16 23:37:38,133 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 16-20
+2025-03-16 23:37:38,135 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-16 23:37:38,137 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-16 23:37:38,143 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-16 23:37:38,150 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-16 23:37:38,152 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-16 23:37:38,152 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-16 23:37:38,154 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-16 23:37:38,154 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-16 23:37:38,169 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:37:38,177 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:37:38,184 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:37:38,184 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-16 23:37:38,184 - INFO - Total chunks reported by seeder: 21
+2025-03-16 23:37:38,184 - INFO - Requesting chunk 0
+2025-03-16 23:37:38,186 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-16 23:37:38,186 - INFO - Requesting chunk 6
+2025-03-16 23:37:38,189 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-16 23:37:38,199 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-16 23:37:38,199 - INFO - Requesting chunk 11
+2025-03-16 23:37:38,201 - INFO - Requesting chunk 16
+2025-03-16 23:37:38,201 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-16 23:37:38,215 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-16 23:37:38,221 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-16 23:37:38,231 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-16 23:37:38,249 - INFO - Hash verified for chunk 0
+2025-03-16 23:37:38,257 - INFO - Hash verified for chunk 11
+2025-03-16 23:37:38,266 - INFO - Chunk 0 written: 524288 bytes
+2025-03-16 23:37:38,281 - INFO - Hash verified for chunk 16
+2025-03-16 23:37:38,285 - INFO - Requesting chunk 1
+2025-03-16 23:37:38,287 - INFO - Hash verified for chunk 6
+2025-03-16 23:37:38,297 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-16 23:37:38,308 - INFO - Hash verified for chunk 1
+2025-03-16 23:37:38,416 - INFO - Chunk 11 written: 524288 bytes
+2025-03-16 23:37:38,416 - INFO - Requesting chunk 12
+2025-03-16 23:37:38,428 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-16 23:37:38,438 - INFO - Hash verified for chunk 12
+2025-03-16 23:37:38,463 - INFO - Chunk 16 written: 524288 bytes
+2025-03-16 23:37:38,463 - INFO - Requesting chunk 17
+2025-03-16 23:37:38,475 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-16 23:37:38,487 - INFO - Hash verified for chunk 17
+2025-03-16 23:37:38,497 - INFO - Chunk 6 written: 524288 bytes
+2025-03-16 23:37:38,499 - INFO - Requesting chunk 7
+2025-03-16 23:37:38,509 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-16 23:37:38,519 - INFO - Hash verified for chunk 7
+2025-03-16 23:37:38,531 - INFO - Chunk 1 written: 524288 bytes
+2025-03-16 23:37:38,533 - INFO - Requesting chunk 2
+2025-03-16 23:37:38,537 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-16 23:37:38,555 - INFO - Hash verified for chunk 2
+2025-03-16 23:37:38,568 - INFO - Chunk 12 written: 524288 bytes
+2025-03-16 23:37:38,570 - INFO - Requesting chunk 13
+2025-03-16 23:37:38,582 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-16 23:37:38,588 - INFO - Hash verified for chunk 13
+2025-03-16 23:37:38,604 - INFO - Chunk 17 written: 524288 bytes
+2025-03-16 23:37:38,609 - INFO - Requesting chunk 18
+2025-03-16 23:37:38,618 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-16 23:37:38,636 - INFO - Chunk 7 written: 524288 bytes
+2025-03-16 23:37:38,646 - INFO - Requesting chunk 8
+2025-03-16 23:37:38,656 - INFO - Hash verified for chunk 18
+2025-03-16 23:37:38,678 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-16 23:37:38,698 - INFO - Chunk 2 written: 524288 bytes
+2025-03-16 23:37:38,700 - INFO - Hash verified for chunk 8
+2025-03-16 23:37:38,700 - INFO - Requesting chunk 3
+2025-03-16 23:37:38,736 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-16 23:37:38,736 - INFO - Chunk 13 written: 524288 bytes
+2025-03-16 23:37:38,750 - INFO - Hash verified for chunk 3
+2025-03-16 23:37:38,750 - INFO - Requesting chunk 14
+2025-03-16 23:37:38,762 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-16 23:37:38,782 - INFO - Hash verified for chunk 14
+2025-03-16 23:37:38,795 - INFO - Chunk 18 written: 524288 bytes
+2025-03-16 23:37:38,795 - INFO - Requesting chunk 19
+2025-03-16 23:37:38,801 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-16 23:37:38,845 - INFO - Hash verified for chunk 19
+2025-03-16 23:37:38,851 - INFO - Chunk 8 written: 524288 bytes
+2025-03-16 23:37:38,853 - INFO - Requesting chunk 9
+2025-03-16 23:37:38,866 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-16 23:37:38,885 - INFO - Hash verified for chunk 9
+2025-03-16 23:37:38,897 - INFO - Chunk 3 written: 524288 bytes
+2025-03-16 23:37:38,897 - INFO - Requesting chunk 4
+2025-03-16 23:37:38,903 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-16 23:37:38,917 - INFO - Hash verified for chunk 4
+2025-03-16 23:37:38,948 - INFO - Chunk 14 written: 524288 bytes
+2025-03-16 23:37:38,969 - INFO - Requesting chunk 15
+2025-03-16 23:37:38,983 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-16 23:37:38,997 - INFO - Hash verified for chunk 15
+2025-03-16 23:37:39,013 - INFO - Chunk 19 written: 524288 bytes
+2025-03-16 23:37:39,015 - INFO - Requesting chunk 20
+2025-03-16 23:37:39,034 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-16 23:37:39,049 - INFO - Chunk 9 written: 524288 bytes
+2025-03-16 23:37:39,053 - INFO - Requesting chunk 10
+2025-03-16 23:37:39,069 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-16 23:37:39,097 - INFO - Hash verified for chunk 10
+2025-03-16 23:37:39,099 - INFO - Chunk 4 written: 524288 bytes
+2025-03-16 23:37:39,101 - INFO - Requesting chunk 5
+2025-03-16 23:37:39,122 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-16 23:37:39,151 - INFO - Chunk 15 written: 524288 bytes
+2025-03-16 23:37:39,155 - INFO - Hash verified for chunk 5
+2025-03-16 23:37:39,162 - INFO - Chunks 11-15 download completed
+2025-03-16 23:37:39,164 - DEBUG - Closed TCP connection
+2025-03-16 23:37:39,196 - INFO - Chunk 10 written: 524288 bytes
+2025-03-16 23:37:39,198 - INFO - Chunks 6-10 download completed
+2025-03-16 23:37:39,203 - DEBUG - Closed TCP connection
+2025-03-16 23:37:39,232 - INFO - Chunk 5 written: 524288 bytes
+2025-03-16 23:37:39,234 - INFO - Chunks 0-5 download completed
+2025-03-16 23:37:39,237 - DEBUG - Closed TCP connection
+2025-03-16 23:39:09,058 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-16 23:39:09,062 - INFO - Hash verified for chunk 20
+2025-03-16 23:39:09,094 - INFO - Chunk 20 written: 91442 bytes
+2025-03-16 23:39:09,094 - INFO - Chunks 16-20 download completed
+2025-03-16 23:39:09,104 - DEBUG - Closed TCP connection
+2025-03-16 23:39:09,104 - INFO - All download threads completed
+2025-03-16 23:39:09,104 - INFO - Download complete. File size: 10577202 bytes
+2025-03-16 23:39:09,104 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-16 23:59:09,750 - DEBUG - Sending seeders request to tracker
+2025-03-16 23:59:09,760 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-16 23:59:09,762 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 00:09:35,516 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:09:35,536 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-17 00:09:35,543 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 00:09:56,506 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:09:56,510 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7002:0', '196.47.247.55:7001:0', '196.47.247.55:7003:0']
+2025-03-17 00:09:56,528 - INFO - Total chunks for file: 21
+2025-03-17 00:09:56,535 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-17 00:09:56,535 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 6-10
+2025-03-17 00:09:56,535 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-17 00:09:56,535 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 16-20
+2025-03-17 00:09:56,544 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 00:09:56,546 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 00:09:56,546 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 00:09:56,548 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 00:09:56,548 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 00:09:56,548 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 00:09:56,552 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-17 00:09:56,554 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:09:56,562 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-17 00:09:56,562 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:09:56,564 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:09:56,564 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-17 00:09:56,566 - INFO - Requesting chunk 6
+2025-03-17 00:09:56,566 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-17 00:09:56,566 - INFO - Requesting chunk 0
+2025-03-17 00:09:56,568 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-17 00:09:56,568 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:09:56,568 - INFO - Requesting chunk 11
+2025-03-17 00:09:56,578 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 00:09:56,594 - INFO - Hash verified for chunk 6
+2025-03-17 00:09:56,598 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 00:09:56,600 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 00:09:56,618 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 00:09:56,620 - INFO - Hash verified for chunk 11
+2025-03-17 00:09:56,624 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-17 00:09:56,626 - INFO - Requesting chunk 7
+2025-03-17 00:09:56,628 - INFO - Requesting chunk 16
+2025-03-17 00:09:56,642 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 00:09:56,653 - INFO - Hash verified for chunk 7
+2025-03-17 00:09:56,689 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 00:09:56,695 - INFO - Requesting chunk 12
+2025-03-17 00:09:56,725 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 00:09:56,747 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 00:09:56,751 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 00:09:56,751 - INFO - Hash verified for chunk 0
+2025-03-17 00:09:56,763 - INFO - Requesting chunk 8
+2025-03-17 00:09:56,771 - INFO - Hash verified for chunk 12
+2025-03-17 00:09:56,778 - INFO - Hash verified for chunk 16
+2025-03-17 00:09:56,800 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 00:09:56,802 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 00:09:56,802 - INFO - Requesting chunk 1
+2025-03-17 00:09:56,810 - INFO - Hash verified for chunk 8
+2025-03-17 00:09:56,828 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 00:09:56,856 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 00:09:56,858 - INFO - Requesting chunk 13
+2025-03-17 00:09:56,866 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 00:09:56,877 - INFO - Hash verified for chunk 13
+2025-03-17 00:09:56,891 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 00:09:56,893 - INFO - Requesting chunk 17
+2025-03-17 00:09:56,901 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 00:09:56,910 - INFO - Hash verified for chunk 17
+2025-03-17 00:09:56,925 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 00:09:56,930 - INFO - Requesting chunk 9
+2025-03-17 00:09:56,936 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 00:09:56,948 - INFO - Hash verified for chunk 9
+2025-03-17 00:09:56,956 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 00:09:56,966 - INFO - Requesting chunk 14
+2025-03-17 00:09:56,974 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 00:09:56,983 - INFO - Hash verified for chunk 14
+2025-03-17 00:09:57,005 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 00:09:57,008 - INFO - Requesting chunk 18
+2025-03-17 00:09:57,017 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 00:09:57,033 - INFO - Hash verified for chunk 18
+2025-03-17 00:09:57,043 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 00:09:57,043 - INFO - Requesting chunk 10
+2025-03-17 00:09:57,057 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 00:09:57,067 - INFO - Hash verified for chunk 10
+2025-03-17 00:09:57,078 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 00:09:57,082 - INFO - Requesting chunk 15
+2025-03-17 00:09:57,091 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 00:09:57,100 - INFO - Hash verified for chunk 15
+2025-03-17 00:09:57,116 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 00:09:57,116 - INFO - Requesting chunk 19
+2025-03-17 00:09:57,131 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 00:09:57,141 - INFO - Hash verified for chunk 19
+2025-03-17 00:09:57,145 - INFO - Hash verified for chunk 1
+2025-03-17 00:09:57,147 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 00:09:57,147 - INFO - Chunks 6-10 download completed
+2025-03-17 00:09:57,147 - DEBUG - Closed TCP connection
+2025-03-17 00:09:57,180 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 00:09:57,183 - INFO - Chunks 11-15 download completed
+2025-03-17 00:09:57,194 - DEBUG - Closed TCP connection
+2025-03-17 00:09:57,213 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 00:09:57,213 - INFO - Requesting chunk 20
+2025-03-17 00:09:57,220 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 00:09:57,241 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 00:09:57,241 - INFO - Requesting chunk 2
+2025-03-17 00:09:57,241 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 00:09:57,252 - INFO - Hash verified for chunk 2
+2025-03-17 00:09:57,274 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 00:09:57,274 - INFO - Requesting chunk 3
+2025-03-17 00:09:57,277 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 00:09:57,286 - INFO - Hash verified for chunk 3
+2025-03-17 00:09:57,307 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 00:09:57,311 - INFO - Requesting chunk 4
+2025-03-17 00:09:57,317 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 00:09:57,325 - INFO - Hash verified for chunk 4
+2025-03-17 00:09:57,349 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 00:09:57,351 - INFO - Requesting chunk 5
+2025-03-17 00:09:57,358 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 00:09:57,364 - INFO - Hash verified for chunk 5
+2025-03-17 00:09:57,390 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 00:09:57,394 - INFO - Chunks 0-5 download completed
+2025-03-17 00:09:57,396 - DEBUG - Closed TCP connection
+2025-03-17 00:11:27,243 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 00:11:27,245 - INFO - Hash verified for chunk 20
+2025-03-17 00:11:27,356 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 00:11:27,362 - INFO - Chunks 16-20 download completed
+2025-03-17 00:11:27,364 - DEBUG - Closed TCP connection
+2025-03-17 00:11:27,378 - INFO - All download threads completed
+2025-03-17 00:11:27,380 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 00:11:27,392 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 00:12:01,103 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:12:01,162 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-17 00:12:01,223 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 00:12:17,544 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:12:17,566 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-17 00:12:17,578 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 00:12:43,658 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:12:43,662 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 00:12:43,672 - INFO - Total chunks for file: 21
+2025-03-17 00:12:43,690 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-17 00:12:43,698 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 6-10
+2025-03-17 00:12:43,698 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-17 00:12:43,698 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 16-20
+2025-03-17 00:12:43,708 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 00:12:43,712 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-17 00:12:43,712 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 00:12:43,714 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 00:12:43,714 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-17 00:12:43,716 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 00:12:43,718 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 00:12:43,724 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:12:43,724 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 00:12:43,730 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:12:43,732 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:12:43,735 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-17 00:12:43,735 - INFO - Requesting chunk 0
+2025-03-17 00:12:43,737 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-17 00:12:43,737 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:12:43,738 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-17 00:12:43,738 - INFO - Requesting chunk 6
+2025-03-17 00:12:43,740 - INFO - Requesting chunk 11
+2025-03-17 00:12:43,746 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-17 00:12:43,750 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 00:12:43,750 - INFO - Requesting chunk 16
+2025-03-17 00:12:43,750 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 00:12:43,756 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 00:12:43,766 - INFO - Hash verified for chunk 6
+2025-03-17 00:12:43,788 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 00:12:43,800 - INFO - Requesting chunk 7
+2025-03-17 00:12:43,813 - INFO - Hash verified for chunk 0
+2025-03-17 00:12:43,817 - INFO - Hash verified for chunk 11
+2025-03-17 00:12:43,817 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 00:12:43,823 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 00:12:43,847 - INFO - Hash verified for chunk 7
+2025-03-17 00:12:43,849 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 00:12:43,856 - INFO - Requesting chunk 1
+2025-03-17 00:12:43,856 - INFO - Hash verified for chunk 16
+2025-03-17 00:12:43,860 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 00:12:43,871 - INFO - Hash verified for chunk 1
+2025-03-17 00:12:43,875 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 00:12:43,875 - INFO - Requesting chunk 12
+2025-03-17 00:12:43,885 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 00:12:43,889 - INFO - Hash verified for chunk 12
+2025-03-17 00:12:43,907 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 00:12:43,907 - INFO - Requesting chunk 8
+2025-03-17 00:12:43,924 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 00:12:43,934 - INFO - Hash verified for chunk 8
+2025-03-17 00:12:43,936 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 00:12:43,936 - INFO - Requesting chunk 17
+2025-03-17 00:12:43,940 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 00:12:43,950 - INFO - Hash verified for chunk 17
+2025-03-17 00:12:43,962 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 00:12:43,962 - INFO - Requesting chunk 2
+2025-03-17 00:12:43,968 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 00:12:43,972 - INFO - Hash verified for chunk 2
+2025-03-17 00:12:43,984 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 00:12:43,984 - INFO - Requesting chunk 13
+2025-03-17 00:12:43,988 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 00:12:43,994 - INFO - Hash verified for chunk 13
+2025-03-17 00:12:44,008 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 00:12:44,008 - INFO - Requesting chunk 9
+2025-03-17 00:12:44,014 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 00:12:44,020 - INFO - Hash verified for chunk 9
+2025-03-17 00:12:44,041 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 00:12:44,047 - INFO - Requesting chunk 18
+2025-03-17 00:12:44,071 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 00:12:44,079 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 00:12:44,083 - INFO - Requesting chunk 3
+2025-03-17 00:12:44,087 - INFO - Hash verified for chunk 18
+2025-03-17 00:12:44,105 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 00:12:44,107 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 00:12:44,107 - INFO - Requesting chunk 14
+2025-03-17 00:12:44,111 - INFO - Hash verified for chunk 3
+2025-03-17 00:12:44,123 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 00:12:44,131 - INFO - Hash verified for chunk 14
+2025-03-17 00:12:44,134 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 00:12:44,136 - INFO - Requesting chunk 10
+2025-03-17 00:12:44,140 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 00:12:44,151 - INFO - Hash verified for chunk 10
+2025-03-17 00:12:44,157 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 00:12:44,159 - INFO - Requesting chunk 19
+2025-03-17 00:12:44,168 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 00:12:44,174 - INFO - Hash verified for chunk 19
+2025-03-17 00:12:44,181 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 00:12:44,182 - INFO - Requesting chunk 4
+2025-03-17 00:12:44,198 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 00:12:44,200 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 00:12:44,206 - INFO - Requesting chunk 15
+2025-03-17 00:12:44,208 - INFO - Hash verified for chunk 4
+2025-03-17 00:12:44,218 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 00:12:44,226 - INFO - Hash verified for chunk 15
+2025-03-17 00:12:44,231 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 00:12:44,231 - INFO - Chunks 6-10 download completed
+2025-03-17 00:12:44,233 - DEBUG - Closed TCP connection
+2025-03-17 00:12:44,251 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 00:12:44,251 - INFO - Requesting chunk 20
+2025-03-17 00:12:44,257 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 00:12:44,271 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 00:12:44,271 - INFO - Requesting chunk 5
+2025-03-17 00:12:44,281 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 00:12:44,285 - INFO - Hash verified for chunk 5
+2025-03-17 00:12:44,292 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 00:12:44,296 - INFO - Chunks 11-15 download completed
+2025-03-17 00:12:44,303 - DEBUG - Closed TCP connection
+2025-03-17 00:12:44,312 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 00:12:44,314 - INFO - Chunks 0-5 download completed
+2025-03-17 00:12:44,314 - DEBUG - Closed TCP connection
+2025-03-17 00:14:14,267 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 00:14:14,267 - INFO - Hash verified for chunk 20
+2025-03-17 00:14:14,289 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 00:14:14,291 - INFO - Chunks 16-20 download completed
+2025-03-17 00:14:14,291 - DEBUG - Closed TCP connection
+2025-03-17 00:14:14,293 - INFO - All download threads completed
+2025-03-17 00:14:14,293 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 00:14:14,293 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 00:21:58,240 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:21:58,243 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 00:21:58,245 - INFO - Total chunks for file: 21
+2025-03-17 00:21:58,245 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-17 00:21:58,251 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 6-10
+2025-03-17 00:21:58,251 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-17 00:21:58,251 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 16-20
+2025-03-17 00:21:58,251 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 00:21:58,251 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-17 00:21:58,251 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 00:21:58,251 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-17 00:21:58,255 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 00:21:58,255 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 00:21:58,257 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 00:21:58,257 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 00:21:58,266 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:21:58,268 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:21:58,270 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:21:58,270 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-17 00:21:58,270 - INFO - Requesting chunk 6
+2025-03-17 00:21:58,270 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-17 00:21:58,270 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:21:58,270 - INFO - Requesting chunk 0
+2025-03-17 00:21:58,272 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-17 00:21:58,272 - INFO - Requesting chunk 11
+2025-03-17 00:21:58,274 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-17 00:21:58,274 - INFO - Requesting chunk 16
+2025-03-17 00:21:58,281 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 00:21:58,281 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 00:21:58,285 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 00:21:58,301 - INFO - Hash verified for chunk 0
+2025-03-17 00:21:58,303 - INFO - Hash verified for chunk 6
+2025-03-17 00:21:58,303 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 00:21:58,307 - INFO - Hash verified for chunk 11
+2025-03-17 00:21:58,309 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 00:21:58,317 - INFO - Hash verified for chunk 16
+2025-03-17 00:21:58,319 - INFO - Requesting chunk 1
+2025-03-17 00:21:58,323 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 00:21:58,337 - INFO - Hash verified for chunk 1
+2025-03-17 00:21:58,406 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 00:21:58,417 - INFO - Requesting chunk 12
+2025-03-17 00:21:58,423 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 00:21:58,436 - INFO - Hash verified for chunk 12
+2025-03-17 00:21:58,447 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 00:21:58,447 - INFO - Requesting chunk 7
+2025-03-17 00:21:58,452 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 00:21:58,458 - INFO - Hash verified for chunk 7
+2025-03-17 00:21:58,468 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 00:21:58,468 - INFO - Requesting chunk 17
+2025-03-17 00:21:58,474 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 00:21:58,487 - INFO - Hash verified for chunk 17
+2025-03-17 00:21:58,495 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 00:21:58,495 - INFO - Requesting chunk 2
+2025-03-17 00:21:58,501 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 00:21:58,507 - INFO - Hash verified for chunk 2
+2025-03-17 00:21:58,517 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 00:21:58,517 - INFO - Requesting chunk 13
+2025-03-17 00:21:58,524 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 00:21:58,533 - INFO - Hash verified for chunk 13
+2025-03-17 00:21:58,539 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 00:21:58,539 - INFO - Requesting chunk 8
+2025-03-17 00:21:58,549 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 00:21:58,559 - INFO - Hash verified for chunk 8
+2025-03-17 00:21:58,564 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 00:21:58,564 - INFO - Requesting chunk 18
+2025-03-17 00:21:58,572 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 00:21:58,580 - INFO - Hash verified for chunk 18
+2025-03-17 00:21:58,584 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 00:21:58,584 - INFO - Requesting chunk 3
+2025-03-17 00:21:58,597 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 00:21:58,606 - INFO - Hash verified for chunk 3
+2025-03-17 00:21:58,613 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 00:21:58,613 - INFO - Requesting chunk 14
+2025-03-17 00:21:58,620 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 00:21:58,628 - INFO - Hash verified for chunk 14
+2025-03-17 00:21:58,636 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 00:21:58,636 - INFO - Requesting chunk 9
+2025-03-17 00:21:58,642 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 00:21:58,652 - INFO - Hash verified for chunk 9
+2025-03-17 00:21:58,664 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 00:21:58,664 - INFO - Requesting chunk 19
+2025-03-17 00:21:58,675 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 00:21:58,689 - INFO - Hash verified for chunk 19
+2025-03-17 00:21:58,689 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 00:21:58,691 - INFO - Requesting chunk 4
+2025-03-17 00:21:58,697 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 00:21:58,705 - INFO - Hash verified for chunk 4
+2025-03-17 00:21:58,713 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 00:21:58,715 - INFO - Requesting chunk 15
+2025-03-17 00:21:58,719 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 00:21:58,728 - INFO - Hash verified for chunk 15
+2025-03-17 00:21:58,737 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 00:21:58,737 - INFO - Requesting chunk 10
+2025-03-17 00:21:58,741 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 00:21:58,753 - INFO - Hash verified for chunk 10
+2025-03-17 00:21:58,759 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 00:21:58,761 - INFO - Requesting chunk 20
+2025-03-17 00:21:58,767 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 00:21:58,779 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 00:21:58,779 - INFO - Requesting chunk 5
+2025-03-17 00:21:58,786 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 00:21:58,794 - INFO - Hash verified for chunk 5
+2025-03-17 00:21:58,800 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 00:21:58,800 - INFO - Chunks 11-15 download completed
+2025-03-17 00:21:58,800 - DEBUG - Closed TCP connection
+2025-03-17 00:21:58,816 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 00:21:58,821 - INFO - Chunks 6-10 download completed
+2025-03-17 00:21:58,821 - DEBUG - Closed TCP connection
+2025-03-17 00:21:58,834 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 00:21:58,834 - INFO - Chunks 0-5 download completed
+2025-03-17 00:21:58,834 - DEBUG - Closed TCP connection
+2025-03-17 00:23:28,774 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 00:23:28,774 - INFO - Hash verified for chunk 20
+2025-03-17 00:23:28,794 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 00:23:28,794 - INFO - Chunks 16-20 download completed
+2025-03-17 00:23:28,794 - DEBUG - Closed TCP connection
+2025-03-17 00:23:28,798 - INFO - All download threads completed
+2025-03-17 00:23:28,800 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 00:23:28,800 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 00:23:28,800 - INFO - Transitioning to seeder mode
+2025-03-17 00:23:28,800 - INFO - Registering as seeder: REGISTER_SEEDER large_text_file.txt 196.47.247.55 64032 21
+2025-03-17 00:23:28,800 - ERROR - Error registering as seeder: name 'FORMAT' is not defined
+2025-03-17 00:25:47,618 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:25:47,620 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 00:25:47,624 - INFO - Total chunks for file: 21
+2025-03-17 00:25:47,631 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-17 00:25:47,631 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 6-10
+2025-03-17 00:25:47,631 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-17 00:25:47,631 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 16-20
+2025-03-17 00:25:47,631 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 00:25:47,635 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 00:25:47,635 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-17 00:25:47,635 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 00:25:47,637 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-17 00:25:47,637 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 00:25:47,637 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 00:25:47,639 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 00:25:47,640 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:25:47,672 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:25:47,674 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-17 00:25:47,674 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:25:47,674 - INFO - Requesting chunk 0
+2025-03-17 00:25:47,676 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:25:47,676 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-17 00:25:47,676 - INFO - Requesting chunk 6
+2025-03-17 00:25:47,678 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-17 00:25:47,678 - INFO - Requesting chunk 11
+2025-03-17 00:25:47,690 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-17 00:25:47,690 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 00:25:47,690 - INFO - Requesting chunk 16
+2025-03-17 00:25:47,692 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 00:25:47,694 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 00:25:47,712 - INFO - Hash verified for chunk 11
+2025-03-17 00:25:47,721 - INFO - Hash verified for chunk 0
+2025-03-17 00:25:47,733 - INFO - Hash verified for chunk 6
+2025-03-17 00:25:47,737 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 00:25:47,742 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 00:25:47,742 - INFO - Requesting chunk 12
+2025-03-17 00:25:47,750 - INFO - Hash verified for chunk 16
+2025-03-17 00:25:47,753 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 00:25:47,761 - INFO - Hash verified for chunk 12
+2025-03-17 00:25:47,777 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 00:25:47,777 - INFO - Requesting chunk 1
+2025-03-17 00:25:47,785 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 00:25:47,791 - INFO - Hash verified for chunk 1
+2025-03-17 00:25:47,799 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 00:25:47,803 - INFO - Requesting chunk 7
+2025-03-17 00:25:47,805 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 00:25:47,813 - INFO - Hash verified for chunk 7
+2025-03-17 00:25:47,822 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 00:25:47,822 - INFO - Requesting chunk 17
+2025-03-17 00:25:47,830 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 00:25:47,836 - INFO - Hash verified for chunk 17
+2025-03-17 00:25:47,842 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 00:25:47,842 - INFO - Requesting chunk 13
+2025-03-17 00:25:47,855 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 00:25:47,864 - INFO - Hash verified for chunk 13
+2025-03-17 00:25:47,868 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 00:25:47,868 - INFO - Requesting chunk 2
+2025-03-17 00:25:47,876 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 00:25:47,884 - INFO - Hash verified for chunk 2
+2025-03-17 00:25:47,888 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 00:25:47,888 - INFO - Requesting chunk 8
+2025-03-17 00:25:47,894 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 00:25:47,904 - INFO - Hash verified for chunk 8
+2025-03-17 00:25:47,910 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 00:25:47,910 - INFO - Requesting chunk 18
+2025-03-17 00:25:47,916 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 00:25:47,924 - INFO - Hash verified for chunk 18
+2025-03-17 00:25:47,974 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 00:25:47,981 - INFO - Requesting chunk 14
+2025-03-17 00:25:47,985 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 00:25:47,994 - INFO - Hash verified for chunk 14
+2025-03-17 00:25:48,002 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 00:25:48,002 - INFO - Requesting chunk 3
+2025-03-17 00:25:48,007 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 00:25:48,011 - INFO - Hash verified for chunk 3
+2025-03-17 00:25:48,023 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 00:25:48,023 - INFO - Requesting chunk 9
+2025-03-17 00:25:48,030 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 00:25:48,037 - INFO - Hash verified for chunk 9
+2025-03-17 00:25:48,043 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 00:25:48,043 - INFO - Requesting chunk 19
+2025-03-17 00:25:48,051 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 00:25:48,059 - INFO - Hash verified for chunk 19
+2025-03-17 00:25:48,067 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 00:25:48,069 - INFO - Requesting chunk 15
+2025-03-17 00:25:48,071 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 00:25:48,079 - INFO - Hash verified for chunk 15
+2025-03-17 00:25:48,089 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 00:25:48,089 - INFO - Requesting chunk 4
+2025-03-17 00:25:48,098 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 00:25:48,104 - INFO - Hash verified for chunk 4
+2025-03-17 00:25:48,111 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 00:25:48,111 - INFO - Requesting chunk 10
+2025-03-17 00:25:48,120 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 00:25:48,126 - INFO - Hash verified for chunk 10
+2025-03-17 00:25:48,132 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 00:25:48,132 - INFO - Requesting chunk 20
+2025-03-17 00:25:48,137 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 00:25:48,152 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 00:25:48,152 - INFO - Chunks 11-15 download completed
+2025-03-17 00:25:48,152 - DEBUG - Closed TCP connection
+2025-03-17 00:25:48,169 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 00:25:48,169 - INFO - Requesting chunk 5
+2025-03-17 00:25:48,174 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 00:25:48,187 - INFO - Hash verified for chunk 5
+2025-03-17 00:25:48,191 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 00:25:48,191 - INFO - Chunks 6-10 download completed
+2025-03-17 00:25:48,201 - DEBUG - Closed TCP connection
+2025-03-17 00:25:48,209 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 00:25:48,209 - INFO - Chunks 0-5 download completed
+2025-03-17 00:25:48,211 - DEBUG - Closed TCP connection
+2025-03-17 00:27:18,141 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 00:27:18,141 - INFO - Hash verified for chunk 20
+2025-03-17 00:27:18,161 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 00:27:18,161 - INFO - Chunks 16-20 download completed
+2025-03-17 00:27:18,163 - DEBUG - Closed TCP connection
+2025-03-17 00:27:18,165 - INFO - All download threads completed
+2025-03-17 00:27:18,165 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 00:27:18,165 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 00:27:18,165 - INFO - Transitioning to seeder mode
+2025-03-17 00:27:18,165 - INFO - Registering as seeder: REGISTER_SEEDER large_text_file.txt 196.47.247.55 64111 21
+2025-03-17 00:27:18,168 - ERROR - Error registering as seeder: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 00:27:18,182 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\transitioner.py", line 70, in _register_as_seeder
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 00:27:18,184 - INFO - Seeder mode active on 196.47.247.55:64111
+2025-03-17 00:27:18,184 - INFO - Seeder server started, listening for connections
+2025-03-17 00:30:14,634 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:30:14,638 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-17 00:30:14,638 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 00:41:30,480 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:41:30,482 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7003:0', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 00:41:30,484 - INFO - Total chunks for file: 21
+2025-03-17 00:41:30,492 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-5
+2025-03-17 00:41:30,492 - INFO - Created thread for seeder 196.47.247.55:7003 for chunks 6-10
+2025-03-17 00:41:30,492 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 11-15
+2025-03-17 00:41:30,496 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 16-20
+2025-03-17 00:41:30,504 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 00:41:30,514 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7003)
+2025-03-17 00:41:30,514 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 00:41:30,514 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 00:41:30,516 - INFO - Connected to seeder ('196.47.247.55', 7003)
+2025-03-17 00:41:30,516 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 00:41:30,516 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 00:41:30,518 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:41:30,518 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 00:41:30,520 - INFO - Seeder accepted chunk range from 0 to 5
+2025-03-17 00:41:30,526 - INFO - Requesting chunk 0
+2025-03-17 00:41:30,526 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:41:30,526 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:41:30,530 - INFO - Total chunks reported by seeder: 21
+2025-03-17 00:41:30,530 - INFO - Seeder accepted chunk range from 6 to 10
+2025-03-17 00:41:30,530 - INFO - Seeder accepted chunk range from 11 to 15
+2025-03-17 00:41:30,530 - INFO - Requesting chunk 6
+2025-03-17 00:41:30,530 - INFO - Requesting chunk 11
+2025-03-17 00:41:30,532 - INFO - Seeder accepted chunk range from 16 to 20
+2025-03-17 00:41:30,534 - INFO - Requesting chunk 16
+2025-03-17 00:41:30,559 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 00:41:30,559 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 00:41:30,559 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 00:41:30,559 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 00:41:30,567 - INFO - Hash verified for chunk 16
+2025-03-17 00:41:30,569 - INFO - Hash verified for chunk 6
+2025-03-17 00:41:30,577 - INFO - Hash verified for chunk 11
+2025-03-17 00:41:30,581 - INFO - Hash verified for chunk 0
+2025-03-17 00:41:30,599 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 00:41:30,599 - INFO - Requesting chunk 17
+2025-03-17 00:41:30,609 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 00:41:30,615 - INFO - Hash verified for chunk 17
+2025-03-17 00:41:30,631 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 00:41:30,631 - INFO - Requesting chunk 7
+2025-03-17 00:41:30,638 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 00:41:30,648 - INFO - Hash verified for chunk 7
+2025-03-17 00:41:30,652 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 00:41:30,654 - INFO - Requesting chunk 12
+2025-03-17 00:41:30,660 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 00:41:30,667 - INFO - Hash verified for chunk 12
+2025-03-17 00:41:30,674 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 00:41:30,674 - INFO - Requesting chunk 1
+2025-03-17 00:41:30,680 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 00:41:30,688 - INFO - Hash verified for chunk 1
+2025-03-17 00:41:30,696 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 00:41:30,696 - INFO - Requesting chunk 18
+2025-03-17 00:41:30,701 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 00:41:30,712 - INFO - Hash verified for chunk 18
+2025-03-17 00:41:30,714 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 00:41:30,714 - INFO - Requesting chunk 8
+2025-03-17 00:41:30,727 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 00:41:30,735 - INFO - Hash verified for chunk 8
+2025-03-17 00:41:30,742 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 00:41:30,742 - INFO - Requesting chunk 13
+2025-03-17 00:41:30,748 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 00:41:30,762 - INFO - Hash verified for chunk 13
+2025-03-17 00:41:30,780 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 00:41:30,789 - INFO - Requesting chunk 2
+2025-03-17 00:41:30,794 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 00:41:30,802 - INFO - Hash verified for chunk 2
+2025-03-17 00:41:30,810 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 00:41:30,810 - INFO - Requesting chunk 19
+2025-03-17 00:41:30,816 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 00:41:30,824 - INFO - Hash verified for chunk 19
+2025-03-17 00:41:30,830 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 00:41:30,830 - INFO - Requesting chunk 9
+2025-03-17 00:41:30,836 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 00:41:30,848 - INFO - Hash verified for chunk 9
+2025-03-17 00:41:30,850 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 00:41:30,850 - INFO - Requesting chunk 14
+2025-03-17 00:41:30,860 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 00:41:30,869 - INFO - Hash verified for chunk 14
+2025-03-17 00:41:30,878 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 00:41:30,878 - INFO - Requesting chunk 3
+2025-03-17 00:41:30,882 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 00:41:30,892 - INFO - Hash verified for chunk 3
+2025-03-17 00:41:30,900 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 00:41:30,900 - INFO - Requesting chunk 20
+2025-03-17 00:41:30,904 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 00:41:30,918 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 00:41:30,918 - INFO - Requesting chunk 10
+2025-03-17 00:41:30,924 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 00:41:30,932 - INFO - Hash verified for chunk 10
+2025-03-17 00:41:30,940 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 00:41:30,942 - INFO - Requesting chunk 15
+2025-03-17 00:41:30,945 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 00:41:30,952 - INFO - Hash verified for chunk 15
+2025-03-17 00:41:30,956 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 00:41:30,956 - INFO - Requesting chunk 4
+2025-03-17 00:41:30,965 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 00:41:30,969 - INFO - Hash verified for chunk 4
+2025-03-17 00:41:30,981 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 00:41:30,981 - INFO - Chunks 6-10 download completed
+2025-03-17 00:41:30,993 - DEBUG - Closed TCP connection
+2025-03-17 00:41:30,995 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 00:41:31,000 - INFO - Chunks 11-15 download completed
+2025-03-17 00:41:31,000 - DEBUG - Closed TCP connection
+2025-03-17 00:41:31,009 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 00:41:31,016 - INFO - Requesting chunk 5
+2025-03-17 00:41:31,016 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 00:41:31,028 - INFO - Hash verified for chunk 5
+2025-03-17 00:41:31,042 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 00:41:31,042 - INFO - Chunks 0-5 download completed
+2025-03-17 00:41:31,046 - DEBUG - Closed TCP connection
+2025-03-17 00:43:00,923 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 00:43:00,924 - INFO - Hash verified for chunk 20
+2025-03-17 00:43:00,946 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 00:43:00,947 - INFO - Chunks 16-20 download completed
+2025-03-17 00:43:00,947 - DEBUG - Closed TCP connection
+2025-03-17 00:43:00,949 - INFO - All download threads completed
+2025-03-17 00:43:00,949 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 00:43:00,951 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 00:43:00,952 - INFO - Transitioning to seeder mode
+2025-03-17 00:43:00,953 - INFO - Registering as seeder: REGISTER_SEEDER large_text_file.txt 196.47.247.55 64901 21
+2025-03-17 00:43:00,956 - ERROR - Error registering as seeder: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 00:43:00,964 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\transitioner.py", line 105, in _register_as_seeder
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 00:43:00,965 - INFO - Seeder mode active on 196.47.247.55:64901
+2025-03-17 00:43:00,965 - INFO - Seeder server started, listening for connections
+2025-03-17 00:43:42,749 - DEBUG - Sending seeders request to tracker
+2025-03-17 00:43:42,751 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-17 00:43:42,752 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 02:38:37,867 - DEBUG - Sending seeders request to tracker
+2025-03-17 02:38:37,871 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21']
+2025-03-17 02:38:37,871 - ERROR - Need at least 3 seeders, but only found 1. Exiting.
+2025-03-17 02:39:19,122 - DEBUG - Sending seeders request to tracker
+2025-03-17 02:39:19,134 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 02:39:19,307 - INFO - Total chunks for file: 21
+2025-03-17 02:39:19,318 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-6
+2025-03-17 02:39:19,322 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 7-13
+2025-03-17 02:39:19,322 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 14-20
+2025-03-17 02:39:19,357 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 02:39:19,374 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 02:39:19,409 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 02:39:19,444 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 02:39:19,504 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 02:39:19,510 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 02:39:19,523 - INFO - Total chunks reported by seeder: 21
+2025-03-17 02:39:19,525 - INFO - Total chunks reported by seeder: 21
+2025-03-17 02:39:19,527 - INFO - Seeder accepted chunk range from 14 to 20
+2025-03-17 02:39:19,536 - INFO - Total chunks reported by seeder: 21
+2025-03-17 02:39:19,536 - INFO - Requesting chunk 14
+2025-03-17 02:39:19,540 - INFO - Seeder accepted chunk range from 0 to 6
+2025-03-17 02:39:19,542 - INFO - Requesting chunk 0
+2025-03-17 02:39:19,574 - INFO - Seeder accepted chunk range from 7 to 13
+2025-03-17 02:39:19,580 - INFO - Requesting chunk 7
+2025-03-17 02:39:19,623 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 02:39:19,625 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 02:39:19,625 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 02:39:19,647 - INFO - Hash verified for chunk 14
+2025-03-17 02:39:19,654 - INFO - Hash verified for chunk 7
+2025-03-17 02:39:19,676 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 02:39:19,702 - INFO - Hash verified for chunk 0
+2025-03-17 02:39:19,708 - INFO - Requesting chunk 15
+2025-03-17 02:39:19,726 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 02:39:19,776 - INFO - Hash verified for chunk 15
+2025-03-17 02:39:19,794 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 02:39:19,802 - INFO - Requesting chunk 8
+2025-03-17 02:39:19,836 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 02:39:19,841 - INFO - Requesting chunk 1
+2025-03-17 02:39:19,870 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 02:39:19,886 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 02:39:19,894 - INFO - Requesting chunk 16
+2025-03-17 02:39:19,904 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 02:39:19,916 - INFO - Hash verified for chunk 8
+2025-03-17 02:39:19,943 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 02:39:19,952 - INFO - Hash verified for chunk 1
+2025-03-17 02:39:19,956 - INFO - Requesting chunk 9
+2025-03-17 02:39:19,977 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 02:39:19,987 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 02:39:19,990 - INFO - Requesting chunk 2
+2025-03-17 02:39:19,996 - INFO - Hash verified for chunk 16
+2025-03-17 02:39:20,024 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 02:39:20,035 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 02:39:20,041 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 02:39:20,041 - INFO - Requesting chunk 17
+2025-03-17 02:39:20,051 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 02:39:20,058 - INFO - Hash verified for chunk 17
+2025-03-17 02:39:20,083 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 02:39:20,085 - INFO - Requesting chunk 18
+2025-03-17 02:39:20,090 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 02:39:20,108 - INFO - Hash verified for chunk 18
+2025-03-17 02:39:20,133 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 02:39:20,134 - INFO - Requesting chunk 19
+2025-03-17 02:39:20,140 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 02:39:20,256 - INFO - Hash verified for chunk 9
+2025-03-17 02:39:20,272 - INFO - Hash verified for chunk 2
+2025-03-17 02:39:20,298 - INFO - Hash verified for chunk 19
+2025-03-17 02:39:20,325 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 02:39:20,368 - INFO - Requesting chunk 10
+2025-03-17 02:39:20,412 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 02:39:20,425 - INFO - Requesting chunk 3
+2025-03-17 02:39:20,474 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 02:39:20,486 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 02:39:20,513 - INFO - Hash verified for chunk 10
+2025-03-17 02:39:20,517 - INFO - Requesting chunk 20
+2025-03-17 02:39:20,539 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 02:39:20,553 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 02:39:20,568 - INFO - Requesting chunk 11
+2025-03-17 02:39:20,570 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 02:39:20,577 - INFO - Hash verified for chunk 3
+2025-03-17 02:39:20,604 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 02:39:20,617 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 02:39:20,627 - INFO - Requesting chunk 4
+2025-03-17 02:39:20,641 - INFO - Hash verified for chunk 11
+2025-03-17 02:39:20,675 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 02:39:20,684 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 02:39:20,691 - INFO - Requesting chunk 12
+2025-03-17 02:39:20,711 - INFO - Hash verified for chunk 4
+2025-03-17 02:39:20,732 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 02:39:20,786 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 02:39:20,803 - INFO - Hash verified for chunk 12
+2025-03-17 02:39:20,818 - INFO - Requesting chunk 5
+2025-03-17 02:39:20,841 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 02:39:20,854 - INFO - Requesting chunk 13
+2025-03-17 02:39:20,874 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 02:39:20,892 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 02:39:20,916 - INFO - Hash verified for chunk 5
+2025-03-17 02:39:20,942 - INFO - Hash verified for chunk 13
+2025-03-17 02:39:20,987 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 02:39:20,991 - INFO - Requesting chunk 6
+2025-03-17 02:39:21,047 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 02:39:21,049 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 02:39:21,063 - INFO - Hash verified for chunk 6
+2025-03-17 02:39:21,067 - INFO - Chunks 7-13 download completed
+2025-03-17 02:39:21,089 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 02:39:21,089 - DEBUG - Closed TCP connection
+2025-03-17 02:39:21,104 - INFO - Chunks 0-6 download completed
+2025-03-17 02:39:21,106 - DEBUG - Closed TCP connection
+2025-03-17 02:40:50,586 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 02:40:50,588 - INFO - Hash verified for chunk 20
+2025-03-17 02:40:50,622 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 02:40:50,625 - INFO - Chunks 14-20 download completed
+2025-03-17 02:40:50,627 - DEBUG - Closed TCP connection
+2025-03-17 02:40:50,627 - INFO - All download threads completed
+2025-03-17 02:40:50,629 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 02:40:50,629 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 02:40:50,629 - INFO - Transitioning to seeder mode
+2025-03-17 02:40:50,629 - INFO - Registering as seeder: REGISTER_SEEDER large_text_file.txt 196.47.247.55 64608 21
+2025-03-17 02:42:20,630 - ERROR - Timeout while registering as seeder
+2025-03-17 02:42:20,630 - INFO - Seeder mode active on 196.47.247.55:64608
+2025-03-17 02:42:20,630 - INFO - Seeder server started, listening for connections
+2025-03-17 02:43:10,350 - DEBUG - Sending seeders request to tracker
+2025-03-17 02:44:31,197 - DEBUG - Sending seeders request to tracker
+2025-03-17 02:44:40,363 - ERROR - Timeout while requesting seeders
+2025-03-17 02:44:40,363 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 02:46:01,198 - ERROR - Timeout while requesting seeders
+2025-03-17 02:46:01,200 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 02:53:33,634 - DEBUG - Sending seeders request to tracker
+2025-03-17 02:53:33,634 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 02:53:33,634 - INFO - Total chunks for file: 21
+2025-03-17 02:53:33,634 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-6
+2025-03-17 02:53:33,645 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 7-13
+2025-03-17 02:53:33,645 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 14-20
+2025-03-17 02:53:33,645 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 02:53:33,645 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 02:53:33,645 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 02:53:33,645 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 02:53:33,649 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 02:53:33,649 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 02:53:33,651 - INFO - Total chunks reported by seeder: 21
+2025-03-17 02:53:33,651 - INFO - Total chunks reported by seeder: 21
+2025-03-17 02:53:33,651 - INFO - Total chunks reported by seeder: 21
+2025-03-17 02:53:33,653 - INFO - Seeder accepted chunk range from 7 to 13
+2025-03-17 02:53:33,653 - INFO - Seeder accepted chunk range from 14 to 20
+2025-03-17 02:53:33,654 - INFO - Requesting chunk 7
+2025-03-17 02:53:33,654 - INFO - Requesting chunk 14
+2025-03-17 02:53:33,654 - INFO - Seeder accepted chunk range from 0 to 6
+2025-03-17 02:53:33,654 - INFO - Requesting chunk 0
+2025-03-17 02:53:33,656 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 02:53:33,668 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 02:53:33,671 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 02:53:33,673 - INFO - Hash verified for chunk 14
+2025-03-17 02:53:33,677 - INFO - Hash verified for chunk 7
+2025-03-17 02:53:33,683 - INFO - Hash verified for chunk 0
+2025-03-17 02:53:33,694 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 02:53:33,694 - INFO - Requesting chunk 15
+2025-03-17 02:53:33,702 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 02:53:33,713 - INFO - Hash verified for chunk 15
+2025-03-17 02:53:33,722 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 02:53:33,722 - INFO - Requesting chunk 8
+2025-03-17 02:53:33,732 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 02:53:33,741 - INFO - Hash verified for chunk 8
+2025-03-17 02:53:33,745 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 02:53:33,748 - INFO - Requesting chunk 1
+2025-03-17 02:53:33,750 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 02:53:33,758 - INFO - Hash verified for chunk 1
+2025-03-17 02:53:33,777 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 02:53:33,779 - INFO - Requesting chunk 16
+2025-03-17 02:53:33,785 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 02:53:33,796 - INFO - Hash verified for chunk 16
+2025-03-17 02:53:33,802 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 02:53:33,802 - INFO - Requesting chunk 9
+2025-03-17 02:53:33,811 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 02:53:33,819 - INFO - Hash verified for chunk 9
+2025-03-17 02:53:33,828 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 02:53:33,828 - INFO - Requesting chunk 2
+2025-03-17 02:53:33,832 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 02:53:33,845 - INFO - Hash verified for chunk 2
+2025-03-17 02:53:33,852 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 02:53:33,852 - INFO - Requesting chunk 17
+2025-03-17 02:53:33,856 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 02:53:33,868 - INFO - Hash verified for chunk 17
+2025-03-17 02:53:33,882 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 02:53:33,882 - INFO - Requesting chunk 10
+2025-03-17 02:53:33,885 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 02:53:33,896 - INFO - Hash verified for chunk 10
+2025-03-17 02:53:33,903 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 02:53:33,903 - INFO - Requesting chunk 3
+2025-03-17 02:53:33,911 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 02:53:33,922 - INFO - Hash verified for chunk 3
+2025-03-17 02:53:33,930 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 02:53:33,930 - INFO - Requesting chunk 18
+2025-03-17 02:53:33,933 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 02:53:33,943 - INFO - Hash verified for chunk 18
+2025-03-17 02:53:33,952 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 02:53:33,952 - INFO - Requesting chunk 11
+2025-03-17 02:53:33,960 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 02:53:33,971 - INFO - Hash verified for chunk 11
+2025-03-17 02:53:33,974 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 02:53:33,978 - INFO - Requesting chunk 4
+2025-03-17 02:53:33,984 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 02:53:33,997 - INFO - Hash verified for chunk 4
+2025-03-17 02:53:34,006 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 02:53:34,006 - INFO - Requesting chunk 19
+2025-03-17 02:53:34,012 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 02:53:34,022 - INFO - Hash verified for chunk 19
+2025-03-17 02:53:34,035 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 02:53:34,035 - INFO - Requesting chunk 12
+2025-03-17 02:53:34,048 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 02:53:34,056 - INFO - Hash verified for chunk 12
+2025-03-17 02:53:34,058 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 02:53:34,058 - INFO - Requesting chunk 5
+2025-03-17 02:53:34,065 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 02:53:34,074 - INFO - Hash verified for chunk 5
+2025-03-17 02:53:34,082 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 02:53:34,085 - INFO - Requesting chunk 20
+2025-03-17 02:53:34,089 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 02:53:34,104 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 02:53:34,104 - INFO - Requesting chunk 13
+2025-03-17 02:53:34,114 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 02:53:34,125 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 02:53:34,127 - INFO - Hash verified for chunk 13
+2025-03-17 02:53:34,129 - INFO - Requesting chunk 6
+2025-03-17 02:53:34,140 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 02:53:34,150 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 02:53:34,154 - INFO - Chunks 7-13 download completed
+2025-03-17 02:53:34,154 - INFO - Hash verified for chunk 6
+2025-03-17 02:53:34,157 - DEBUG - Closed TCP connection
+2025-03-17 02:53:34,174 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 02:53:34,178 - INFO - Chunks 0-6 download completed
+2025-03-17 02:53:34,180 - DEBUG - Closed TCP connection
+2025-03-17 02:55:04,092 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 02:55:04,104 - INFO - Hash verified for chunk 20
+2025-03-17 02:55:04,130 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 02:55:04,151 - INFO - Chunks 14-20 download completed
+2025-03-17 02:55:04,151 - DEBUG - Closed TCP connection
+2025-03-17 02:55:04,152 - INFO - All download threads completed
+2025-03-17 02:55:04,152 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 02:55:04,153 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 02:55:04,158 - INFO - Transitioning to seeder mode
+2025-03-17 02:55:04,159 - INFO - Registering as seeder: REGISTER_SEEDER large_text_file.txt 196.47.247.55 64899 21
+2025-03-17 02:56:34,168 - ERROR - Timeout while registering as seeder
+2025-03-17 02:56:34,170 - INFO - Seeder mode active on 196.47.247.55:64899
+2025-03-17 02:56:34,170 - INFO - Seeder server started, listening for connections
+2025-03-17 02:56:48,839 - DEBUG - Sending seeders request to tracker
+2025-03-17 02:58:18,848 - ERROR - Timeout while requesting seeders
+2025-03-17 02:58:18,888 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 03:06:45,382 - DEBUG - Sending seeders request to tracker
+2025-03-17 03:06:45,383 - DEBUG - Seeders response: ['SEEDERS', '196.47.247.55:7000:21', '196.47.247.55:7001:0', '196.47.247.55:7002:0']
+2025-03-17 03:06:45,389 - INFO - Total chunks for file: 21
+2025-03-17 03:06:45,392 - INFO - Created thread for seeder 196.47.247.55:7000 for chunks 0-6
+2025-03-17 03:06:45,392 - INFO - Created thread for seeder 196.47.247.55:7001 for chunks 7-13
+2025-03-17 03:06:45,392 - INFO - Created thread for seeder 196.47.247.55:7002 for chunks 14-20
+2025-03-17 03:06:45,396 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7000)
+2025-03-17 03:06:45,397 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7001)
+2025-03-17 03:06:45,398 - INFO - Connected to seeder ('196.47.247.55', 7000)
+2025-03-17 03:06:45,398 - INFO - Connected to seeder ('196.47.247.55', 7001)
+2025-03-17 03:06:45,399 - DEBUG - Attempting to connect to seeder: ('196.47.247.55', 7002)
+2025-03-17 03:06:45,400 - INFO - Connected to seeder ('196.47.247.55', 7002)
+2025-03-17 03:06:45,403 - INFO - Total chunks reported by seeder: 21
+2025-03-17 03:06:45,404 - INFO - Total chunks reported by seeder: 21
+2025-03-17 03:06:45,405 - INFO - Seeder accepted chunk range from 0 to 6
+2025-03-17 03:06:45,405 - INFO - Total chunks reported by seeder: 21
+2025-03-17 03:06:45,405 - INFO - Requesting chunk 0
+2025-03-17 03:06:45,406 - INFO - Seeder accepted chunk range from 7 to 13
+2025-03-17 03:06:45,406 - INFO - Requesting chunk 7
+2025-03-17 03:06:45,406 - INFO - Seeder accepted chunk range from 14 to 20
+2025-03-17 03:06:45,408 - INFO - Requesting chunk 14
+2025-03-17 03:06:45,408 - DEBUG - Received hash for chunk 0: bedff182baf962f2c79d5037e224df891675f84848e01acd0c875b452f44c061
+2025-03-17 03:06:45,420 - INFO - Hash verified for chunk 0
+2025-03-17 03:06:45,422 - INFO - Chunk 0 written: 524288 bytes
+2025-03-17 03:06:45,422 - INFO - Requesting chunk 1
+2025-03-17 03:06:45,422 - DEBUG - Received hash for chunk 7: 6adc69b5c469d18d0d9a3952b349482965f8891872817071ea1b117a2a994bef
+2025-03-17 03:06:45,424 - DEBUG - Received hash for chunk 14: 047726dd9ce03d89b9d05a9340ad4757d2c12dce00b7c98788135295d71926fa
+2025-03-17 03:06:45,425 - DEBUG - Received hash for chunk 1: c4c41a1a4281b0f85001bd75601ce1c8cd9f58f325f1300ff60a612f69fbf714
+2025-03-17 03:06:45,435 - INFO - Hash verified for chunk 7
+2025-03-17 03:06:45,447 - INFO - Hash verified for chunk 14
+2025-03-17 03:06:45,454 - INFO - Hash verified for chunk 1
+2025-03-17 03:06:45,483 - INFO - Chunk 7 written: 524288 bytes
+2025-03-17 03:06:45,486 - INFO - Requesting chunk 8
+2025-03-17 03:06:45,495 - DEBUG - Received hash for chunk 8: 7669914a2951b807d995a13bc750abd490ba3b7b27429c36e85175638ede65e5
+2025-03-17 03:06:45,502 - INFO - Hash verified for chunk 8
+2025-03-17 03:06:45,514 - INFO - Chunk 14 written: 524288 bytes
+2025-03-17 03:06:45,516 - INFO - Requesting chunk 15
+2025-03-17 03:06:45,519 - DEBUG - Received hash for chunk 15: b31bec56a7bd859b436149618d5f36900e805e3f2750a7451fe08961c2f7a701
+2025-03-17 03:06:45,523 - INFO - Hash verified for chunk 15
+2025-03-17 03:06:45,536 - INFO - Chunk 1 written: 524288 bytes
+2025-03-17 03:06:45,537 - INFO - Requesting chunk 2
+2025-03-17 03:06:45,540 - DEBUG - Received hash for chunk 2: 38152f3f2a1d43080ba40e9cf9f6b165a97b0339786d2b44967c7b1ef5d999c9
+2025-03-17 03:06:45,546 - INFO - Hash verified for chunk 2
+2025-03-17 03:06:45,559 - INFO - Chunk 8 written: 524288 bytes
+2025-03-17 03:06:45,564 - INFO - Requesting chunk 9
+2025-03-17 03:06:45,570 - DEBUG - Received hash for chunk 9: 9b89071315645e1b7f596f63eed8c26ff7711dffe5e3e7355873ccbe1088e1c0
+2025-03-17 03:06:45,577 - INFO - Hash verified for chunk 9
+2025-03-17 03:06:45,585 - INFO - Chunk 15 written: 524288 bytes
+2025-03-17 03:06:45,586 - INFO - Requesting chunk 16
+2025-03-17 03:06:45,590 - DEBUG - Received hash for chunk 16: 2b82db99fbbbfd75aec3657249549fa314cde6082df72cf7da87760eec86b943
+2025-03-17 03:06:45,600 - INFO - Hash verified for chunk 16
+2025-03-17 03:06:45,614 - INFO - Chunk 2 written: 524288 bytes
+2025-03-17 03:06:45,614 - INFO - Requesting chunk 3
+2025-03-17 03:06:45,618 - DEBUG - Received hash for chunk 3: 3127d5d5fb6921bc022ef82362f348ea509c93b657e2d058950188b1b6f2109e
+2025-03-17 03:06:45,626 - INFO - Hash verified for chunk 3
+2025-03-17 03:06:45,641 - INFO - Chunk 9 written: 524288 bytes
+2025-03-17 03:06:45,642 - INFO - Requesting chunk 10
+2025-03-17 03:06:45,649 - DEBUG - Received hash for chunk 10: 52de2068c2ffc90382ca0eb80d74225acb87e377400036f4eae42564fe9fa6c8
+2025-03-17 03:06:45,656 - INFO - Hash verified for chunk 10
+2025-03-17 03:06:45,687 - INFO - Chunk 16 written: 524288 bytes
+2025-03-17 03:06:45,688 - INFO - Requesting chunk 17
+2025-03-17 03:06:45,692 - DEBUG - Received hash for chunk 17: c1aa3148054d131680fda245cfc2d3f35b717639e4e04fb2f03aac4e7c918223
+2025-03-17 03:06:45,701 - INFO - Hash verified for chunk 17
+2025-03-17 03:06:45,715 - INFO - Chunk 3 written: 524288 bytes
+2025-03-17 03:06:45,716 - INFO - Requesting chunk 4
+2025-03-17 03:06:45,720 - DEBUG - Received hash for chunk 4: 14393e65b4f609f93c9dbc07b28cf6942c0d2be494ca9ddd0121ffffcff58b1d
+2025-03-17 03:06:45,726 - INFO - Hash verified for chunk 4
+2025-03-17 03:06:45,739 - INFO - Chunk 10 written: 524288 bytes
+2025-03-17 03:06:45,740 - INFO - Requesting chunk 11
+2025-03-17 03:06:45,744 - DEBUG - Received hash for chunk 11: ffd63ddfd7fd86810a1b3f641958da3adffdfda2a7d33be662861dc757cfcc69
+2025-03-17 03:06:45,755 - INFO - Hash verified for chunk 11
+2025-03-17 03:06:45,768 - INFO - Chunk 17 written: 524288 bytes
+2025-03-17 03:06:45,769 - INFO - Requesting chunk 18
+2025-03-17 03:06:45,774 - DEBUG - Received hash for chunk 18: 6bf251ffbf348a16c35037a9ed3f5006ee7afefdf1add11ca9ae634cdd9bc5d8
+2025-03-17 03:06:45,783 - INFO - Hash verified for chunk 18
+2025-03-17 03:06:45,801 - INFO - Chunk 4 written: 524288 bytes
+2025-03-17 03:06:45,802 - INFO - Requesting chunk 5
+2025-03-17 03:06:45,805 - DEBUG - Received hash for chunk 5: f000910b133c3b79fc27a15ed4a3685a598ab62fa18f1a4c5b32be2bf77c8846
+2025-03-17 03:06:45,815 - INFO - Hash verified for chunk 5
+2025-03-17 03:06:45,833 - INFO - Chunk 11 written: 524288 bytes
+2025-03-17 03:06:45,834 - INFO - Requesting chunk 12
+2025-03-17 03:06:45,838 - DEBUG - Received hash for chunk 12: cebed7e8d342072bd411c0978a1e963069ab2bc81e79d685548473b711f24c3c
+2025-03-17 03:06:45,846 - INFO - Hash verified for chunk 12
+2025-03-17 03:06:45,864 - INFO - Chunk 18 written: 524288 bytes
+2025-03-17 03:06:45,865 - INFO - Requesting chunk 19
+2025-03-17 03:06:45,869 - DEBUG - Received hash for chunk 19: 0308626aa4091abda5c87bda04f80c369e8356d94fc17ca9cdc682219874c3b5
+2025-03-17 03:06:45,876 - INFO - Hash verified for chunk 19
+2025-03-17 03:06:45,897 - INFO - Chunk 5 written: 524288 bytes
+2025-03-17 03:06:45,897 - INFO - Requesting chunk 6
+2025-03-17 03:06:45,901 - DEBUG - Received hash for chunk 6: 928ab35481f1d30d6bdd49487c9320bc0996573997ec678035df580451a08fed
+2025-03-17 03:06:45,910 - INFO - Hash verified for chunk 6
+2025-03-17 03:06:45,923 - INFO - Chunk 12 written: 524288 bytes
+2025-03-17 03:06:45,924 - INFO - Requesting chunk 13
+2025-03-17 03:06:45,930 - DEBUG - Received hash for chunk 13: 3fd41f289596725bad82e9bae697757825836cbd3057c339057844494f71ed38
+2025-03-17 03:06:45,939 - INFO - Hash verified for chunk 13
+2025-03-17 03:06:45,956 - INFO - Chunk 19 written: 524288 bytes
+2025-03-17 03:06:45,956 - INFO - Requesting chunk 20
+2025-03-17 03:06:45,964 - DEBUG - Received hash for chunk 20: 36f44dad738855a7ef9f2835d892ecb458d1fbba3cc1dd63728aec510b8547c9
+2025-03-17 03:06:45,986 - INFO - Chunk 6 written: 524288 bytes
+2025-03-17 03:06:45,990 - INFO - Chunks 0-6 download completed
+2025-03-17 03:06:45,997 - DEBUG - Closed TCP connection
+2025-03-17 03:06:46,010 - INFO - Chunk 13 written: 524288 bytes
+2025-03-17 03:06:46,013 - INFO - Chunks 7-13 download completed
+2025-03-17 03:06:46,016 - DEBUG - Closed TCP connection
+2025-03-17 03:08:15,977 - WARNING - Timeout while downloading chunk 20, but received 91442 bytes
+2025-03-17 03:08:16,011 - INFO - Hash verified for chunk 20
+2025-03-17 03:08:16,097 - INFO - Chunk 20 written: 91442 bytes
+2025-03-17 03:08:16,132 - INFO - Chunks 14-20 download completed
+2025-03-17 03:08:16,184 - DEBUG - Closed TCP connection
+2025-03-17 03:08:16,209 - INFO - All download threads completed
+2025-03-17 03:08:16,221 - INFO - Download complete. File size: 10577202 bytes
+2025-03-17 03:08:16,235 - INFO - Download complete. Transitioning to seeder mode.
+2025-03-17 03:08:16,236 - INFO - Transitioning to seeder mode
+2025-03-17 03:08:16,243 - INFO - Registering as seeder: REGISTER_SEEDER large_text_file.txt 196.47.247.55 65061 21
+2025-03-17 03:09:46,267 - ERROR - Timeout while registering as seeder
+2025-03-17 03:09:46,355 - INFO - Seeder mode active on 196.47.247.55:65061
+2025-03-17 03:09:46,356 - INFO - Seeder server started, listening for connections
+2025-03-17 03:48:09,139 - DEBUG - Sending seeders request to tracker
+2025-03-17 03:48:09,154 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 03:48:09,229 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 03:48:09,232 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 03:52:09,336 - DEBUG - Sending seeders request to tracker
+2025-03-17 03:52:09,351 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 03:52:09,411 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 03:52:09,451 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 03:52:13,997 - DEBUG - Sending seeders request to tracker
+2025-03-17 03:52:14,016 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 03:52:14,098 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 03:52:14,107 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 03:52:48,705 - DEBUG - Sending seeders request to tracker
+2025-03-17 03:52:48,825 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 03:52:48,918 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 03:52:48,970 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 03:53:00,486 - DEBUG - Sending seeders request to tracker
+2025-03-17 03:53:00,571 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 03:53:00,769 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 03:53:00,860 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 04:02:25,785 - DEBUG - Sending seeders request to tracker
+2025-03-17 04:02:25,848 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 04:02:25,960 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 04:02:25,984 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 04:02:33,131 - DEBUG - Sending seeders request to tracker
+2025-03-17 04:02:33,161 - ERROR - Error getting seeders: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-17 04:02:33,243 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Lalel\OneDrive\Documents\CSC3002F\Computer-Networks\tracker\leecher.py", line 53, in get_seeders
+    data, _ = self.leecher_udp.recvfrom(1024)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-17 04:02:33,257 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
+2025-03-17 04:51:43,743 - DEBUG - Sending seeders request to tracker
+2025-03-17 04:51:43,766 - DEBUG - Seeders response: ['NO_SEEDERS']
+2025-03-17 04:51:43,778 - ERROR - No seeders available.
+2025-03-17 04:51:43,784 - ERROR - Need at least 3 seeders, but only found 0. Exiting.
