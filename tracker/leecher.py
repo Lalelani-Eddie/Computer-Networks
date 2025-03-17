@@ -4,6 +4,8 @@ import time
 import traceback
 import os
 import threading
+import tkinter as tk
+from tkinter import ttk
 import hashlib  # Import for hash verification of downloaded chunks
 from transitioner import Transitioner  # Import the Transitioner class
 
@@ -21,7 +23,7 @@ FORMAT = 'utf-8'  # Encoding format for messages
 CHUNK_SIZE = 512 * 1024  # 512 KB chunk size for file downloads
 MAX_RETRIES = 3  # Maximum number of retries for failed operations
 RETRY_DELAY = 2  # Delay (in seconds) between retries
-CONNECTION_TIMEOUT = 90  # Timeout for network connections (in seconds)
+CONNECTION_TIMEOUT = 300  # Timeout for network connections (in seconds)
 
 class FileLeecher:
     def __init__(self, filename):
@@ -406,50 +408,57 @@ class FileLeecher:
         Distribute chunks among available seeders for parallel downloading.
         Args:
             seeders (list): List of seeders.
-            total_chunks (int): Total number of chunks in the file.
+            total_chunks (int): Total number of hunks in the file.
         Returns:
             list: A list of dictionaries with seeder info and assigned chunk ranges.
         """
         num_seeders = len(seeders)
-        
-        # Base chunks per seeder (integer division)
+    
+        # If there's only one seeder, assign all chunks to it
+        if num_seeders == 1:
+            return [{
+                'seeder': seeders[0],
+                'start_chunk': 0,
+                'end_chunk': total_chunks - 1,
+                'num_chunks': total_chunks
+            }]
+    
+        # Original distribution logic for multiple seeders...
         base_chunks_per_seeder = total_chunks // num_seeders
-        
-        # Calculate remainder
         remainder = total_chunks % num_seeders
-        
+    
         # Distribute chunks to seeders
         chunk_distribution = []
         chunk_index = 0
-        
+    
         for i in range(num_seeders):
             # Give one extra chunk to the first 'remainder' seeders
             if i < remainder:
                 num_chunks = base_chunks_per_seeder + 1
             else:
                 num_chunks = base_chunks_per_seeder
-                
+            
             # Calculate start and end chunks
             start_chunk = chunk_index
             end_chunk = chunk_index + num_chunks - 1
             chunk_index += num_chunks
-            
+        
             chunk_distribution.append({
                 'seeder': seeders[i],
                 'start_chunk': start_chunk,
                 'end_chunk': end_chunk,
                 'num_chunks': num_chunks
             })
-            
+        
         return chunk_distribution
     
 
     def download_file(self):
         """Download the file and transition to seeder mode after completion."""
         seeders = self.get_seeders()
-        
-        if not seeders or len(seeders) < 3:
-            logging.error(f"Need at least 3 seeders, but only found {len(seeders)}. Exiting.")
+
+        if not seeders:
+            logging.error(f"No seeders found. Exiting.")
             return False
         
         try:
@@ -719,3 +728,61 @@ def main():
 
 if __name__ == "__main__":
     main()
+    class DownloadGUI:
+        def __init__(self, root, leecher):
+            self.root = root
+            self.leecher = leecher
+            self.root.title("File Download")
+            
+            self.label = tk.Label(root, text="Downloading file...")
+            self.label.pack(pady=10)
+            
+            self.progress = ttk.Progressbar(root, orient="horizontal", length=300, mode="determinate")
+            self.progress.pack(pady=10)
+            
+            self.status = tk.Label(root, text="Status: Waiting to start")
+            self.status.pack(pady=10)
+            
+            self.start_button = tk.Button(root, text="Start Download", command=self.start_download)
+            self.start_button.pack(pady=10)
+            
+            self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+            
+        def start_download(self):
+            self.start_button.config(state=tk.DISABLED)
+            self.status.config(text="Status: Downloading...")
+            self.root.after(100, self.update_progress)
+            
+        def update_progress(self):
+            total_chunks = self.leecher.total_chunks
+            downloaded_chunks = len(self.leecher.download_status)
+            
+            if total_chunks > 0:
+                progress = (downloaded_chunks / total_chunks) * 100
+                self.progress['value'] = progress
+                self.status.config(text=f"Status: Downloading... ({downloaded_chunks}/{total_chunks} chunks)")
+            
+            if downloaded_chunks < total_chunks:
+                self.root.after(1000, self.update_progress)
+            else:
+                self.status.config(text="Status: Download complete")
+                self.leecher.verify_download()
+                self.leecher.transitioner.start_seeder_mode()
+            
+        def on_closing(self):
+            self.root.destroy()
+
+    def main():
+        """
+        Main function to initiate the file download with GUI.
+        """
+        filename = "large_text_file.txt"
+        leecher = FileLeecher(filename)
+        
+        root = tk.Tk()
+        gui = DownloadGUI(root, leecher)
+        
+        root.mainloop()
+
+    if __name__ == "__main__":
+        main()

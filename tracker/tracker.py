@@ -41,10 +41,41 @@ def handle_client():
 
         if not message:
             continue  # Skip empty messages
+        
+        if message[0] == "REGISTER_SEEDER" and len(message) == 5:
+            filename = message[1]
+            seeder_ip = message[2]  # Seeder's IP address
+            seeder_port = int(message[3])  # Seeder's listening port
+            total_chunks = int(message[4])  # Total chunks in the file
+
+            # Create seeder information entry with initial timestamp
+            seeder_info = (seeder_ip, seeder_port, total_chunks, time.time())
+
+            if filename in active_seeders:
+            # Check if this seeder is already registered for this file
+                existing_seeder = None
+                for i, seeder in enumerate(active_seeders[filename]):
+                    if (seeder[0], seeder[1]) == (seeder_ip, seeder_port):
+                        existing_seeder = i
+                        break
+                
+                if existing_seeder is not None:
+                    # Update the existing seeder entry
+                    active_seeders[filename][existing_seeder] = seeder_info
+                else:
+                    # Add this as a new seeder for the file
+                    active_seeders[filename].append(seeder_info)
+            else:
+                # First seeder for this file
+                active_seeders[filename] = [seeder_info]
+
+            print(f"Registered seeder {seeder_ip}:{seeder_port} with file {filename}")
+        else:
+            print(f"Invalid REGISTER_SEEDER message from {addr}")
 
         # Process REGISTER_SEEDER messages
-        if message[0] == "REGISTER_SEEDER":
-            if len(message) >= 3:
+        if message[0] == "REGISTER_SEEDER" and len(message[0])!=5:
+            if len(message) == 3:
                 filename = message[1]  # File being shared
                 seeder_port = int(message[2])  # Seeder's listening port
                 seeder_addr = (addr[0], seeder_port)  # Full seeder address
